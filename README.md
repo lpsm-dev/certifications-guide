@@ -6,6 +6,12 @@ A collection of guides to IT certifications (AWS, Kubernetes, ArgoCD and others)
 
 </div>
 
+# Features
+
+- Entendimento das provas com guias.
+- Breve resumo das provas.
+- Prompts de IA para serem utilizar para estudas.
+
 # Guides
 
 - [AWS AI Practitioner](./docs/aws/1-foundation/ai-practitioner)
