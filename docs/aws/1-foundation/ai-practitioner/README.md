@@ -26,6 +26,7 @@
 	- [4 - Diretrizes de IA responsável](##4%20-%20Diretrizes%20de%20IA%20responsável)
 	- [5 - Segurança, conformidade e governança para soluções de IA](##5%20-%20Segurança,%20conformidade%20e%20governança%20para%20soluções%20de%20IA)
 - [Dicas](#Dicas)
+- [Prompts](#Prompts)
 - [Referências](#Referências)
 - [Conclusão](#Conclusão)
 
@@ -213,6 +214,18 @@ Aproximadamente 7 pontuadas e 2 não pontuadas.
   - A AWS conta com uma documentação rica e detalhada sobre os serviços de IA.
 - **Utilize o AWS Skill Builder:**
   - Explore e pratique com o AWS Skill Builder, que oferece cenários reais e exercícios práticos para reforçar seu aprendizado.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Prompts
+
+- Escolha um Provedor de Certificação: Navegue até o diretório correspondente ao provedor (e.g., aws).
+- Selecione uma Certificação: Localize o diretório da certificação e nível desejado.
+- Copie e Cole o Prompt: Utilize o prompt no modelo de IA escolhido (e.g., ChatGPT, Claude).
+- Simulação Interativa: Responda às perguntas e receba feedback em tempo real com explicações detalhadas.
+- Revisão com Flashcards: Opcionalmente, revise conceitos importantes usando flashcards baseados nas perguntas respondidas.
+
+Para mais informações, acesse o arquivo de [prompt](prompt.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
