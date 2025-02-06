@@ -1,9 +1,18 @@
 <!-- BEGIN_DOCS -->
 <div align="center">
+  
 <a name="readme-top"></a>
+
+<img src="https://github.com/lpsm-dev/lpsm-dev/blob/41c8e670d12ddffcea19a04c0a7ac3cdd3c929f7/.github/assets/ai-practitioner.png" width="350"/>
+
+**Guia de Estudos**
+
 </div>
 
 # Sumário
+
+<details>
+  <summary><strong>Expandir</strong></summary>
 
 - [Visão Geral](#Visão%20Geral)
 	- [Contexto](##Contexto)
@@ -20,6 +29,10 @@
 - [Referências](#Referências)
 - [Conclusão](#Conclusão)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+</details>
+
 # Visão Geral
 
 ## Contexto
@@ -34,6 +47,8 @@ Vamos começar essa jornada de aprendizado? 🚀
 
 > [!NOTE]
 > Segundo um estudo da AWS realizado no final de 2023, os empregadores estão dispostos a pagar 43% a mais para contratar trabalhadores qualificados em IA para vendas e marketing, 42% a mais para aqueles na área de finanças, 41% a mais para operações comerciais e 47% a mais para profissionais de TI.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Sobre
 
@@ -50,6 +65,8 @@ A certificação **AWS Certified AI Practitioner** é uma prova introdutório qu
 | Custo          | 100 USD                                     |
 | Duração        | 150 minutos                                 |
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Estrutura do Exame
 
 A prova contém perguntas dos seguintes tipos:
@@ -65,6 +82,8 @@ Além disso, temos:
 - Perguntas não respondidas não são pontuadas, então é importante responder todas as questões.
 - Não há penalidade por tentar adivinhar.
 - O exame inclui 50 perguntas que podem afetar sua pontuação. Ou seja, 15 perguntas não são avaliadas e não afetam sua pontuação.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Domínios de Conhecimento
 
@@ -175,6 +194,8 @@ Corresponde a 14% das questões do exame e aborda os seguintes tópicos:
 
 Aproximadamente 7 pontuadas e 2 não pontuadas.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Dicas
 
 - **Planejamento:**
@@ -193,6 +214,8 @@ Aproximadamente 7 pontuadas e 2 não pontuadas.
 - **Utilize o AWS Skill Builder:**
   - Explore e pratique com o AWS Skill Builder, que oferece cenários reais e exercícios práticos para reforçar seu aprendizado.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Referências
 
 Links úteis para sua preparação:
@@ -202,6 +225,8 @@ Links úteis para sua preparação:
 - [AWS Documentation](https://docs.aws.amazon.com/)
 - [AWS Developer Forums](https://forums.aws.amazon.com/)
 - [Stack Overflow - AWS Tag](https://stackoverflow.com/questions/tagged/aws)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Conclusão
 
