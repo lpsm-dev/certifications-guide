@@ -225,6 +225,8 @@ Links úteis para sua preparação:
 - [AWS Documentation](https://docs.aws.amazon.com/)
 - [AWS Developer Forums](https://forums.aws.amazon.com/)
 - [Stack Overflow - AWS Tag](https://stackoverflow.com/questions/tagged/aws)
+- [Exam Guide](https://prod-files-secure.s3.us-west-2.amazonaws.com/7c4213f1-a5a9-4b17-8555-03adde7f2175/24ce6a4a-8f59-41c6-b01a-74677210d61d/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
+- [Skill Builder](https://explore.skillbuilder.aws/learn/learning_plan/view/2194/plan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
