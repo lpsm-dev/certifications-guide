@@ -220,9 +220,7 @@ Aproximadamente 7 pontuadas e 2 não pontuadas.
 
 Links úteis para sua preparação:
 
-- [AWS Certified AI Practitioner](https://aws.amazon.com/certification/certified-ai-practitioner/)
-- [AWS Training and Certification](https://aws.amazon.com/training/)
-- [AWS Documentation](https://docs.aws.amazon.com/)
+- [Página Oficial da Certificação AWS Certified AI Practitioner](https://aws.amazon.com/pt/certification/certified-ai-practitioner/)
 - [Exam Guide](https://prod-files-secure.s3.us-west-2.amazonaws.com/7c4213f1-a5a9-4b17-8555-03adde7f2175/24ce6a4a-8f59-41c6-b01a-74677210d61d/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
 - [Skill Builder](https://explore.skillbuilder.aws/learn/learning_plan/view/2194/plan)
 
