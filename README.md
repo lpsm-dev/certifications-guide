@@ -22,6 +22,37 @@ Hello Humans 👽! A collection of guides to IT certifications (AWS, Kubernetes,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+# Techniques
+
+## Aprendizado Ativo
+
+- Flashcards: Use ferramentas como Anki para memorizar conceitos e comandos.
+- Explicação as coisas com as suas palavras: Ensine um conceito para outra pessoa ou escreva um resumo detalhado.
+
+## Prática Mão na Massa
+
+- Laboratórios Práticos: Use AWS Free Tier, Kubernetes Kind/Minikube e Playgrounds como Katacoda.
+- Desafios de Infraestrutura: Implemente serviços AWS/Kubernetes no Terraform ou AWS CDK.
+
+##  Revisão Espaçada
+
+- Estude em intervalos programados para evitar a curva do esquecimento (exemplo: revise o conteúdo no 1º, 3º e 7º dia após estudá-lo).
+
+## Simulados
+
+- Faça muitos simulados para se acostumar com o formato da prova.
+- Análise dos Erros: Não basta errar, entenda o porquê da resposta correta.
+
+##  Criação de Mapas Mentais
+
+Resuma conceitos complexos visualmente, conectando tópicos e facilitando a memorização.
+
+## Uso de IA e Prompts Inteligentes
+
+Utilize ChatGPT para gerar resumos, perguntas e quizzes personalizados para os tópicos de estudo. 
+
+> Em cada documentação irá existir um arquivo chamado `prompt.md`. Esse arquivo defini um modelo de prompt para criar questões que simulam o conteúdo da prova.
+
 # Guides
 
 ## AWS Certifications
