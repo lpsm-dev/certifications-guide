@@ -5,7 +5,11 @@
 
 <img src="https://github.com/lpsm-dev/lpsm-dev/blob/f0540babb3f32c96fd9d706d776aa0ae82489de9/.github/assets/guide.png" width="350"/>
 
-A collection of guides to IT certifications (AWS, Kubernetes, ArgoCD and others)
+## Certifications Guide
+
+Hello Humans 👽! A collection of guides to IT certifications (AWS, Kubernetes, ArgoCD and others)
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://www.conventionalcommits.org/en/v1.0.0/) [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://semantic-release.gitbook.io/semantic-release/usage/configuration) [![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
 
 </div>
 
