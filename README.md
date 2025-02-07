@@ -3,7 +3,7 @@
 
 <a name="readme-top"></a>
 
-<img src="https://github.com/lpsm-dev/lpsm-dev/blob/41c8e670d12ddffcea19a04c0a7ac3cdd3c929f7/.github/assets/ai-practitioner.png" width="350"/>
+<img src="https://github.com/lpsm-dev/lpsm-dev/blob/f0540babb3f32c96fd9d706d776aa0ae82489de9/.github/assets/guide.png" width="350"/>
 
 A collection of guides to IT certifications (AWS, Kubernetes, ArgoCD and others)
 
@@ -11,8 +11,8 @@ A collection of guides to IT certifications (AWS, Kubernetes, ArgoCD and others)
 
 # Features
 
-- Entendimento das provas com guias.
-- Breve resumo das provas.
+- Guias bem definidos para o entendimento das provas.
+- Breve resumo dos tópicos de domínio das provas.
 - Prompts de IA para serem utilizar para estudas.
 
 # Guides
