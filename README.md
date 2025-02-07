@@ -22,7 +22,9 @@ Hello Humans 👽! A collection of guides to IT certifications (AWS, Kubernetes,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Techniques
+# Study Techniques
+
+Sabemos que durante o processo de estudo, existem algumas técnicas que podemos utilizar para aumentar nossa performance. Aqui, separei algumas que funcionam para mim. Sinta-se a vontade para mudar caso alguma não faça sentido para você ou que falte.
 
 ## Aprendizado Ativo
 
