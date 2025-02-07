@@ -29,8 +29,6 @@
 - **Amazon Redshift** – Data warehouse escalável para análise de grandes volumes de dados.  
   - *Caso de uso*: Consultas analíticas rápidas sobre grandes conjuntos de dados.  
 
----
-
 ## Gerenciamento Financeiro da Nuvem
 
 - **AWS Budgets** – Define e acompanha orçamentos na AWS.  
@@ -39,14 +37,10 @@
 - **AWS Cost Explorer** – Analisa e otimiza custos de serviços AWS.  
   - *Caso de uso*: Identificar oportunidades de economia na nuvem.  
 
----
-
 ## Computação
 
 - **Amazon EC2** – Instâncias de servidores virtuais na AWS.  
   - *Caso de uso*: Hospedagem de aplicações escaláveis.  
-
----
 
 ## Contêineres
 
@@ -55,8 +49,6 @@
 
 - **Amazon EKS** – Kubernetes gerenciado na AWS.  
   - *Caso de uso*: Execução de aplicações Kubernetes sem gerenciar a infraestrutura.  
-
----
 
 ## Banco de Dados
 
@@ -77,8 +69,6 @@
 
 - **Amazon RDS** – Banco de dados relacional gerenciado.  
   - *Caso de uso*: Aplicações que precisam de bancos SQL como MySQL e PostgreSQL.  
-
----
 
 ## Machine Learning
 
@@ -124,8 +114,6 @@
 - **Amazon Translate** – Tradução automática de textos.  
   - *Caso de uso*: Tradução de conteúdos em tempo real.  
 
----
-
 ## Gerenciamento e Governança
 
 - **AWS CloudTrail** – Auditoria e monitoramento de atividades na AWS.  
@@ -143,8 +131,6 @@
 - **AWS Well-Architected Tool** – Avaliação de arquiteturas AWS.  
   - *Caso de uso*: Melhoria da confiabilidade e eficiência de sistemas.  
 
----
-
 ## Redes e Entrega de Conteúdo
 
 - **Amazon CloudFront** – Rede de entrega de conteúdo (CDN).  
@@ -152,8 +138,6 @@
 
 - **Amazon VPC** – Rede privada virtual na AWS.  
   - *Caso de uso*: Isolamento seguro de recursos em nuvem.  
-
----
 
 ## Segurança, Identidade e Conformidade
 
@@ -177,8 +161,6 @@
 
 - **AWS Secrets Manager** – Gerenciamento de credenciais e segredos.  
   - *Caso de uso*: Armazenamento seguro de senhas e chaves de API.  
-
----
 
 ## Armazenamento
 
