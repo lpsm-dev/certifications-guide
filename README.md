@@ -13,11 +13,27 @@ A collection of guides to IT certifications (AWS, Kubernetes, ArgoCD and others)
 
 - Guias bem definidos para o entendimento das provas.
 - Breve resumo dos tópicos de domínio das provas.
-- Prompts de IA para serem utilizar para estudas.
+- Prompts de IA para serem utilizados para estudo.
+- Recursos complementares como links oficiais e materiais recomendados.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Guides
 
+## AWS Certifications
+
 - [AWS AI Practitioner](./docs/aws/1-foundation/ai-practitioner)
+- [AWS Solutions Architect Associate](./docs/aws/2-associate/solutions-architect)
+- [AWS DevOps Engineer Professional](./docs/aws/3-professional/devops-engineer)
+
+## Kubernetes & Cloud Native
+
+- [Certified Kubernetes Administrator (CKA)](./docs/kubernetes/cka)
+- [Certified Kubernetes Application Developer (CKAD)](./docs/kubernetes/ckad)
+- [Certified Kubernetes Security Specialist (CKS)](./docs/kubernetes/cks)
+- [ArgoCD Certification Guide](./docs/argocd/certification)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Contribuição
 
