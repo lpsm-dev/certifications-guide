@@ -1,3 +1,6 @@
+<!-- BEGIN_DOCS -->
+<a name="readme-top"></a>
+
 # AWS Certified AI Practitioner – Serviços AWS
 
 ## Analytics
@@ -184,3 +187,6 @@
 
 - **Amazon S3 Glacier** – Armazenamento de longo prazo e baixo custo.  
   - *Caso de uso*: Arquivamento e retenção de dados antigos.  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- END_DOCS -->
