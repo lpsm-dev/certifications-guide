@@ -1,7 +1,13 @@
 <!-- BEGIN_DOCS -->
+<div align="center">
+  
 <a name="readme-top"></a>
 
-# AWS Certified AI Practitioner – Serviços AWS
+<img src="https://github.com/lpsm-dev/lpsm-dev/blob/7c1c2b4123db14d0424f1b8c87ce016b02ed0848/.github/assets/aws-services.png" width="350"/>
+
+# Mapeamento Serviços
+
+</div>
 
 ## Analytics
 
@@ -29,6 +35,8 @@
 - **Amazon Redshift** – Data warehouse escalável para análise de grandes volumes de dados.  
   - *Caso de uso*: Consultas analíticas rápidas sobre grandes conjuntos de dados.  
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Gerenciamento Financeiro da Nuvem
 
 - **AWS Budgets** – Define e acompanha orçamentos na AWS.  
@@ -37,10 +45,14 @@
 - **AWS Cost Explorer** – Analisa e otimiza custos de serviços AWS.  
   - *Caso de uso*: Identificar oportunidades de economia na nuvem.  
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Computação
 
 - **Amazon EC2** – Instâncias de servidores virtuais na AWS.  
   - *Caso de uso*: Hospedagem de aplicações escaláveis.  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contêineres
 
@@ -49,6 +61,8 @@
 
 - **Amazon EKS** – Kubernetes gerenciado na AWS.  
   - *Caso de uso*: Execução de aplicações Kubernetes sem gerenciar a infraestrutura.  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Banco de Dados
 
@@ -69,6 +83,8 @@
 
 - **Amazon RDS** – Banco de dados relacional gerenciado.  
   - *Caso de uso*: Aplicações que precisam de bancos SQL como MySQL e PostgreSQL.  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Machine Learning
 
@@ -114,6 +130,8 @@
 - **Amazon Translate** – Tradução automática de textos.  
   - *Caso de uso*: Tradução de conteúdos em tempo real.  
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Gerenciamento e Governança
 
 - **AWS CloudTrail** – Auditoria e monitoramento de atividades na AWS.  
@@ -131,6 +149,8 @@
 - **AWS Well-Architected Tool** – Avaliação de arquiteturas AWS.  
   - *Caso de uso*: Melhoria da confiabilidade e eficiência de sistemas.  
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Redes e Entrega de Conteúdo
 
 - **Amazon CloudFront** – Rede de entrega de conteúdo (CDN).  
@@ -138,6 +158,8 @@
 
 - **Amazon VPC** – Rede privada virtual na AWS.  
   - *Caso de uso*: Isolamento seguro de recursos em nuvem.  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Segurança, Identidade e Conformidade
 
@@ -161,6 +183,8 @@
 
 - **AWS Secrets Manager** – Gerenciamento de credenciais e segredos.  
   - *Caso de uso*: Armazenamento seguro de senhas e chaves de API.  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Armazenamento
 
