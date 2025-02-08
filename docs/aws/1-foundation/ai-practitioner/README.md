@@ -45,10 +45,10 @@ Fala pessoal! Sejam muito bem-vindos 👋.
 
 Hoje, irei compartilhar com vocês meu guia de estudos para a certificação **AWS Certified AI Practitioner** (**AIF-C01**). Minha ideia é criar uma base de conhecimento com informações essenciais sobre o exame, como: 
 
-- estrutura,
-- domínios,
-- dicas,
-- links e muito mais.
+- Estrutura,
+- Domínios,
+- Dicas,
+- Links e muito mais.
 
 Todas essas informações irão te ajudar a se preparar para a prova e aumentar suas chances de conquistar essa tão sonhada certificação.
 
@@ -91,7 +91,7 @@ A prova contém perguntas dos seguintes tipos:
 
 - **Múltipla escolha**: uma ou mais respostas corretas.
 - **Múltipla resposta**: duas ou mais respostas corretas.
-- **Ordenaçã**: ordene as opções em uma sequência correta.
+- **Ordenação**: ordene as opções em uma sequência correta.
 - **Correspondência**: corresponda as opções de uma coluna com as da outra.
 - **Estudos de caso**: cenários com perguntas relacionadas.
 
