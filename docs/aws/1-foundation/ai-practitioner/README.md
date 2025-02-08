@@ -60,7 +60,9 @@ Vamos começar essa jornada de aprendizado? 🚀
 
 # Sobre
 
-A certificação **AWS Certified AI Practitioner** é uma prova introdutório que vai validar seus conceitos básicos sobre inteligência artificial (IA), machine learning (ML) e IA generativa na AWS. Por esse tema estar em ampla assenção, a certificação é uma ótima oportunidade para profissionais que desejam ingressar na área de IA e ML, ou que já trabalham na área de tecnologia e desejam expandir seus conhecimentos.
+A certificação **AWS Certified AI Practitioner** é uma prova introdutória que vai validar seus conceitos básicos sobre inteligência artificial (IA), machine learning (ML) e IA generativa (Gen AI) na AWS. 
+
+Por esse tema estar em ampla assenção, a certificação é uma ótima oportunidade para profissionais que desejam ingressar na área de IA e ML, ou que já trabalham na área de tecnologia e desejam expandir seus conhecimentos.
 
 | Detalhes       | Informações                                 |
 | -------------- | ------------------------------------------- |
