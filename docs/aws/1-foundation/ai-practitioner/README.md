@@ -40,7 +40,14 @@
 
 Fala pessoal! Sejam muito bem-vindos 👋.
 
-Hoje, irei compartilhar com vocês meu guia de estudos para a certificação **AWS Certified AI Practitioner** (**AIF-C01**). Minha ideia é criar uma base de conhecimento com informações essenciais sobre o exame, como: estrutura, domínios, dicas e links. Todas essas informações irão te ajudar a se preparar para a prova e aumentar suas chances de conquistar a certificação.
+Hoje, irei compartilhar com vocês meu guia de estudos para a certificação **AWS Certified AI Practitioner** (**AIF-C01**). Minha ideia é criar uma base de conhecimento com informações essenciais sobre o exame, como: 
+
+- estrutura,
+- domínios,
+- dicas,
+- links e muito mais.
+
+Todas essas informações irão te ajudar a se preparar para a prova e aumentar suas chances de conquistar a certificação.
 
 Vamos começar essa jornada de aprendizado? 🚀
 
