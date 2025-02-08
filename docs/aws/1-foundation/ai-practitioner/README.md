@@ -56,7 +56,8 @@ Vamos começar essa jornada de aprendizado? 🚀
 
 ## Disclaimer
 
-Essa documentação não substitui um curso completo.
+> [!WARNING]
+> Essa documentação não substitui um curso completo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
