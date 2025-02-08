@@ -217,9 +217,9 @@ Corresponde a 14% das questões e aborda os seguintes tópicos:
 > - O exame possui perguntas que não afetam sua pontuação. Nesse caso, das 65 questões, 15 não são avaliadas e não afetam sua pontuação (são usadas como banco de questões da AWS em futuras provas).
 > - A quem diga que se durante a prova oficial você marcar uma questão para revisão, as próximas questões serão parecidas com ela. Mas cuidado, isso mais me parece um boato kkk. 
 
-No geral, sugiro essas dicas:
+No geral, é interessante que você
 
-- **Planejamento:**
+- **Se planeje:**
   - Estabeleça um cronograma de estudo dividido entre os domínios principais.
   - Dedique sessões de estudo para revisões teóricas e práticas.
 - **Estude os Domínios:**
