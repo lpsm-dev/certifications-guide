@@ -56,7 +56,7 @@ Vamos começar essa jornada de aprendizado? 🚀
 
 ## Disclaimer
 
-Não irei abordar aqui um estudo profundo sobre os tópicos da certificação. Existem muitos cursos pagos e gratuitos sobre isso.
+Essa documentação não substitui um curso completo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
