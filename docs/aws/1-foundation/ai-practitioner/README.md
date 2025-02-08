@@ -17,8 +17,9 @@
 - [Visão Geral](#visão-geral)
   - [Contexto](#contexto)
   - [Disclaimer](#disclaimer)
-- [Sobre](#sobre)
-- [Estrutura do Exame](#estrutura-do-exame)
+- [Exame](#exame)
+  - [Sobre](#sobre)
+  - [Estrutura](#estrutura)
 - [Domínios de Conhecimento](#domínios-de-conhecimento)
   - [1 - Fundamentos de IA e ML](#1---fundamentos-de-ia-e-ml)
   - [2 - Fundamentos de IA generativa](#2---fundamentos-de-ia-generativa)
@@ -63,7 +64,9 @@ Vamos começar essa jornada de aprendizado? 🚀
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Sobre
+# Exame
+
+## Sobre
 
 A certificação **AWS Certified AI Practitioner** é uma prova introdutória que vai validar seus conceitos básicos sobre inteligência artificial (IA), machine learning (ML) e IA generativa (Gen AI) na AWS. 
 
@@ -82,7 +85,7 @@ Por esse tema estar em ampla assenção, essa certificação é uma ótima oport
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Estrutura do Exame
+## Estrutura
 
 A prova contém perguntas dos seguintes tipos:
 
