@@ -127,7 +127,8 @@ Corresponde a 20% das questões e aborda os seguintes tópicos:
   - Conceitos de MLOps: experimentação, processos repetíveis, escalabilidade, gerenciamento de dívidas técnicas, monitoramento e retreinamento.
   - Métricas de desempenho (acurácia, AUC, F1) e métricas empresariais (custo por usuário, ROI, feedback de clientes).
 
-Aproximadamente 10 pontuadas e 3 não pontuadas.
+> [!NOTE]
+> Aproximadamente 10 pontuadas e 3 não pontuadas.
 
 ## 2 - Fundamentos de IA generativa
 
@@ -148,7 +149,8 @@ Corresponde a 24% das questões e aborda os seguintes tópicos:
   - Amazon CodeWhisperer.
   - Integração com modelos de terceiros (por exemplo, OpenAI).
 
-Aproximadamente 12 pontuadas e 4 não pontuadas.
+> [!NOTE]
+> Aproximadamente 12 pontuadas e 4 não pontuadas.
 
 ## 3 - Aplicações de modelos de base
 
@@ -167,7 +169,8 @@ Corresponde a 28% das questões e aborda os seguintes tópicos:
   - Amazon Bedrock.
   - Integração com modelos de código aberto (por exemplo, Hugging Face).
 
-Aproximadamente 14 pontuadas e 4 não pontuadas.
+> [!NOTE]
+> Aproximadamente 14 pontuadas e 4 não pontuadas.
 
 ## 4 - Diretrizes de IA responsável
 
@@ -186,7 +189,8 @@ Corresponde a 14% das questões e aborda os seguintes tópicos:
   - Amazon Comprehend para análise de viés.
   - AWS AI Ethics Toolkit.
 
-Aproximadamente 7 pontuadas e 2 não pontuadas.
+> [!NOTE]
+> Aproximadamente 7 pontuadas e 2 não pontuadas.
 
 ## 5 - Segurança, conformidade e governança para soluções de IA
 
@@ -206,7 +210,8 @@ Corresponde a 14% das questões e aborda os seguintes tópicos:
   - AWS CloudTrail para auditoria.
   - AWS CloudTrail para auditoria.
 
-Aproximadamente 7 pontuadas e 2 não pontuadas.
+> [!NOTE]
+> Aproximadamente 7 pontuadas e 2 não pontuadas.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
