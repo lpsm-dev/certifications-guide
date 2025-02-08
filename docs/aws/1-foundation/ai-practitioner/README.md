@@ -26,7 +26,9 @@
 	- [4 - Diretrizes de IA responsável](##4%20-%20Diretrizes%20de%20IA%20responsável)
 	- [5 - Segurança, conformidade e governança para soluções de IA](##5%20-%20Segurança,%20conformidade%20e%20governança%20para%20soluções%20de%20IA)
 - [Tips & Tricks](#tips--tricks)
-- [Prompts](#Prompts)
+  - [Exame](#Prompts)
+  - [Estudo](#Prompts)
+  - [Prompts](#Prompts)
 - [Referências](#Referências)
 - [Conclusão](#Conclusão)
 
@@ -210,6 +212,8 @@ Corresponde a 14% das questões e aborda os seguintes tópicos:
 
 # Tips & Tricks
 
+## Exame
+
 > [!NOTE]
 > As provas da AWS possuem algumas características e essa não é diferente:
 > - Perguntas não respondidas não são pontuadas, então é importante responder todas as questões.
@@ -217,7 +221,9 @@ Corresponde a 14% das questões e aborda os seguintes tópicos:
 > - O exame possui perguntas que não afetam sua pontuação. Nesse caso, das 65 questões, 15 não são avaliadas e não afetam sua pontuação (são usadas como banco de questões da AWS em futuras provas).
 > - A quem diga que se durante a prova oficial você marcar uma questão para revisão, as próximas questões serão parecidas com ela. Mas cuidado, isso mais me parece um boato kkk. 
 
-No geral, é interessante que você
+## Estudo
+
+No geral, é interessante que você:
 
 - **Se planeje:**
   - Estabeleça um cronograma de estudo dividido entre os domínios principais.
@@ -235,9 +241,7 @@ No geral, é interessante que você
 - **Utilize o AWS Skill Builder:**
   - Explore e pratique com o AWS Skill Builder, que oferece cenários reais e exercícios práticos para reforçar seu aprendizado.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-# Prompts
+## Prompts
 
 - Escolha um Provedor de Certificação: Navegue até o diretório correspondente ao provedor (e.g., aws).
 - Selecione uma Certificação: Localize o diretório da certificação e nível desejado.
