@@ -51,10 +51,12 @@ Todas essas informações irão te ajudar a se preparar para a prova e aumentar 
 
 Vamos começar essa jornada de aprendizado? 🚀
 
-## Disclaimer
-
 > [!NOTE]
 > Segundo um estudo da AWS realizado no final de 2023, os empregadores estão dispostos a pagar 43% a mais para contratar trabalhadores qualificados em IA para vendas e marketing, 42% a mais para aqueles na área de finanças, 41% a mais para operações comerciais e 47% a mais para profissionais de TI.
+
+## Disclaimer
+
+Não irei abordar aqui um estudo profundo sobre os tópicos da certificação. Existem muitos cursos pagos e gratuitos sobre isso.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
