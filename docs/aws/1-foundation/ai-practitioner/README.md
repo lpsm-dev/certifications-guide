@@ -90,7 +90,7 @@ A prova contém perguntas dos seguintes tipos:
 > [!NOTE]
 > Além disso, as provas da AWS possuem algumas características e essa não é diferente:
 > - Perguntas não respondidas não são pontuadas, então é importante responder todas as questões.
-> - Não há penalidade por tentar adivinhar.
+> - Não há penalidade por "tentar adivinhar" a resposta de uma questão.
 > - O exame inclui 50 perguntas que podem afetar sua pontuação. Ou seja, 15 perguntas não são avaliadas e não afetam sua pontuação.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
