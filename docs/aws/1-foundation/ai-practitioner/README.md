@@ -105,7 +105,7 @@ O exame tem os seguintes domínios:
 
 ## 1 - Fundamentos de IA e ML
 
-Corresponde a 20% das questões do exame e aborda os seguintes tópicos:
+Corresponde a 20% das questões e aborda os seguintes tópicos:
 
 - **Conceitos e terminologias básicas de IA**:
   - Definição de termos como IA, ML, aprendizado profundo, redes neurais, visão computacional, PLN, modelo, algoritmo, treinamento, inferência, viés, imparcialidade, ajuste e LLM.
@@ -131,7 +131,7 @@ Aproximadamente 10 pontuadas e 3 não pontuadas.
 
 ## 2 - Fundamentos de IA generativa
 
-Corresponde a 24% das questões do exame e aborda os seguintes tópicos:
+Corresponde a 24% das questões e aborda os seguintes tópicos:
 
 - **Conceitos básicos de IA generativa**:
   - Definição de IA generativa e suas aplicações.
@@ -152,7 +152,7 @@ Aproximadamente 12 pontuadas e 4 não pontuadas.
 
 ## 3 - Aplicações de modelos de base
 
-Corresponde a 28% das questões do exame e aborda os seguintes tópicos:
+Corresponde a 28% das questões e aborda os seguintes tópicos:
 
 - **Conceitos de modelos de base**:
   - Definição de modelos de base (foundation models).
@@ -171,7 +171,7 @@ Aproximadamente 14 pontuadas e 4 não pontuadas.
 
 ## 4 - Diretrizes de IA responsável
 
-Corresponde a 14% das questões do exame e aborda os seguintes tópicos:
+Corresponde a 14% das questões e aborda os seguintes tópicos:
 
 - **Princípios de IA responsável**:
   - Transparência, justiça, privacidade e segurança.
@@ -190,7 +190,7 @@ Aproximadamente 7 pontuadas e 2 não pontuadas.
 
 ## 5 - Segurança, conformidade e governança para soluções de IA
 
-Corresponde a 14% das questões do exame e aborda os seguintes tópicos:
+Corresponde a 14% das questões e aborda os seguintes tópicos:
 
 - **Segurança em soluções de IA**:
   - Proteção de dados e modelos.
