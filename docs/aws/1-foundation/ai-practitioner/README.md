@@ -91,7 +91,8 @@ A prova contém perguntas dos seguintes tipos:
 > Além disso, as provas da AWS possuem algumas características e essa não é diferente:
 > - Perguntas não respondidas não são pontuadas, então é importante responder todas as questões.
 > - Não há penalidade por "tentar adivinhar" a resposta de uma questão.
-> - O exame inclui 50 perguntas que podem afetar sua pontuação. Ou seja, 15 perguntas não são avaliadas e não afetam sua pontuação.
+> - O exame possui perguntas que não afetam sua pontuação. Nesse caso, das 65 questões, 15 não são avaliadas e não afetam sua pontuação (são usadas como banco de questões da AWS em futuras provas).
+> - A quem diga que se durante a prova oficial você marcar uma questão para revisão, as próximas questões serão parecidas com ela. Mas cuidado, isso mais me parece um boato kkk. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
