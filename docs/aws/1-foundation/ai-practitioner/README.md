@@ -27,7 +27,7 @@
   - [4 - Diretrizes de IA responsável](#4---diretrizes-de-ia-responsável)
   - [5 - Segurança, conformidade e governança para soluções de IA](#5---segurança-conformidade-e-governança-para-soluções-de-ia)
 - [Tips & Tricks](#tips--tricks)
-  - [Exame](#exame)
+  - [Exame](#exame-1)
   - [Estudo](#estudo)
   - [Prompts](#prompts)
 - [Referências](#referências)
