@@ -25,7 +25,7 @@
 	- [3 - Aplicações de modelos de base](##3%20-%20Aplicações%20de%20modelos%20de%20base)
 	- [4 - Diretrizes de IA responsável](##4%20-%20Diretrizes%20de%20IA%20responsável)
 	- [5 - Segurança, conformidade e governança para soluções de IA](##5%20-%20Segurança,%20conformidade%20e%20governança%20para%20soluções%20de%20IA)
-- [Dicas](#Dicas)
+- [Tips & Tricks](#Tips%20&%20Tricks)
 - [Prompts](#Prompts)
 - [Referências](#Referências)
 - [Conclusão](#Conclusão)
