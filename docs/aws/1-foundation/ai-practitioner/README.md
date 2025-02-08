@@ -90,13 +90,6 @@ A prova contém perguntas dos seguintes tipos:
 - **Correspondência**: corresponda as opções de uma coluna com as da outra.
 - **Estudos de caso**: cenários com perguntas relacionadas.
 
-> [!NOTE]
-> As provas da AWS possuem algumas características e essa não é diferente:
-> - Perguntas não respondidas não são pontuadas, então é importante responder todas as questões.
-> - Não há penalidade por "tentar adivinhar" a resposta de uma questão.
-> - O exame possui perguntas que não afetam sua pontuação. Nesse caso, das 65 questões, 15 não são avaliadas e não afetam sua pontuação (são usadas como banco de questões da AWS em futuras provas).
-> - A quem diga que se durante a prova oficial você marcar uma questão para revisão, as próximas questões serão parecidas com ela. Mas cuidado, isso mais me parece um boato kkk. 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Domínios de Conhecimento
@@ -215,20 +208,29 @@ Corresponde a 14% das questões e aborda os seguintes tópicos:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Dicas
+# Tips & Tricks
+
+> [!NOTE]
+> As provas da AWS possuem algumas características e essa não é diferente:
+> - Perguntas não respondidas não são pontuadas, então é importante responder todas as questões.
+> - Não há penalidade por "tentar adivinhar" a resposta de uma questão.
+> - O exame possui perguntas que não afetam sua pontuação. Nesse caso, das 65 questões, 15 não são avaliadas e não afetam sua pontuação (são usadas como banco de questões da AWS em futuras provas).
+> - A quem diga que se durante a prova oficial você marcar uma questão para revisão, as próximas questões serão parecidas com ela. Mas cuidado, isso mais me parece um boato kkk. 
+
+No geral, sugiro essas dicas:
 
 - **Planejamento:**
   - Estabeleça um cronograma de estudo dividido entre os domínios principais.
   - Dedique sessões de estudo para revisões teóricas e práticas.
 - **Estude os Domínios:**
   - Entenda os tópicos de cada domínio e foque nos que você tem menos conhecimento.
-- **Pratique com Questões de Exames Anteriores:**
+- **Pratique com questões de exames anteriores:**
   - Faça simulados para se acostumar com o estilo das perguntas.
-- **Foque nos Domínios com Maior Peso:**
+- **Foque nos domínios com maior Peso:**
   - Priorize os tópicos que têm mais questões no exame.
-- **Revise os Conceitos Fundamentais:**
+- **Revise os conceitos fundamentais:**
   - Entenda os conceitos básicos de IA e ML.
-- **Leia a Documentação Oficial:**
+- **Leia a documentação oficial:**
   - A AWS conta com uma documentação rica e detalhada sobre os serviços de IA.
 - **Utilize o AWS Skill Builder:**
   - Explore e pratique com o AWS Skill Builder, que oferece cenários reais e exercícios práticos para reforçar seu aprendizado.
