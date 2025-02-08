@@ -47,7 +47,7 @@ Hoje, irei compartilhar com vocês meu guia de estudos para a certificação **A
 - dicas,
 - links e muito mais.
 
-Todas essas informações irão te ajudar a se preparar para a prova e aumentar suas chances de conquistar a certificação.
+Todas essas informações irão te ajudar a se preparar para a prova e aumentar suas chances de conquistar essa tão sonhada certificação.
 
 Vamos começar essa jornada de aprendizado? 🚀
 
