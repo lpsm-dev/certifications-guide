@@ -58,6 +58,8 @@ Meu maior motivador foi pessoal, pois sempre tive dificuldades em encontrar mate
 
 # Features
 
+Neste repositório você encontrará:
+
 - Guias bem definidos para o entendimento das provas.
 - Resumos dos principais tópicos de cada certificação.
 - Prompts de IA para serem utilizados durante os estudos com o objetivo de gerar perguntas de simulados.
@@ -66,6 +68,8 @@ Meu maior motivador foi pessoal, pois sempre tive dificuldades em encontrar mate
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Como Usar
+
+Para começar a estudar, siga os passos abaixo:
 
 1. **Escolha um guia de certificação** na seção [Guides](#guides).
 2. **Acesse os resumos e materiais** organizados por domínio.
