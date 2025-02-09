@@ -38,9 +38,3 @@ repos:
       - id: commitizen-branch
         stages:
           - pre-push
-  - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.35.1
-    hooks:
-      - id: yamllint
-        args: [--strict, -c=.github/config/.yamllint.yaml]
-    
