@@ -15,6 +15,8 @@ Vamos explorar o mundo de certificações? 🚀
 
 # Visão Geral
 
+Esse repositório contém guias de estudo para certificações de tecnologia. Aqui você encontrará recursos para se preparar para provas de certificação em tecnologias como AWS, Kubernetes e Cloud Native.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Features
