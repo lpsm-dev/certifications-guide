@@ -5,7 +5,7 @@
 
 <img src="https://github.com/lpsm-dev/lpsm-dev/blob/f0540babb3f32c96fd9d706d776aa0ae82489de9/.github/assets/guide.png" width="350"/>
 
-# Hello Human 👽! Bem-vindo ao meu repositório 👋
+### Hello Human 👽! Bem-vindo ao meu repositório 👋
 
 🎯 **Pronto para conquistar sua próxima certificação?** Aqui você encontrará guias completos para AWS, Kubernetes e Cloud Native! 🚀
 
