@@ -72,7 +72,7 @@ Neste repositório você encontrará:
 Para começar a estudar, siga os passos abaixo:
 
 1. **Escolha um guia de certificação** na seção [Guides](#guides).
-2. **Acesse os resumos e materiais** organizados por domínio.
+2. **Acesse o guia e os materiais** organizados para o exame desejado.
 3. **Utilize prompts de IA e referências** para reforçar seu aprendizado.
 4. **Participe da comunidade** contribuindo com dicas e sugestões!
 
