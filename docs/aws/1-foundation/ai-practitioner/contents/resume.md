@@ -1,6 +1,71 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Resume](#resume)
+  - [Overview](#overview)
+    - [General AI](#general-ai)
+    - [Machine Learning (ML)](#machine-learning-ml)
+    - [Deep Learning](#deep-learning)
+    - [Generative AI](#generative-ai)
+    - [Large Language Models (LLMs)](#large-language-models-llms)
+  - [Concepts](#concepts)
+    - [In-Context Learning](#in-context-learning)
+    - [Prompt Types](#prompt-types)
+    - [Latent Space](#latent-space)
+    - [Embeddings](#embeddings)
+    - [Tokens](#tokens)
+    - [Context-Window](#context-window)
+    - [Hallucinations](#hallucinations)
+    - [Multi-Modal Models](#multi-modal-models)
+    - [Search Methods](#search-methods)
+    - [Vector Databases](#vector-databases)
+      - [Vector Database Options on AWS](#vector-database-options-on-aws)
+  - [The Machine Learning (ML) Pipeline](#the-machine-learning-ml-pipeline)
+    - [1. Identify Business Goal](#1-identify-business-goal)
+    - [2. Frame the ML Problem](#2-frame-the-ml-problem)
+    - [3. Collect Data](#3-collect-data)
+    - [4. Pre-Process Data](#4-pre-process-data)
+    - [5. Engineer Features](#5-engineer-features)
+    - [6. Train, Tune, and Evaluate the Model](#6-train-tune-and-evaluate-the-model)
+    - [7. Deploy the Model](#7-deploy-the-model)
+    - [8. Monitor the Model](#8-monitor-the-model)
+    - [MLOps and Automation](#mlops-and-automation)
+    - [Model Governance and Explainability](#model-governance-and-explainability)
+    - [Cost and Performance Optimization](#cost-and-performance-optimization)
+    - [Continual Learning and Retraining](#continual-learning-and-retraining)
+    - [Security](#security)
+  - [Services](#services)
+    - [AWS Managed AI Services](#aws-managed-ai-services)
+      - [Computer Vision](#computer-vision)
+      - [Text and Document Analysis](#text-and-document-analysis)
+      - [Language AI](#language-ai)
+      - [Customer Experience](#customer-experience)
+      - [Business Metrics](#business-metrics)
+      - [Amazon Q](#amazon-q)
+    - [Amazon SageMaker](#amazon-sagemaker)
+      - [SageMaker Studio](#sagemaker-studio)
+      - [Training Process](#training-process)
+      - [Features](#features)
+    - [Amazon Bedrock](#amazon-bedrock)
+      - [Pricing](#pricing)
+      - [Features](#features-1)
+    - [AWS Glue](#aws-glue)
+      - [Features](#features-2)
+  - [Tables](#tables)
+    - [Traditional ML vs Deep Learning](#traditional-ml-vs-deep-learning)
+    - [Types of Machine Learning](#types-of-machine-learning)
+    - [Types of Diffusion Models](#types-of-diffusion-models)
+    - [Amazon SageMaker Inference Methods](#amazon-sagemaker-inference-methods)
+    - [Types of Training Data for Machine Learning/AI](#types-of-training-data-for-machine-learningai)
+    - [Generative AI performance metrics](#generative-ai-performance-metrics)
+    - [Generative AI Models](#generative-ai-models)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- BEGIN_DOCS -->
 <div align="center">
-  
+
 <a name="readme-top"></a>
 
 <img src="https://github.com/lpsm-dev/lpsm-dev/blob/44d3fda243208323b995bcde36ca3c9153c46f55/.github/assets/study.jpg" width="350"/>
@@ -12,7 +77,7 @@
 ## Overview
 
 ### General AI
-- **Definition**: Refers to a broader concept of artificial intelligence, aiming to build systems that can perform any intellectual task that a human can. It’s often used to describe long-term goals of creating highly autonomous, flexible AI systems.
+- **Definition**: Refers to a broader concept of artificial intelligence, aiming to build systems that can perform any intellectual task that a human can. It's often used to describe long-term goals of creating highly autonomous, flexible AI systems.
 - **Key Concept**: AI with a broad ability to perform multiple tasks across domains, unlike specialized AI systems.
 - **Examples**: **Expert Systems**, **Rules Engines** (e.g., MYCIN), which use predefined logic and rules to make decisions.
 
@@ -44,9 +109,9 @@
 - **Definition**: A method of enhancing generative AI models by adding additional data and examples to the prompt, helping the model solve tasks more effectively.
 
 ### Prompt Types
-- **Few-Shot Prompt**: Providing a few examples in the prompt to guide the model’s behavior.
+- **Few-Shot Prompt**: Providing a few examples in the prompt to guide the model's behavior.
 - **Zero-Shot Prompt**: Providing no examples in the prompt, asking the model to perform the task without guidance.
-- **One-Shot Prompt**: Providing exactly one example to guide the model’s behavior.
+- **One-Shot Prompt**: Providing exactly one example to guide the model's behavior.
 - **Prompt Template**: A pre-defined format or structure for prompts to standardize and improve the interaction with AI models.
 - **Chain-of-Thought Prompting**: A method where the prompt encourages the model to break down reasoning into steps.
 - **Prompt Tuning**: The process of adjusting prompts to improve model performance for specific tasks.
@@ -64,19 +129,19 @@
 - **Definition**: The basic units of text (e.g., words, subwords, or characters) that are processed by language models. In the context of LLMs, tokens are used to represent both inputs (text provided) and outputs (text generated).
 
 ### Context-Window
-- **Definition**: The maximum amount of tokens an LLM model can process at once, including both the input prompt and the output generated by the model. If the number of tokens exceeds the model’s context-window, earlier parts of the text may be truncated.
+- **Definition**: The maximum amount of tokens an LLM model can process at once, including both the input prompt and the output generated by the model. If the number of tokens exceeds the model's context-window, earlier parts of the text may be truncated.
 - **Usage**: The context-window is a key factor in determining how much information can be fed into the model at one time and affects tasks like long-form text generation, document analysis, or multi-turn conversations.
 
 ### Hallucinations
 - **Definition**: Hallucinations occur when a language model generates incorrect or nonsensical information that may sound plausible but is not grounded in factual data or the provided input.
-- **Mitigations**: 
+- **Mitigations**:
   - Retrieval Augmented Generation (RAG): Mitigates hallucinations by retrieving relevant external data during the generation process, ensuring the model generates responses based on accurate information.
-  - Fine-Tuning: Training the model on more relevant, accurate data can help reduce hallucinations by aligning the model’s output with factual knowledge.
+  - Fine-Tuning: Training the model on more relevant, accurate data can help reduce hallucinations by aligning the model's output with factual knowledge.
   - Human-in-the-Loop (HITL): Incorporating human review in low-confidence areas can prevent hallucinated outputs from being used in critical applications.
 
 ### Multi-Modal Models
 - **Definition**: Models that work across multiple data types, embedding text, images, or even audio into a shared space. These models are commonly used for multimodal generation tasks, such as creating captions for images or generating visuals from textual descriptions, by leveraging different types of input to produce richer, more context-aware outputs.
-  
+
 ---
 
 ### Search Methods
@@ -95,7 +160,7 @@
 - **Amazon MemoryDB**: Supports high-speed vector storage and retrieval with millisecond query times and tens of thousands of queries per second (QPS).
 - **Amazon DocumentDB**: Supports vector search with MongoDB compatibility, enabling storage, indexing, and search of millions of vectors with millisecond response times.
 
---- 
+---
 
 ## The Machine Learning (ML) Pipeline
 
@@ -124,7 +189,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 - **Key Activities**:
   - Identify inputs, outputs, requirements, and performance metrics.
   - Perform cost-benefit analysis to evaluate feasibility.
-  
+
 - **Model Options**:
   - **AI/ML Hosted Service** (e.g., AWS Comprehend, Forecast, Personalize): No training required.
   - **Pre-trained Models** (e.g., Amazon Bedrock, SageMaker JumpStart): Fine-tune with your data.
@@ -177,7 +242,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 - Dimensionality Reduction: Techniques like Principal Component Analysis (PCA) can be applied to reduce the number of features while retaining the most important information.
 - Feature Scaling: Tools like AWS Glue or SageMaker DataBrew can be used to apply scaling techniques (e.g., normalization or standardization), ensuring that features contribute equally to model training.
 - Categorical Encoding: Convert categorical variables into numerical values using techniques like one-hot encoding or target encoding using SageMaker Data Wrangler or AWS Glue.
-  
+
 - **Tools**:
   - **SageMaker Feature Store**: Store and manage features as a single source of truth.
 
@@ -195,10 +260,10 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
         - Controls randomness—higher values lead to more diverse, creative outputs; lower values produce more predictable, deterministic results.
       - Top K:
         - Limits the model to selecting from the top K most probable tokens; smaller K values result in safer, more predictable choices.
-        - Top K is not a terribly useful parameter - use Temperature or Top-P instead. 
+        - Top K is not a terribly useful parameter - use Temperature or Top-P instead.
       - Top P:
         - Uses cumulative probability to choose tokens, focusing on the smallest set of tokens with a combined probability of P, balancing randomness and diversity.
-        - Higher Top P values (closer to 1) reduce randomness by restricting the token pool to only the most probable choices. 
+        - Higher Top P values (closer to 1) reduce randomness by restricting the token pool to only the most probable choices.
       - Top-K vs Top-P: Top K fixes the number of tokens considered, while Top P uses a variable number of tokens based on their combined probability, making Top P more adaptive and flexible in balancing randomness.
       - Temperature vs. Top P: Temperature adjusts the overall randomness by scaling probabilities, allowing more or less randomness across all possible tokens. Top P narrows the token choices to those that collectively add up to a certain probability threshold, balancing randomness with accuracy.
       - Use Cases:
@@ -217,69 +282,69 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
       - Smaller batch sizes provide more frequent updates, which can help in converging quickly but can introduce more noise. Larger batch sizes are more stable but may require more computation and memory.
     - **Learning Rate**: Controls how fast the model learns.
       - A high learning rate speeds up training but may skip optimal solutions, while a low learning rate leads to slower but more precise convergence, though it risks getting stuck in local minima.
-        
+
 - **Error Metrics**:
 
   - **MSE (Mean Squared Error)**: During model evaluation, MSE calculates the average squared difference between predicted values and actual values, giving more weight to larger errors. A lower MSE indicates better performance, making it useful for comparing different models or tuning hyperparameters.
     - **Use Case**: Useful in regression problems like predicting house prices or stock values.
-    - **Rule of Thumb**: Lower is better, as it means the model’s predictions are closer to the actual values.
-    
+    - **Rule of Thumb**: Lower is better, as it means the model's predictions are closer to the actual values.
+
   - **RMSE (Root Mean Squared Error)**: RMSE is the square root of MSE and gives an error measure in the same unit as the predicted values, making it more interpretable. RMSE is used to see how much error is expected per prediction.
     - **Use Case**: Often used alongside MSE in regression problems for easier interpretability.
     - **Rule of Thumb**: Lower RMSE means better model performance.
-  
+
   - **Perplexity**: Perplexity measures how well a model predicts a sequence of tokens (e.g., words). Lower perplexity indicates better performance, as it means the model is better at predicting the next word in a sequence.
     - **Use Case**: Commonly used for language models, such as evaluating how well a model predicts the next word in a sentence.
     - **Rule of Thumb**: Lower perplexity means better predictive performance.
-  
+
   - **Precision**: Precision is the ratio of true positives to the total number of positive predictions (true positives + false positives). It is used when minimizing false positives is important.
     - **Use Case**: Often used in classification tasks like spam detection, where avoiding false positives is critical.
     - **Rule of Thumb**: Higher precision is better when the cost of false positives is high.
-  
+
   - **Recall (TPR)**: Recall (True Positive Rate) is the ratio of true positives to the total actual positives (true positives + false negatives). It is used when minimizing false negatives is crucial.
     - **Use Case**: Commonly used in medical testing (e.g., disease screenings) to avoid missing positive cases.
     - **Rule of Thumb**: Higher recall is better when missing positive cases is costly.
-  
+
   - **False Positive Rate (FPR)**: FPR is the ratio of false positives to the total number of negatives (false positives + true negatives). It is used to measure how often incorrect positive predictions are made.
     - **Use Case**: Often used in security applications, like fraud detection or alarms, where false positives should be minimized.
     - **Rule of Thumb**: Lower FPR is better, as it means fewer false alarms.
-  
+
   - **Specificity (TNR)**: Specificity (True Negative Rate) is the ratio of true negatives to the total actual negatives (true negatives + false positives). It measures how well the model identifies negative instances.
     - **Use Case**: Used in medical testing to correctly identify non-diseased patients.
     - **Rule of Thumb**: Higher specificity is better when identifying true negatives is important.
-  
+
   - **Accuracy**: Accuracy is the ratio of correct predictions (both true positives and true negatives) to the total number of predictions. It is used when both positive and negative predictions are equally important.
     - **Use Case**: Typically used in balanced classification tasks like image classification.
     - **Rule of Thumb**: Higher accuracy is better for overall correctness.
-  
+
   - **F1 Score**: The F1 Score is the harmonic mean of precision and recall, used when there is a need for a balance between precision and recall.
     - **Use Case**: Used in document classification or tasks where both false positives and false negatives matter.
     - **Rule of Thumb**: Higher F1 score means better balance between precision and recall.
-  
+
   - **ROC Curve**: The ROC (Receiver Operating Characteristic) curve plots the true positive rate (recall) against the false positive rate at various threshold levels. It is used to evaluate the trade-off between sensitivity and specificity.
-    - **Use Case**: Commonly used in binary classification problems to visualize the model’s performance across different thresholds.
+    - **Use Case**: Commonly used in binary classification problems to visualize the model's performance across different thresholds.
     - **Rule of Thumb**: A higher area under the ROC curve (AUC) indicates better model performance.
-  
+
 - **Model Training Issues**:
   - **Overfitting**: Too much training on the same data, causing the model to be overly specific.
     - Solution: Use more diverse data during training.
-  - **Underfitting**: The model doesn’t learn enough patterns from the data.
+  - **Underfitting**: The model doesn't learn enough patterns from the data.
     - Solution: Train the model for more epochs or with more data.
   - **Bias and Fairness**: Lack of diversity in training data leading to biased predictions.
     - Solution: Ensure diverse and representative training data; include fairness constraints.
 
 - **Fine-Tuning** (BedRock and SageMaker):
-  - Adjust the weights of a pre-trained model with your specific and _labelled_ data to adapt it for new tasks. 
+  - Adjust the weights of a pre-trained model with your specific and _labelled_ data to adapt it for new tasks.
   - Be aware that if you only provide instructions for a single task, the model may lose its more general purpose capability and experience _catastrophic forgetting_.
   - **Domain adaptation fine-tuning** (SageMaker): Tailors a pre-trained foundation model to a specific domain (e.g., legal, medical) using a small amount of domain-specific data. This helps the model perform better on tasks related to that particular domain.
-  - **Instruction-based fine-tuning** (SageMaker): Involves providing labeled examples of specific tasks (e.g., summarization, classification) to improve a model’s performance on that particular task. This type of fine-tuning is useful for making the model better at tasks where precise outputs are needed.
- 
+  - **Instruction-based fine-tuning** (SageMaker): Involves providing labeled examples of specific tasks (e.g., summarization, classification) to improve a model's performance on that particular task. This type of fine-tuning is useful for making the model better at tasks where precise outputs are needed.
+
 - **Continued-Pretraining** (BedRock):
   - Using _unlabeled_ data to expand the model's overall knowledge without narrowing its scope to a specific task.
- 
+
 - **Transfer Learning**:
   - Fine-tuning an existing model that has learned general features and applying it to a new problem, speeding up training and improving accuracy.
-     
+
 - **Tools**:
   - **SageMaker Training Jobs**: Manage training processes, specify training data, hyperparameters, and compute resources.
   - **SageMaker Experiments**: Track model runs and hyperparameter tuning.
@@ -287,7 +352,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 
 ### 7. Deploy the Model
 - **Description**: Deploy the trained model to make predictions.
-    
+
 - SageMaker Deployment Options:
   - **Real-Time Inference**: For low-latency, sustained traffic predictions with auto-scaling capabilities.
   - **Batch Transform**: For processing large batches of data asynchronously.
@@ -297,12 +362,12 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
   - **On-Demand Inference**: Pay-per-use inference based on the number of input/output tokens. Ideal for low or sporadic usage.
   - **Provisioned Throughput**: Required for custom or fine-tuned models, providing guaranteed capacity for consistent, high-throughput inference.
   - **BedRock Agent**s: Deploy agents for multi-step workflows, integrating models with tools like Amazon Kendra and AWS Lambda to handle complex tasks.
-  
+
 - **Tools**:
   - **AWS API Gateway**: Expose model as an API endpoint for integration with applications.
 
 - **Tools**:
-  - **AWS API Gateway (Optional)**: Used to expose models as RESTful APIs, enabling seamless integration with other applications or microservices. It’s optional and typically used when you want external applications to interact with your model endpoint.
+  - **AWS API Gateway (Optional)**: Used to expose models as RESTful APIs, enabling seamless integration with other applications or microservices. It's optional and typically used when you want external applications to interact with your model endpoint.
   - SageMaker Deployment: Models are deployed via Docker images stored in Amazon ECR and deployed to Lambda (for Serverless Inference), EC2, EKS (Elastic Kubernetes Service), or ECS (Elastic Container Service), depending on use cases.
   - Instance Types:
     - Inf1: Optimized for cost-effective, high-performance deep learning inference using AWS Inferentia chips.
@@ -359,7 +424,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
   - **AWS Audit Manager**: Automates the auditing of AWS services, ensuring continuous compliance and audit readiness for industry regulations.
   - **AWS Artifact**: Provides on-demand access to compliance reports and agreements, helping organizations meet compliance requirements.
   - **AWS AI Service Cards**: Enhance transparency by providing information on use cases, limitations, responsible AI practices, and performance best practices for AI services and models.
-  
+
 ---
 
 ### Cost and Performance Optimization
@@ -390,7 +455,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 
 ### Security
 - **Description**: Implement best security practices to safeguard machine learning models, data, and related infrastructure.
-  
+
 - **Key Activities**:
   - **Least Privilege Principle**: Ensure that IAM roles and policies grant only the permissions required for specific jobs or functions.
   - **PrivateLink and VPC Endpoints**: Lock down **SageMaker** to prevent exposure to the internet. Use **PrivateLink** and **VPC endpoints** to securely access resources within your private network.
@@ -398,7 +463,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
   - **IAM Roles and Policies**: Create and manage IAM roles and policies to ensure secure access to model data and resources.
   - **S3 Block Public Access**: Prevent model data from being exposed by ensuring **S3 Block Public Access** settings override any potential public access.
   - **AWS IAM Identity Center**: Centralize identity management, allowing access to multiple AWS accounts, and integrate with Active Directory for identity management.
-  
+
 - **Tools**:
   - **AWS Config**: Continuously monitors and records configuration changes across AWS resources to ensure compliance and security.
   - **AWS CloudTrail**: Logs API calls and tracks user activity for auditing and compliance.
@@ -409,7 +474,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 
 ---
 
-## Services 
+## Services
 
 ### AWS Managed AI Services
 
@@ -553,7 +618,7 @@ Amazon Bedrock is a fully managed, serverless service that provides access to hi
 
 ---
 
-### AWS Glue 
+### AWS Glue
 
 AWS Glue is a fully managed, cloud-optimized ETL (Extract, Transform, Load) service that helps prepare and load data for analytics and AI models.
 

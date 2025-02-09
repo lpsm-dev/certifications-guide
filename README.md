@@ -7,19 +7,47 @@
 
 Hello Human 👽! Bem-vindo ao meu repositório 👋
 
-Vamos explorar o mundo de certificações? 🚀
-
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://www.conventionalcommits.org/en/v1.0.0/) [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://semantic-release.gitbook.io/semantic-release/usage/configuration) [![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
 
 </div>
 
+<details>
+  <summary><strong>Expandir</strong></summary>
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Visão Geral](#vis%C3%A3o-geral)
+  - [Objetivo](#objetivo)
+  - [Contexto e Motivação](#contexto-e-motiva%C3%A7%C3%A3o)
+- [Features](#features)
+- [Guides](#guides)
+  - [AWS Certifications](#aws-certifications)
+  - [Kubernetes & Cloud Native](#kubernetes--cloud-native)
+- [Contribuição](#contribui%C3%A7%C3%A3o)
+- [Versionamento](#versionamento)
+- [Troubleshooting](#troubleshooting)
+- [Show your support](#show-your-support)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+</details>
+
 # Visão Geral
 
+## Objetivo
+
 Esse repositório contém guias de estudo para certificações de tecnologia. Aqui você encontrará recursos para se preparar para provas de certificação em tecnologias como AWS, Kubernetes e Cloud Native.
+
+## Contexto e Motivação
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Features
+
+Nossos guias de estudo contém os seguintes recursos:
 
 - Guias bem definidos para o entendimento das provas.
 - Breve resumo dos tópicos de domínio das provas.
@@ -27,39 +55,6 @@ Esse repositório contém guias de estudo para certificações de tecnologia. Aq
 - Recursos complementares como links oficiais e materiais recomendados.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-# Study Techniques
-
-Sabemos que durante o processo de estudo, existem algumas técnicas que podemos utilizar para aumentar nossa performance. Aqui, separei algumas que funcionam para mim. Sinta-se a vontade para mudar caso alguma não faça sentido para você ou que falte.
-
-## Aprendizado Ativo
-
-- Flashcards: Use ferramentas como Anki para memorizar conceitos e comandos.
-- Explicação as coisas com as suas palavras: Ensine um conceito para outra pessoa ou escreva um resumo detalhado.
-
-## Prática Mão na Massa
-
-- Laboratórios Práticos: Use AWS Free Tier, Kubernetes Kind/Minikube e Playgrounds como Katacoda.
-- Desafios de Infraestrutura: Implemente serviços AWS/Kubernetes no Terraform ou AWS CDK.
-
-## Revisão Espaçada
-
-- Estude em intervalos programados para evitar a curva do esquecimento (exemplo: revise o conteúdo no 1º, 3º e 7º dia após estudá-lo).
-
-## Simulados
-
-- Faça muitos simulados para se acostumar com o formato da prova.
-- Análise dos Erros: Não basta errar, entenda o porquê da resposta correta.
-
-## Criação de Mapas Mentais
-
-Resuma conceitos complexos visualmente, conectando tópicos e facilitando a memorização.
-
-## Uso de IA e Prompts Inteligentes
-
-Utilize ChatGPT para gerar resumos, perguntas e quizzes personalizados para os tópicos de estudo.
-
-> Em cada documentação irá existir um arquivo chamado `prompt.md`. Esse arquivo defini um modelo de prompt para criar questões que simulam o conteúdo da prova.
 
 # Guides
 

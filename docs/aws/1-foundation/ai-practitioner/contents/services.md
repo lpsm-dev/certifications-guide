@@ -1,6 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [AWS Services](#aws-services)
+  - [Analytics](#analytics)
+  - [Gerenciamento Financeiro da Nuvem](#gerenciamento-financeiro-da-nuvem)
+  - [Computação](#computa%C3%A7%C3%A3o)
+  - [Contêineres](#cont%C3%AAineres)
+  - [Banco de Dados](#banco-de-dados)
+  - [Machine Learning](#machine-learning)
+  - [Gerenciamento e Governança](#gerenciamento-e-governan%C3%A7a)
+  - [Redes e Entrega de Conteúdo](#redes-e-entrega-de-conte%C3%BAdo)
+  - [Segurança, Identidade e Conformidade](#seguran%C3%A7a-identidade-e-conformidade)
+  - [Armazenamento](#armazenamento)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- BEGIN_DOCS -->
 <div align="center">
-  
+
 <a name="readme-top"></a>
 
 <img src="https://github.com/lpsm-dev/lpsm-dev/blob/7c1c2b4123db14d0424f1b8c87ce016b02ed0848/.github/assets/aws-services.png" width="350"/>

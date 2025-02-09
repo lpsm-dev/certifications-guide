@@ -1,6 +1,33 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [Guia de Estudos](#guia-de-estudos)
+- [Sumário](#sum%C3%A1rio)
+- [Visão Geral](#vis%C3%A3o-geral)
+  - [Contexto](#contexto)
+  - [Disclaimer](#disclaimer)
+- [Exame](#exame)
+  - [Sobre](#sobre)
+  - [Estrutura](#estrutura)
+- [Domínios de Conhecimento](#dom%C3%ADnios-de-conhecimento)
+  - [1 - Fundamentos de IA e ML](#1---fundamentos-de-ia-e-ml)
+  - [2 - Fundamentos de IA generativa](#2---fundamentos-de-ia-generativa)
+  - [3 - Aplicações de modelos de base](#3---aplica%C3%A7%C3%B5es-de-modelos-de-base)
+  - [4 - Diretrizes de IA responsável](#4---diretrizes-de-ia-respons%C3%A1vel)
+  - [5 - Segurança, conformidade e governança para soluções de IA](#5---seguran%C3%A7a-conformidade-e-governan%C3%A7a-para-solu%C3%A7%C3%B5es-de-ia)
+- [Tips & Tricks](#tips--tricks)
+  - [Exame](#exame-1)
+  - [Estudo](#estudo)
+  - [Prompts](#prompts)
+- [Referências](#refer%C3%AAncias)
+- [Conclusão](#conclus%C3%A3o)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- BEGIN_DOCS -->
 <div align="center">
-  
+
 <a name="readme-top"></a>
 
 <img src="https://github.com/lpsm-dev/lpsm-dev/blob/41c8e670d12ddffcea19a04c0a7ac3cdd3c929f7/.github/assets/ai-practitioner.png" width="350"/>
@@ -43,7 +70,7 @@
 
 Fala pessoal! Sejam muito bem-vindos 👋.
 
-Hoje, irei compartilhar com vocês meu guia de estudos para a certificação **AWS Certified AI Practitioner** (**AIF-C01**). Minha ideia é criar uma base de conhecimento com informações essenciais sobre o exame, como: 
+Hoje, irei compartilhar com vocês meu guia de estudos para a certificação **AWS Certified AI Practitioner** (**AIF-C01**). Minha ideia é criar uma base de conhecimento com informações essenciais sobre o exame, como:
 
 - Estrutura,
 - Domínios,
@@ -68,7 +95,7 @@ Vamos começar essa jornada de aprendizado? 🚀
 
 ## Sobre
 
-A certificação **AWS Certified AI Practitioner** é uma prova introdutória que vai validar seus conceitos básicos sobre inteligência artificial (IA), machine learning (ML) e IA generativa (Gen AI) na AWS. 
+A certificação **AWS Certified AI Practitioner** é uma prova introdutória que vai validar seus conceitos básicos sobre inteligência artificial (IA), machine learning (ML) e IA generativa (Gen AI) na AWS.
 
 Por esse tema estar em ampla assenção, essa certificação é uma ótima oportunidade para profissionais que desejam ingressar na área de IA e ML, ou que já trabalham na área de tecnologia e desejam expandir seus conhecimentos sobre esse tema.
 
@@ -222,7 +249,7 @@ Corresponde a 14% das questões e aborda os seguintes tópicos:
 > - Perguntas não respondidas não são pontuadas, então é importante responder todas as questões.
 > - Não há penalidade por "tentar adivinhar" a resposta de uma questão.
 > - O exame possui perguntas que não afetam sua pontuação. Nesse caso, das 65 questões, 15 não são avaliadas e não afetam sua pontuação (são usadas como banco de questões da AWS em futuras provas).
-> - A quem diga que se durante a prova oficial você marcar uma questão para revisão, as próximas questões serão parecidas com ela. Mas cuidado, isso mais me parece um boato kkk. 
+> - A quem diga que se durante a prova oficial você marcar uma questão para revisão, as próximas questões serão parecidas com ela. Mas cuidado, isso mais me parece um boato kkk.
 
 ## Estudo
 
