@@ -45,9 +45,11 @@ Hello Human 👽! Bem-vindo ao meu repositório 👋
 
 ## Objetivo
 
-Esse repositório contém guias de estudo para certificações de tecnologia. Aqui você encontrará recursos para se preparar para provas de certificação em tecnologias como AWS, Kubernetes e Cloud Native.
+Esse repositório contém guias completos para quem deseja obter certificações de tecnologia. Você encontrará materiais sobre AWS, Kubernetes e Cloud Native, com resumos, recursos e dicas para otimizar seus estudos.
 
 ## Contexto e Motivação
+
+Com a crescente demanda por certificações, este repositório foi criado para oferecer materiais organizados e de fácil acesso para estudantes e profissionais que desejam validar suas habilidades.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
