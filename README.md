@@ -83,8 +83,10 @@ Para começar a estudar, siga os passos abaixo:
 ## AWS Certifications
 
 - [AWS AI Practitioner](./docs/aws/1-foundation/ai-practitioner)
+- [AWS Developer Associate](./docs/aws/2-associate/solutions-architect)
 - [AWS Solutions Architect Associate](./docs/aws/2-associate/solutions-architect)
 - [AWS DevOps Engineer Professional](./docs/aws/3-professional/devops-engineer)
+- [AWS Security Specialty](./docs/aws/4-specialty/security)
 
 ## Kubernetes & Cloud Native
 
