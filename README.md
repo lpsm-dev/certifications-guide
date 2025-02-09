@@ -86,12 +86,14 @@ Para começar a estudar, siga os passos abaixo:
 - [AWS Developer Associate](./docs/aws/2-associate/solutions-architect)
 - [AWS Solutions Architect Associate](./docs/aws/2-associate/solutions-architect)
 - [AWS DevOps Engineer Professional](./docs/aws/3-professional/devops-engineer)
-- [AWS Security Specialty](./docs/aws/4-specialty/security)
+- [AWS Security Specialist](./docs/aws/4-specialist/security)
 
 ## Kubernetes & Cloud Native
 
-- [Certified Kubernetes Administrator (CKA)](./docs/kubernetes/administrator)
-- [Certified Kubernetes Security Specialist (CKS)](./docs/kubernetes/security)
+- [Kubernetes and Cloud Native Associate (KCNA)](./docs/kubernetes/1-associate/cloud-native)
+- [Kubernetes and Cloud Native Security Associate (KCSA)](./docs/kubernetes/1-associate/security)
+- [Certified Kubernetes Administrator (CKA)](./docs/kubernetes/2-specialist/administrator)
+- [Certified Kubernetes Security Specialist (CKS)](./docs/kubernetes/2-specialist/security)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
