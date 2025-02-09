@@ -17,10 +17,6 @@ Hello Humans 👽! A collection of guides to IT certifications (AWS, Kubernetes,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Estrutura de Pastas
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 # Features
 
 - Guias bem definidos para o entendimento das provas.
@@ -44,7 +40,7 @@ Sabemos que durante o processo de estudo, existem algumas técnicas que podemos 
 - Laboratórios Práticos: Use AWS Free Tier, Kubernetes Kind/Minikube e Playgrounds como Katacoda.
 - Desafios de Infraestrutura: Implemente serviços AWS/Kubernetes no Terraform ou AWS CDK.
 
-##  Revisão Espaçada
+## Revisão Espaçada
 
 - Estude em intervalos programados para evitar a curva do esquecimento (exemplo: revise o conteúdo no 1º, 3º e 7º dia após estudá-lo).
 
@@ -53,13 +49,13 @@ Sabemos que durante o processo de estudo, existem algumas técnicas que podemos 
 - Faça muitos simulados para se acostumar com o formato da prova.
 - Análise dos Erros: Não basta errar, entenda o porquê da resposta correta.
 
-##  Criação de Mapas Mentais
+## Criação de Mapas Mentais
 
 Resuma conceitos complexos visualmente, conectando tópicos e facilitando a memorização.
 
 ## Uso de IA e Prompts Inteligentes
 
-Utilize ChatGPT para gerar resumos, perguntas e quizzes personalizados para os tópicos de estudo. 
+Utilize ChatGPT para gerar resumos, perguntas e quizzes personalizados para os tópicos de estudo.
 
 > Em cada documentação irá existir um arquivo chamado `prompt.md`. Esse arquivo defini um modelo de prompt para criar questões que simulam o conteúdo da prova.
 
