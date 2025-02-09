@@ -27,6 +27,7 @@ Hello Human 👽! Bem-vindo ao meu repositório 👋
   - [Objetivo](#objetivo)
   - [Contexto e Motivação](#contexto-e-motiva%C3%A7%C3%A3o)
 - [Features](#features)
+- [Como Usar](#como-usar)
 - [Guides](#guides)
   - [AWS Certifications](#aws-certifications)
   - [Kubernetes & Cloud Native](#kubernetes--cloud-native)
