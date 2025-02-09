@@ -57,12 +57,19 @@ Meu maior motivador foi pessoal, pois sempre tive dificuldades em encontrar mate
 
 # Features
 
-Nossos guias de estudo contém os seguintes recursos:
-
 - Guias bem definidos para o entendimento das provas.
-- Breve resumo dos tópicos de domínio das provas.
-- Prompts de IA para serem utilizados para estudo.
+- Resumos dos principais tópicos de cada certificação.
+- Prompts de IA para serem utilizados durante os estudos com o objetivo de gerar perguntas de simulados.
 - Recursos complementares como links oficiais e materiais recomendados.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Como Usar
+
+1. **Escolha um guia de certificação** na seção [Guides](#guides).
+2. **Acesse os resumos e materiais** organizados por domínio.
+3. **Utilize prompts de IA e referências** para reforçar seu aprendizado.
+4. **Participe da comunidade** contribuindo com dicas e sugestões!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
