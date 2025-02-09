@@ -90,10 +90,8 @@ Para começar a estudar, siga os passos abaixo:
 
 ## Kubernetes & Cloud Native
 
-- [Certified Kubernetes Administrator (CKA)](./docs/kubernetes/cka)
-- [Certified Kubernetes Application Developer (CKAD)](./docs/kubernetes/ckad)
-- [Certified Kubernetes Security Specialist (CKS)](./docs/kubernetes/cks)
-- [ArgoCD Certification Guide](./docs/argocd/certification)
+- [Certified Kubernetes Administrator (CKA)](./docs/kubernetes/administrator)
+- [Certified Kubernetes Security Specialist (CKS)](./docs/kubernetes/security)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
