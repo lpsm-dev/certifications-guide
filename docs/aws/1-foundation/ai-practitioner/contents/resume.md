@@ -1,68 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Resume](#resume)
-  - [Overview](#overview)
-    - [General AI](#general-ai)
-    - [Machine Learning (ML)](#machine-learning-ml)
-    - [Deep Learning](#deep-learning)
-    - [Generative AI](#generative-ai)
-    - [Large Language Models (LLMs)](#large-language-models-llms)
-  - [Concepts](#concepts)
-    - [In-Context Learning](#in-context-learning)
-    - [Prompt Types](#prompt-types)
-    - [Latent Space](#latent-space)
-    - [Embeddings](#embeddings)
-    - [Tokens](#tokens)
-    - [Context-Window](#context-window)
-    - [Hallucinations](#hallucinations)
-    - [Multi-Modal Models](#multi-modal-models)
-    - [Search Methods](#search-methods)
-    - [Vector Databases](#vector-databases)
-      - [Vector Database Options on AWS](#vector-database-options-on-aws)
-  - [The Machine Learning (ML) Pipeline](#the-machine-learning-ml-pipeline)
-    - [1. Identify Business Goal](#1-identify-business-goal)
-    - [2. Frame the ML Problem](#2-frame-the-ml-problem)
-    - [3. Collect Data](#3-collect-data)
-    - [4. Pre-Process Data](#4-pre-process-data)
-    - [5. Engineer Features](#5-engineer-features)
-    - [6. Train, Tune, and Evaluate the Model](#6-train-tune-and-evaluate-the-model)
-    - [7. Deploy the Model](#7-deploy-the-model)
-    - [8. Monitor the Model](#8-monitor-the-model)
-    - [MLOps and Automation](#mlops-and-automation)
-    - [Model Governance and Explainability](#model-governance-and-explainability)
-    - [Cost and Performance Optimization](#cost-and-performance-optimization)
-    - [Continual Learning and Retraining](#continual-learning-and-retraining)
-    - [Security](#security)
-  - [Services](#services)
-    - [AWS Managed AI Services](#aws-managed-ai-services)
-      - [Computer Vision](#computer-vision)
-      - [Text and Document Analysis](#text-and-document-analysis)
-      - [Language AI](#language-ai)
-      - [Customer Experience](#customer-experience)
-      - [Business Metrics](#business-metrics)
-      - [Amazon Q](#amazon-q)
-    - [Amazon SageMaker](#amazon-sagemaker)
-      - [SageMaker Studio](#sagemaker-studio)
-      - [Training Process](#training-process)
-      - [Features](#features)
-    - [Amazon Bedrock](#amazon-bedrock)
-      - [Pricing](#pricing)
-      - [Features](#features-1)
-    - [AWS Glue](#aws-glue)
-      - [Features](#features-2)
-  - [Tables](#tables)
-    - [Traditional ML vs Deep Learning](#traditional-ml-vs-deep-learning)
-    - [Types of Machine Learning](#types-of-machine-learning)
-    - [Types of Diffusion Models](#types-of-diffusion-models)
-    - [Amazon SageMaker Inference Methods](#amazon-sagemaker-inference-methods)
-    - [Types of Training Data for Machine Learning/AI](#types-of-training-data-for-machine-learningai)
-    - [Generative AI performance metrics](#generative-ai-performance-metrics)
-    - [Generative AI Models](#generative-ai-models)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 <!-- BEGIN_DOCS -->
 <div align="center">
 
@@ -70,33 +5,110 @@
 
 <img src="https://github.com/lpsm-dev/lpsm-dev/blob/44d3fda243208323b995bcde36ca3c9153c46f55/.github/assets/study.jpg" width="350"/>
 
-# Resume
+## Resumo
 
 </div>
+
+# Sumário
+
+<details>
+  <summary><strong>Expandir</strong></summary>
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Overview](#overview)
+  - [General AI](#general-ai)
+  - [Machine Learning (ML)](#machine-learning-ml)
+  - [Deep Learning](#deep-learning)
+  - [Generative AI](#generative-ai)
+  - [Large Language Models (LLMs)](#large-language-models-llms)
+- [Concepts](#concepts)
+  - [In-Context Learning](#in-context-learning)
+  - [Prompt Types](#prompt-types)
+  - [Latent Space](#latent-space)
+  - [Embeddings](#embeddings)
+  - [Tokens](#tokens)
+  - [Context-Window](#context-window)
+  - [Hallucinations](#hallucinations)
+  - [Multi-Modal Models](#multi-modal-models)
+  - [Search Methods](#search-methods)
+  - [Vector Databases](#vector-databases)
+    - [Vector Database Options on AWS](#vector-database-options-on-aws)
+- [The Machine Learning (ML) Pipeline](#the-machine-learning-ml-pipeline)
+  - [1. Identify Business Goal](#1-identify-business-goal)
+  - [2. Frame the ML Problem](#2-frame-the-ml-problem)
+  - [3. Collect Data](#3-collect-data)
+  - [4. Pre-Process Data](#4-pre-process-data)
+  - [5. Engineer Features](#5-engineer-features)
+  - [6. Train, Tune, and Evaluate the Model](#6-train-tune-and-evaluate-the-model)
+  - [7. Deploy the Model](#7-deploy-the-model)
+  - [8. Monitor the Model](#8-monitor-the-model)
+  - [MLOps and Automation](#mlops-and-automation)
+  - [Model Governance and Explainability](#model-governance-and-explainability)
+  - [Cost and Performance Optimization](#cost-and-performance-optimization)
+  - [Continual Learning and Retraining](#continual-learning-and-retraining)
+  - [Security](#security)
+- [Services](#services)
+  - [AWS Managed AI Services](#aws-managed-ai-services)
+    - [Computer Vision](#computer-vision)
+    - [Text and Document Analysis](#text-and-document-analysis)
+    - [Language AI](#language-ai)
+    - [Customer Experience](#customer-experience)
+    - [Business Metrics](#business-metrics)
+    - [Amazon Q](#amazon-q)
+  - [Amazon SageMaker](#amazon-sagemaker)
+    - [SageMaker Studio](#sagemaker-studio)
+    - [Training Process](#training-process)
+    - [Features](#features)
+  - [Amazon Bedrock](#amazon-bedrock)
+    - [Pricing](#pricing)
+    - [Features](#features-1)
+  - [AWS Glue](#aws-glue)
+    - [Features](#features-2)
+- [Tables](#tables)
+  - [Traditional ML vs Deep Learning](#traditional-ml-vs-deep-learning)
+  - [Types of Machine Learning](#types-of-machine-learning)
+  - [Types of Diffusion Models](#types-of-diffusion-models)
+  - [Amazon SageMaker Inference Methods](#amazon-sagemaker-inference-methods)
+  - [Types of Training Data for Machine Learning/AI](#types-of-training-data-for-machine-learningai)
+  - [Generative AI performance metrics](#generative-ai-performance-metrics)
+  - [Generative AI Models](#generative-ai-models)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+</details>
 
 ## Overview
 
 ### General AI
+
 - **Definition**: Refers to a broader concept of artificial intelligence, aiming to build systems that can perform any intellectual task that a human can. It's often used to describe long-term goals of creating highly autonomous, flexible AI systems.
 - **Key Concept**: AI with a broad ability to perform multiple tasks across domains, unlike specialized AI systems.
 - **Examples**: **Expert Systems**, **Rules Engines** (e.g., MYCIN), which use predefined logic and rules to make decisions.
 
 ### Machine Learning (ML)
+
 - **Definition**: A subset of AI that enables systems to learn from data and make predictions or decisions without explicit programming or rules.
 - **Key Concept**: AI that operates through data patterns and training, rather than explicitly coded instructions.
 - **Examples**: **Linear Regression**, **Decision Trees**, **Support Vector Machines**—supervised learning algorithms used for predictive tasks.
 
 ### Deep Learning
+
 - **Definition**: A subset of machine learning that uses neural networks with multiple layers (hence "deep") to model complex patterns in data.
 - **Key Concept**: Effective for tasks like image recognition, natural language processing, and autonomous systems.
 - **Examples**: **Convolutional Neural Networks (CNNs)** for image processing, **Recurrent Neural Networks (RNNs)** for sequential data like time-series or language models.
 
 ### Generative AI
+
 - **Definition**: A subset of deep learning focused on creating new content (such as text, images, or music) from learned data. Generative AI models are generally based on **foundation models**, which are large, pre-trained models that can be adapted to a wide range of tasks.
 - **Key Concept**: AI systems that generate novel outputs based on patterns learned during training. Foundation models provide the versatility needed for fine-tuning on specific tasks.
 - **Examples**: **ChatGPT** for text generation, **DALL·E** for image generation, **DeepDream** for artistic visual generation.
 
 ### Large Language Models (LLMs)
+
 - **Definition**: A type of **Generative AI** focused on understanding and generating human-like text. LLMs are trained on vast amounts of text data to learn language patterns, grammar, and context.
 - **Key Concept**: LLMs generate coherent and high-quality text based on input prompts and are capable of performing tasks like summarization, translation, and question answering.
 - **Examples**: **GPT-4**, **BERT**, **T5**, **Claude 2**—used for tasks like text generation, sentiment analysis, summarization, and natural language understanding.
@@ -106,9 +118,11 @@
 ## Concepts
 
 ### In-Context Learning
+
 - **Definition**: A method of enhancing generative AI models by adding additional data and examples to the prompt, helping the model solve tasks more effectively.
 
 ### Prompt Types
+
 - **Few-Shot Prompt**: Providing a few examples in the prompt to guide the model's behavior.
 - **Zero-Shot Prompt**: Providing no examples in the prompt, asking the model to perform the task without guidance.
 - **One-Shot Prompt**: Providing exactly one example to guide the model's behavior.
@@ -117,22 +131,27 @@
 - **Prompt Tuning**: The process of adjusting prompts to improve model performance for specific tasks.
 
 ### Latent Space
+
 - **Definition**: The encoded knowledge or patterns captured by large language models (LLMs) that store relationships between data.
 - **Usage**: It represents the internal understanding of language or data that AI models use to generate outputs.
 
 ### Embeddings
+
 - **Definition**: Numerical, vectorized representations of tokens (words, phrases, etc.) that capture their semantic meaning.
 - **Use Case**: Used for tasks like semantic search, where the meaning of a word or token is important.
 - **Storage**: Can be stored in a vector database for efficient search and retrieval.
 
 ### Tokens
+
 - **Definition**: The basic units of text (e.g., words, subwords, or characters) that are processed by language models. In the context of LLMs, tokens are used to represent both inputs (text provided) and outputs (text generated).
 
 ### Context-Window
+
 - **Definition**: The maximum amount of tokens an LLM model can process at once, including both the input prompt and the output generated by the model. If the number of tokens exceeds the model's context-window, earlier parts of the text may be truncated.
 - **Usage**: The context-window is a key factor in determining how much information can be fed into the model at one time and affects tasks like long-form text generation, document analysis, or multi-turn conversations.
 
 ### Hallucinations
+
 - **Definition**: Hallucinations occur when a language model generates incorrect or nonsensical information that may sound plausible but is not grounded in factual data or the provided input.
 - **Mitigations**:
   - Retrieval Augmented Generation (RAG): Mitigates hallucinations by retrieving relevant external data during the generation process, ensuring the model generates responses based on accurate information.
@@ -140,22 +159,26 @@
   - Human-in-the-Loop (HITL): Incorporating human review in low-confidence areas can prevent hallucinated outputs from being used in critical applications.
 
 ### Multi-Modal Models
+
 - **Definition**: Models that work across multiple data types, embedding text, images, or even audio into a shared space. These models are commonly used for multimodal generation tasks, such as creating captions for images or generating visuals from textual descriptions, by leveraging different types of input to produce richer, more context-aware outputs.
 
 ---
 
 ### Search Methods
+
 - **Keyword Search**: Matches exact terms in the search query.
 - **Semantic Search**: Uses embeddings to understand the meaning behind the search query, allowing for more accurate and meaningful results.
 
 ---
 
 ### Vector Databases
+
 - **Definition**: A type of database designed for storing and querying vectors (embeddings), which is useful for tasks like semantic search.
 
 #### Vector Database Options on AWS
+
 - **Amazon OpenSearch Service**: Supports k-nearest neighbor (k-NN) search for vector databases. Useful for log analytics, real-time application monitoring, and search.
-- **Amazon Aurora PostgreSQL-Compatible Edition & Amazon RDS for PostgreSQL**: Supports the __pgvector__ extension, enabling efficient storage of embeddings and similarity searches.
+- **Amazon Aurora PostgreSQL-Compatible Edition & Amazon RDS for PostgreSQL**: Supports the **pgvector** extension, enabling efficient storage of embeddings and similarity searches.
 - **Amazon Neptune ML**: Uses Graph Neural Networks (GNNs) to make predictions based on graph data, supporting vectorized data in graph databases.
 - **Amazon MemoryDB**: Supports high-speed vector storage and retrieval with millisecond query times and tens of thousands of queries per second (QPS).
 - **Amazon DocumentDB**: Supports vector search with MongoDB compatibility, enabling storage, indexing, and search of millions of vectors with millisecond response times.
@@ -167,6 +190,7 @@
 The ML Pipeline is a systematic process used to build, train, and deploy machine learning models. It ensures that each stage, from identifying business goals to monitoring deployed models, is properly managed and optimized for performance. The typical steps in the pipeline are as follows:
 
 **Steps:**
+
 1. Identify Business Goal
 2. Frame ML Problem
 3. Collect Data
@@ -179,14 +203,17 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 ---
 
 ### 1. Identify Business Goal
+
 - **Description**: Define success criteria and align stakeholders to ensure the ML project meets business objectives.
 - **Key Activities**:
   - Establish clear success metrics.
   - Align with stakeholders across the organization.
 
 ### 2. Frame the ML Problem
+
 - **Description**: Define the ML problem, inputs, outputs, and metrics while considering feasibility and cost/benefit analysis.
 - **Key Activities**:
+
   - Identify inputs, outputs, requirements, and performance metrics.
   - Perform cost-benefit analysis to evaluate feasibility.
 
@@ -200,10 +227,12 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 - **Description**: Collect and prepare the necessary data for training the model.
 
 - **Key Activities**:
+
   - Identify data sources (e.g., databases, data lakes, external APIs).
   - Ingest and label data.
 
-- **Where Data is Stored**:  
+- **Where Data is Stored**:
+
   - Data collected for machine learning is typically stored in **Amazon S3**. This applies to both data sourced from internal systems and third-party datasets accessed via **AWS Data Exchange**.
 
 - **Tools**:
@@ -217,11 +246,13 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 - **Description**: Clean and prepare the data, ensuring it is suitable for training.
 
 - **Key Activities**:
+
   - Perform **Exploratory Data Analysis (EDA)**.
   - Clean the data, removing duplicates, filling missing values, and anonymizing **PII**.
   - Split data is often split into ratios of **training (80%)**, **validation (10%)**, and **test (10%)** sets.
 
 - **How to Clean Data**:
+
   - **AWS Glue Transformations**: Glue has built-in transformations for tasks like removing duplicates or filling missing values, and allows custom transformations using Python or Spark.
   - **Macie for PII**: AWS Macie detects and anonymizes **PII** data, working with **Amazon S3** to scan and mask sensitive information.
   - **AWS Glue DataBrew**: Enables data preparation and cleaning through a visual interface. You can apply **data quality rules**, such as filling missing values, and save these transformations as **recipes** for reuse.
@@ -233,6 +264,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
   - **SageMaker Canvas**: A tool for importing, preparing, and transforming data with a visual, no-code interface. Each transformation step is part of a clear workflow, making data preparation more accessible.
 
 ### 5. Engineer Features
+
 - **Description**: Select and engineer features that will enhance model performance.
 - **Key Activities**:
   - Feature Selection: Identifying the most relevant features from your dataset based on domain knowledge, reducing dimensionality and improving model efficiency.
@@ -247,13 +279,16 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
   - **SageMaker Feature Store**: Store and manage features as a single source of truth.
 
 ### 6. Train, Tune, and Evaluate the Model
+
 - **Description**: Train the model, tune it, and evaluate performance.
 - **Key Activities**:
+
   - Train the model iteratively and fine-tune parameters.
   - Tune hyperparameters (e.g., epoch, batch size, learning rate) and run experiments.
   - Evaluate the model using metrics and compare performance.
 
 - **Parameters**:
+
   - **Inference Parameters** (supported by Amazon Bedrock):
     - **Randomness and Diversity**:
       - Temperature:
@@ -268,7 +303,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
       - Temperature vs. Top P: Temperature adjusts the overall randomness by scaling probabilities, allowing more or less randomness across all possible tokens. Top P narrows the token choices to those that collectively add up to a certain probability threshold, balancing randomness with accuracy.
       - Use Cases:
         - Use Top-P when you want adaptive diversity but want to stay closer to more likely outcomes.
-        - Use Temperature when you need consistent randomness control across the board.  
+        - Use Temperature when you need consistent randomness control across the board.
     - Response length:
       - Specifies the maximum length of generated output, affecting how verbose or concise the response is.
     - Penalties:
@@ -286,38 +321,47 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 - **Error Metrics**:
 
   - **MSE (Mean Squared Error)**: During model evaluation, MSE calculates the average squared difference between predicted values and actual values, giving more weight to larger errors. A lower MSE indicates better performance, making it useful for comparing different models or tuning hyperparameters.
+
     - **Use Case**: Useful in regression problems like predicting house prices or stock values.
     - **Rule of Thumb**: Lower is better, as it means the model's predictions are closer to the actual values.
 
   - **RMSE (Root Mean Squared Error)**: RMSE is the square root of MSE and gives an error measure in the same unit as the predicted values, making it more interpretable. RMSE is used to see how much error is expected per prediction.
+
     - **Use Case**: Often used alongside MSE in regression problems for easier interpretability.
     - **Rule of Thumb**: Lower RMSE means better model performance.
 
   - **Perplexity**: Perplexity measures how well a model predicts a sequence of tokens (e.g., words). Lower perplexity indicates better performance, as it means the model is better at predicting the next word in a sequence.
+
     - **Use Case**: Commonly used for language models, such as evaluating how well a model predicts the next word in a sentence.
     - **Rule of Thumb**: Lower perplexity means better predictive performance.
 
   - **Precision**: Precision is the ratio of true positives to the total number of positive predictions (true positives + false positives). It is used when minimizing false positives is important.
+
     - **Use Case**: Often used in classification tasks like spam detection, where avoiding false positives is critical.
     - **Rule of Thumb**: Higher precision is better when the cost of false positives is high.
 
   - **Recall (TPR)**: Recall (True Positive Rate) is the ratio of true positives to the total actual positives (true positives + false negatives). It is used when minimizing false negatives is crucial.
+
     - **Use Case**: Commonly used in medical testing (e.g., disease screenings) to avoid missing positive cases.
     - **Rule of Thumb**: Higher recall is better when missing positive cases is costly.
 
   - **False Positive Rate (FPR)**: FPR is the ratio of false positives to the total number of negatives (false positives + true negatives). It is used to measure how often incorrect positive predictions are made.
+
     - **Use Case**: Often used in security applications, like fraud detection or alarms, where false positives should be minimized.
     - **Rule of Thumb**: Lower FPR is better, as it means fewer false alarms.
 
   - **Specificity (TNR)**: Specificity (True Negative Rate) is the ratio of true negatives to the total actual negatives (true negatives + false positives). It measures how well the model identifies negative instances.
+
     - **Use Case**: Used in medical testing to correctly identify non-diseased patients.
     - **Rule of Thumb**: Higher specificity is better when identifying true negatives is important.
 
   - **Accuracy**: Accuracy is the ratio of correct predictions (both true positives and true negatives) to the total number of predictions. It is used when both positive and negative predictions are equally important.
+
     - **Use Case**: Typically used in balanced classification tasks like image classification.
     - **Rule of Thumb**: Higher accuracy is better for overall correctness.
 
   - **F1 Score**: The F1 Score is the harmonic mean of precision and recall, used when there is a need for a balance between precision and recall.
+
     - **Use Case**: Used in document classification or tasks where both false positives and false negatives matter.
     - **Rule of Thumb**: Higher F1 score means better balance between precision and recall.
 
@@ -326,6 +370,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
     - **Rule of Thumb**: A higher area under the ROC curve (AUC) indicates better model performance.
 
 - **Model Training Issues**:
+
   - **Overfitting**: Too much training on the same data, causing the model to be overly specific.
     - Solution: Use more diverse data during training.
   - **Underfitting**: The model doesn't learn enough patterns from the data.
@@ -334,15 +379,18 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
     - Solution: Ensure diverse and representative training data; include fairness constraints.
 
 - **Fine-Tuning** (BedRock and SageMaker):
+
   - Adjust the weights of a pre-trained model with your specific and _labelled_ data to adapt it for new tasks.
   - Be aware that if you only provide instructions for a single task, the model may lose its more general purpose capability and experience _catastrophic forgetting_.
   - **Domain adaptation fine-tuning** (SageMaker): Tailors a pre-trained foundation model to a specific domain (e.g., legal, medical) using a small amount of domain-specific data. This helps the model perform better on tasks related to that particular domain.
   - **Instruction-based fine-tuning** (SageMaker): Involves providing labeled examples of specific tasks (e.g., summarization, classification) to improve a model's performance on that particular task. This type of fine-tuning is useful for making the model better at tasks where precise outputs are needed.
 
 - **Continued-Pretraining** (BedRock):
+
   - Using _unlabeled_ data to expand the model's overall knowledge without narrowing its scope to a specific task.
 
 - **Transfer Learning**:
+
   - Fine-tuning an existing model that has learned general features and applying it to a new problem, speeding up training and improving accuracy.
 
 - **Tools**:
@@ -351,6 +399,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
   - **Automatic Model Tuning (AMT)**: Automatically tune hyperparameters using the specified metric.
 
 ### 7. Deploy the Model
+
 - **Description**: Deploy the trained model to make predictions.
 
 - SageMaker Deployment Options:
@@ -359,11 +408,13 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
   - **Asynchronous Inference**: For long-running inference requests with large payloads, handled without immediate responses.
   - **Serverless Inference**: For intermittent traffic, where the model scales automatically without infrastructure management.
 - Bedrock Deployment Mechanisms:
+
   - **On-Demand Inference**: Pay-per-use inference based on the number of input/output tokens. Ideal for low or sporadic usage.
   - **Provisioned Throughput**: Required for custom or fine-tuned models, providing guaranteed capacity for consistent, high-throughput inference.
   - **BedRock Agent**s: Deploy agents for multi-step workflows, integrating models with tools like Amazon Kendra and AWS Lambda to handle complex tasks.
 
 - **Tools**:
+
   - **AWS API Gateway**: Expose model as an API endpoint for integration with applications.
 
 - **Tools**:
@@ -381,12 +432,15 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
     - Provisioned Throughput Tools: Provisioning inference capacity for high-throughput applications via AWS Management Console or Bedrock API.
 
 ### 8. Monitor the Model
+
 - **Description**: Continuously monitor the model's performance and detect any data or concept drift.
 - **Key Activities**:
+
   - Monitor model in real-time for data and concept drift.
   - Set alerts and automate corrective actions if performance degrades.
 
 - **Types of Drift**:
+
   - Data Drift: The input data changes, but the relationship between inputs and outputs remains the same (e.g., a different demographic).
   - Concept Drift: The relationship between inputs and outputs changes, meaning the model's learned patterns no longer apply (e.g., new patterns of fraud that the model wasn't trained on).
 
@@ -396,6 +450,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 ---
 
 ### MLOps and Automation
+
 - **Description**: Apply DevOps principles to manage machine learning models throughout their lifecycle, focusing on automation, version control, and monitoring.
 - **Key Activities**:
   - Automate deployment, monitoring, and retraining of models.
@@ -410,6 +465,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 ---
 
 ### Model Governance and Explainability
+
 - **Description**: Ensure transparency, accountability, and regulatory compliance for ML models, while making their behavior interpretable to stakeholders.
 - **Key Activities**:
   - Implement governance frameworks for tracking model usage and lineage.
@@ -428,6 +484,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 ---
 
 ### Cost and Performance Optimization
+
 - **Description**: Optimize resource usage and model performance without inflating costs.
 - **Key Activities**:
   - Use managed spot training for lower-cost training jobs.
@@ -442,6 +499,7 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 ---
 
 ### Continual Learning and Retraining
+
 - **Description**: Continuously retrain models to account for new data and changing conditions, preventing performance degradation.
 - **Key Activities**:
   - Schedule regular model retraining based on new data.
@@ -454,9 +512,11 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 ---
 
 ### Security
+
 - **Description**: Implement best security practices to safeguard machine learning models, data, and related infrastructure.
 
 - **Key Activities**:
+
   - **Least Privilege Principle**: Ensure that IAM roles and policies grant only the permissions required for specific jobs or functions.
   - **PrivateLink and VPC Endpoints**: Lock down **SageMaker** to prevent exposure to the internet. Use **PrivateLink** and **VPC endpoints** to securely access resources within your private network.
   - **Encryption at Rest and in Transit**: By default, **SageMaker** encrypts data at rest and in transit using **KMS** (Key Management Service).
@@ -481,10 +541,12 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
 AWS offers a range of managed AI services designed to be easily integrated into applications, providing powerful AI capabilities without the need for deep machine learning expertise. Here's an overview of key services:
 
 #### Computer Vision
+
 - **AWS Rekognition**
   - Facial comparison and analysis, object and text detection, content moderation. Good for _screening content_ such as identifying violent or inappropriate material.
 
 #### Text and Document Analysis
+
 - **AWS Textract** (OCR)
   - Converts scanned images to text, enabling digital content management.
 - **Amazon Comprehend** (NLP)
@@ -493,6 +555,7 @@ AWS offers a range of managed AI services designed to be easily integrated into 
   - A group of AWS services that together automate the extraction, classification, and processing of data from various document types. It leverages AI technologies such as Optical Character Recognition (OCR), Natural Language Processing (NLP), and Machine Learning (ML) to handle unstructured data found in documents like PDFs, invoices, and legal contracts.
 
 #### Language AI
+
 - **Amazon Lex**
   - Builds conversational interfaces for both voice and text, ideal for creating _chatbots_.
 - **Amazon Transcribe**
@@ -501,6 +564,7 @@ AWS offers a range of managed AI services designed to be easily integrated into 
   - Converts text into lifelike speech, enhancing user engagement through voice.
 
 #### Customer Experience
+
 - **Amazon Kendra**
   - Provides intelligent document search capabilities.
 - **Amazon Personalize**
@@ -509,6 +573,7 @@ AWS offers a range of managed AI services designed to be easily integrated into 
   - Facilitates language translation, supporting global user interaction.
 
 #### Business Metrics
+
 - **Amazon Forecast**
   - Predicts future points in time-series data, such as _inventory levels_.
 - **Amazon Fraud Detection**
@@ -537,7 +602,7 @@ Amazon SageMaker is an integrated machine learning service that enables develope
 
 SageMaker Studio is an integrated development environment (IDE) for machine learning, providing a single interface for preparing data, building models, training, tuning, and deploying them. It offers features like Jupyter notebooks for code development, integrated debugging tools, and experiment management, all within a collaborative, cloud-based environment. Studio also supports real-time collaboration and easy access to various SageMaker capabilities, including model monitoring and data preparation.
 
-####  Training Process
+#### Training Process
 
 The typical SageMaker training process includes several key elements that help configure and manage the training jobs:
 
@@ -548,31 +613,32 @@ The typical SageMaker training process includes several key elements that help c
 - **S3 Output Bucket**: The trained model artifacts are stored in an S3 bucket for later use.
 
 #### Features
-- **SageMaker Feature Store**  
+
+- **SageMaker Feature Store**
   - Central repository for storing, retrieving, and sharing machine learning features.
-- **SageMaker Model Registry**  
+- **SageMaker Model Registry**
   - Manages different versions of models and their metadata.
-- **SageMaker Pipelines**  
+- **SageMaker Pipelines**
   - Provides a workflow orchestration service for building, training, and deploying models with repeatable workflows.
-- **SageMaker Model Monitor**  
+- **SageMaker Model Monitor**
   - Utilizes built-in rules to detect data drift or create custom rules, monitoring results can be sent to CloudWatch, and automates corrective measures.
-- **SageMaker Ground Truth**  
+- **SageMaker Ground Truth**
   - Leverages actual humans for labeling data, ensuring high-quality training datasets.
-- **SageMaker Canvas**  
+- **SageMaker Canvas**
   - A visual, no-code tool that allows users to build models based on their data with less technical expertise.
-- **SageMaker JumpStart**  
+- **SageMaker JumpStart**
   - Access to PreTrained Models and a hub for easily deploying machine learning solutions.
-- **SageMaker Clarify**  
+- **SageMaker Clarify**
   - Tools to help detect biases and explain predictions to increase transparency.
-- **SageMaker Role Manager**  
+- **SageMaker Role Manager**
   - Manages permissions for SageMaker resources and services.
-- **SageMaker Model Cards**  
+- **SageMaker Model Cards**
   - Create transparent documentation for trained models.
-- **SageMaker ML Lineage Tracking**  
+- **SageMaker ML Lineage Tracking**
   - Tracks the lineage of ML models to establish model governance, reproduce workflows, and maintain work history.
-- **SageMaker Model Dashboard**  
+- **SageMaker Model Dashboard**
   - Provides a unified interface to manage and monitor all model-related activities.
-- **SageMaker Data Wrangler**  
+- **SageMaker Data Wrangler**
   - Simplifies the process of data preparation for machine learning, enabling quick and easy data cleaning, transformation, and visualization.
 - **SageMaker Experiments (Now called MLflow with Amazon SageMaker)**
   - Tracks, organizes, views, analyzes, and compares iterative ML experimentation.
@@ -592,26 +658,28 @@ The typical SageMaker training process includes several key elements that help c
 Amazon Bedrock is a fully managed, serverless service that provides access to high-performing foundation models (FMs) from leading AI companies through a single API. It is designed to facilitate the creation of generative AI applications, prioritizing security, privacy, and responsible AI.
 
 #### Pricing
+
 - **Pay-as-you-go**: Amazon Bedrock charges based on the number of **input and output tokens** used during inference. This means you only pay for the tokens processed when using the foundation models.
 - **Fine-tuned models**: If you are using a **custom or fine-tuned model**, additional charges apply for **Provisioned Throughput**, which guarantees consistent performance and reserved capacity for inference.
 
 #### Features
-- **Model Choice**  
+
+- **Model Choice**
   - Access a variety of foundation models from AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI, and Amazon, allowing for optimal model selection based on specific application needs.
   - Amazon Titan Models
     - Exclusive to Amazon Bedrock, Amazon Titan models are pretrained, high-performing foundation models created by AWS, designed for a wide range of use cases with responsible AI practices.
-- **Customization**  
+- **Customization**
   - Customize foundation models privately with your data using techniques such as fine-tuning and Retrieval Augmented Generation (RAG), enhancing the model's relevance and accuracy.
 - **Foundation Model Evaluation**
   - Model Evaluation on Amazon Bedrock allows you to evaluate, compare, and select the best foundation models for your specific use case. You can assess models based on custom metrics such as accuracy, robustness, and toxicity, ensuring they meet your performance requirements. Integration with Amazon SageMaker Clarify and fmeval further supports model evaluation by checking for bias and explainability.
 - **Bedrock Knowledge Bases**
   - Uses Retrieval Augmented Generation (RAG) to fetch data from private sources, delivering more relevant and accurate responses with full support for the RAG workflow—handling data ingestion, retrieval, and prompt augmentation.
   - Enhances outputs by integrating retrieval processes that pull relevant external knowledge into the generative model.
-- **Bedrock Agents**  
+- **Bedrock Agents**
   - Create agents capable of planning and executing multistep tasks using company systems and data sources—streamlining complex tasks such as customer inquiries and order processing.
-- **Serverless**  
+- **Serverless**
   - Eliminates the need for infrastructure management, simplifying the deployment and scaling of AI capabilities.
-- **Security and Privacy Guardrails**  
+- **Security and Privacy Guardrails**
   - Features robust controls to restrict AI outputs, preventing the generation of inappropriate content and restricting sensitive advice like financial recommendations, ensuring ethical and compliant AI usage.
 - **PartyRock**
   - A hands-on AI app-building playground powered by Amazon Bedrock, where users can quickly build generative AI apps and experiment with models without writing code.
@@ -633,80 +701,78 @@ AWS Glue is a fully managed, cloud-optimized ETL (Extract, Transform, Load) serv
   - Visual tool for data preparation, defining data quality rules, and saving transformations as "recipes."
 - **AWS Glue Data Quality**
   - Detects anomalies and recommends data quality rules for ensuring clean, high-quality data for AI models.
+
 ---
 
 ## Tables
 
 ### Traditional ML vs Deep Learning
 
-| Category          | Traditional ML                                      | Deep Learning                                 |
-|-------------------|-----------------------------------------------------|-----------------------------------------------|
-| **Task Complexity** | Well-defined tasks                                  | Complex tasks                                 |
-| **Data Type**      | Structured / Labeled Data                           | Unstructured Data (Images, Video, Text)       |
-| **Methodology**    | Solves problems through statistics and mathematics  | Utilizes neural networks                      |
-| **Feature Handling** | Manually select and extract features                | Features are learned automatically by the model |
-| **Cost**           | Less costly                                         | Higher costs due to computational demands     |
-
+| Category             | Traditional ML                                     | Deep Learning                                   |
+| -------------------- | -------------------------------------------------- | ----------------------------------------------- |
+| **Task Complexity**  | Well-defined tasks                                 | Complex tasks                                   |
+| **Data Type**        | Structured / Labeled Data                          | Unstructured Data (Images, Video, Text)         |
+| **Methodology**      | Solves problems through statistics and mathematics | Utilizes neural networks                        |
+| **Feature Handling** | Manually select and extract features               | Features are learned automatically by the model |
+| **Cost**             | Less costly                                        | Higher costs due to computational demands       |
 
 ### Types of Machine Learning
 
-| Learning Type         | Description                                          | Challenges                            | AWS Tools              | Common Use Cases                   |
-|-----------------------|------------------------------------------------------|---------------------------------------|------------------------|------------------------------------|
-| **Supervised Learning** | Uses pre-labeled data to train models.               | Labelling the data can be challenging. | SageMaker Ground Truth | Image classification, spam detection |
-| **Unsupervised Learning** | Works with unlabeled data to find patterns.         | Requires methods to interpret patterns.| None specific          | Clustering, anomaly detection, LLMs for initial training phases |
-| **Reinforcement Learning** | Learns through trial and error to maximize rewards. | Requires environment for agent interaction. | AWS DeepRacer      | Gaming, robotics, real-time decisions |
-
+| Learning Type              | Description                                         | Challenges                                  | AWS Tools              | Common Use Cases                                                |
+| -------------------------- | --------------------------------------------------- | ------------------------------------------- | ---------------------- | --------------------------------------------------------------- |
+| **Supervised Learning**    | Uses pre-labeled data to train models.              | Labelling the data can be challenging.      | SageMaker Ground Truth | Image classification, spam detection                            |
+| **Unsupervised Learning**  | Works with unlabeled data to find patterns.         | Requires methods to interpret patterns.     | None specific          | Clustering, anomaly detection, LLMs for initial training phases |
+| **Reinforcement Learning** | Learns through trial and error to maximize rewards. | Requires environment for agent interaction. | AWS DeepRacer          | Gaming, robotics, real-time decisions                           |
 
 ### Types of Diffusion Models
 
-| Diffusion Model Type | Description                                          | When to Use                                  | Notes                 |
-|----------------------|------------------------------------------------------|----------------------------------------------|--------------------------|
-| **Forward Diffusion**| Adds noise to data progressively.                    | Not often used (it adds noise)    |   |
-| **Reverse Diffusion**| Reconstructs original data from noise.               | Creating detailed images from distorted inputs. | Image restoration tools |
-| **Stable Diffusion** | Works in reduced latent space, not directly in pixels. | Better then Reverse Diffusion | Midjourney, DALL-E       |
-
+| Diffusion Model Type  | Description                                            | When to Use                                     | Notes                   |
+| --------------------- | ------------------------------------------------------ | ----------------------------------------------- | ----------------------- |
+| **Forward Diffusion** | Adds noise to data progressively.                      | Not often used (it adds noise)                  |                         |
+| **Reverse Diffusion** | Reconstructs original data from noise.                 | Creating detailed images from distorted inputs. | Image restoration tools |
+| **Stable Diffusion**  | Works in reduced latent space, not directly in pixels. | Better then Reverse Diffusion                   | Midjourney, DALL-E      |
 
 ### Amazon SageMaker Inference Methods
 
-| Inference Type     | Deployed To         | Characteristics                                                         |
-|--------------------|---------------------|-------------------------------------------------------------------------|
-| **Batch**          | EC2                 | Cost-effective for infrequent, large jobs                               |
-| **Asynchronous**   | EC2                 | Suitable for non-time-sensitive applications and large payload          |
-| **Serverless**     | Lambda              | Intermittent traffic, periods of no traffic, auto-scaling out of the box|
-| **Real-Time**      | EC2                 | Live predictions, sustained traffic, low latency, consistent performance|
-
+| Inference Type   | Deployed To | Characteristics                                                          |
+| ---------------- | ----------- | ------------------------------------------------------------------------ |
+| **Batch**        | EC2         | Cost-effective for infrequent, large jobs                                |
+| **Asynchronous** | EC2         | Suitable for non-time-sensitive applications and large payload           |
+| **Serverless**   | Lambda      | Intermittent traffic, periods of no traffic, auto-scaling out of the box |
+| **Real-Time**    | EC2         | Live predictions, sustained traffic, low latency, consistent performance |
 
 ### Types of Training Data for Machine Learning/AI
 
-| Data Type       | AWS Data Source Example                | Actual Example                           |
-|-----------------|----------------------------------------|------------------------------------------|
-| **Structured**  | SQL data stored in RDS then moved to S3| Customer information in relational tables|
-| **Semi-Structured** | Data in DynamoDB or DocumentDB then moved to S3 | JSON logs of user activity           |
-| **Unstructured**| Objects and files stored directly in S3| Images, videos, and PDF documents        |
-| **Time-Series** | Time-stamped data stored in S3         | IoT device data, stock market data       |
+| Data Type           | AWS Data Source Example                         | Actual Example                            |
+| ------------------- | ----------------------------------------------- | ----------------------------------------- |
+| **Structured**      | SQL data stored in RDS then moved to S3         | Customer information in relational tables |
+| **Semi-Structured** | Data in DynamoDB or DocumentDB then moved to S3 | JSON logs of user activity                |
+| **Unstructured**    | Objects and files stored directly in S3         | Images, videos, and PDF documents         |
+| **Time-Series**     | Time-stamped data stored in S3                  | IoT device data, stock market data        |
 
 ### Generative AI performance metrics
-| Metric Name                                         | Explanation                                                             |
-|-----------------------------------------------------|-------------------------------------------------------------------------|
-| **Recall Oriented Understudy for Gisting Evaluation (ROUGE)** | Measures overlap between generated and reference text, good for summaries. |
-| **Bilingual Evaluation Understudy (BLEU)**           | Evaluates translation accuracy by comparing n-grams between outputs and references. |
-| **General Language Understanding Evaluation (GLUE)** | Assesses model performance on multiple natural language understanding tasks. |
-| **Holistic Evaluation of Language Models (HELM)**    | Provides broad, task-specific evaluation of language model capabilities.  |
-| **Massive Multitask Language Understanding (MMLU)**  | Tests model knowledge across a variety of domains and topics.            |
-| **Beyond the Imitation Game Benchmark (BIG-bench)**  | Evaluates models on creative and difficult AI tasks not covered by standard benchmarks. |
-| **Perplexity**                                       | Measures how well a model predicts the likelihood of the next token or word. |
+
+| Metric Name                                                   | Explanation                                                                             |
+| ------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **Recall Oriented Understudy for Gisting Evaluation (ROUGE)** | Measures overlap between generated and reference text, good for summaries.              |
+| **Bilingual Evaluation Understudy (BLEU)**                    | Evaluates translation accuracy by comparing n-grams between outputs and references.     |
+| **General Language Understanding Evaluation (GLUE)**          | Assesses model performance on multiple natural language understanding tasks.            |
+| **Holistic Evaluation of Language Models (HELM)**             | Provides broad, task-specific evaluation of language model capabilities.                |
+| **Massive Multitask Language Understanding (MMLU)**           | Tests model knowledge across a variety of domains and topics.                           |
+| **Beyond the Imitation Game Benchmark (BIG-bench)**           | Evaluates models on creative and difficult AI tasks not covered by standard benchmarks. |
+| **Perplexity**                                                | Measures how well a model predicts the likelihood of the next token or word.            |
 
 ### Generative AI Models
 
-| Generative AI Model                            | Examples                               | Use Case/What It's Good For                              |
-|------------------------------------------------|----------------------------------------|----------------------------------------------------------|
-| **Generative Adversarial Networks (GANs)**     | StyleGAN, CycleGAN, ProGAN             | Image generation, face synthesis, video creation          |
-| **Variational Autoencoders (VAEs)**            | Kingma & Welling VAE, Beta-VAE         | Image denoising, anomaly detection, image compression     |
-| **Transformers**                               | GPT-4, BERT, T5                        | Text generation, language translation, content generation |
-| **Recurrent Neural Networks (RNNs)**           | LSTMs, GRUs                            | Sequential data, time series forecasting, language models |
-| **Reinforcement Learning for Generative Tasks** | AlphaGo, DQN, OpenAI Five              | Game AI, autonomous control, optimizing generative tasks  |
-| **Diffusion**                                  | Stable Diffusion, DALL·E 2, Imagen     | Image and text-to-image generation                        |
-| **Flow-Based Models**                          | Glow, RealNVP                          | High-quality image generation, density estimation         |
+| Generative AI Model                             | Examples                           | Use Case/What It's Good For                               |
+| ----------------------------------------------- | ---------------------------------- | --------------------------------------------------------- |
+| **Generative Adversarial Networks (GANs)**      | StyleGAN, CycleGAN, ProGAN         | Image generation, face synthesis, video creation          |
+| **Variational Autoencoders (VAEs)**             | Kingma & Welling VAE, Beta-VAE     | Image denoising, anomaly detection, image compression     |
+| **Transformers**                                | GPT-4, BERT, T5                    | Text generation, language translation, content generation |
+| **Recurrent Neural Networks (RNNs)**            | LSTMs, GRUs                        | Sequential data, time series forecasting, language models |
+| **Reinforcement Learning for Generative Tasks** | AlphaGo, DQN, OpenAI Five          | Game AI, autonomous control, optimizing generative tasks  |
+| **Diffusion**                                   | Stable Diffusion, DALL·E 2, Imagen | Image and text-to-image generation                        |
+| **Flow-Based Models**                           | Glow, RealNVP                      | High-quality image generation, density estimation         |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- END_DOCS -->
