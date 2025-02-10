@@ -1,7 +1,5 @@
 <!-- BEGIN_DOCS -->
 
-<a name="readme-top"></a>
-
 [◀ Voltar](../README.md)
 
 <div align="center">

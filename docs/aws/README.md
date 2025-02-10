@@ -1,4 +1,7 @@
 <!-- BEGIN_DOCS -->
+
+[◀ Voltar](../README.md)
+
 <div align="center">
 
 <a name="readme-top"></a>
@@ -20,6 +23,4 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 </details>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- END_DOCS -->
