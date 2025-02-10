@@ -6,7 +6,7 @@
 
 <a name="readme-top"></a>
 
-<img src="https://github.com/lpsm-dev/lpsm-dev/blob/c7be0120869e06dd21caa11cb7873870dfb8df9b/.github/assets/aws-developer-associate.png" width="350"/>
+<img src="https://github.com/lpsm-dev/lpsm-dev/blob/c7be0120869e06dd21caa11cb7873870dfb8df9b/.github/assets/aws-developer-associate.png" width="200"/>
 
 ## Guia de Estudos
 
