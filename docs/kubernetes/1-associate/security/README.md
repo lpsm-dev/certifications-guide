@@ -1,9 +1,12 @@
 <!-- BEGIN_DOCS -->
+
+[◀ Voltar](../README.md)
+
 <div align="center">
 
 <a name="readme-top"></a>
 
-<img src="https://github.com/lpsm-dev/lpsm-dev/blob/86bb739f86b7cbd57740ba65adfdad6ec2b8641d/.github/assets/kcsa.png" width="350"/>
+<img src="https://github.com/lpsm-dev/lpsm-dev/blob/86bb739f86b7cbd57740ba65adfdad6ec2b8641d/.github/assets/kcsa.png" width="200"/>
 
 ## Guia de Estudos
 
