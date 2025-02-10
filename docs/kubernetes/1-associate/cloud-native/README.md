@@ -3,7 +3,7 @@
 
 <a name="readme-top"></a>
 
-<img src="https://github.com/lpsm-dev/lpsm-dev/blob/41c8e670d12ddffcea19a04c0a7ac3cdd3c929f7/.github/assets/ai-practitioner.png" width="350"/>
+<img src="https://github.com/lpsm-dev/lpsm-dev/blob/86bb739f86b7cbd57740ba65adfdad6ec2b8641d/.github/assets/kcna.png" width="350"/>
 
 ## Guia de Estudos
 
@@ -21,5 +21,8 @@
 
 </details>
 
+# Visão Geral
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- END_DOCS -->
