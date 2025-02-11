@@ -310,3 +310,11 @@ A AWS adota princípios fundamentais para o desenvolvimento responsável da IA:
 - Asynchronous Inference: Near real-time for large payloads and longer processing.
 - Batch Transform: Large-scale, offline processing without real-time needs.
 - Serverless Inference: Low-latency inference for intermittent or unpredictable traffic without managing infrastructure.
+
+## Epochs
+
+No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que um modelo de machine learning percorre todo o conjunto de dados de treinamento.
+
+## Amazon SageMaker Ground Truth Plus
+
+Amazon SageMaker Ground Truth Plus é um serviço gerenciado da AWS que facilita a rotulagem de dados para treinamento de modelos de machine learning, sem necessidade de gerenciar a infraestrutura ou equipes de anotação.
