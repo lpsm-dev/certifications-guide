@@ -60,7 +60,7 @@ Sabemos que o mercado de tecnologia é altamente competitivo e que as certifica�
 
 > "O grande rollback está por vir", como diz o [Mano Deyvin](https://www.youtube.com/@manodeyvin) kkkkk
 
-Falando sobre mim, eu já fui o cara que odiava certificações e achava que elas não eram importantes. Eu queria mesmo era estudar coisas novas e quebrar pipelines kkkk. Mas, com o tempo, percebi que elas são uma forma de progressão na carreira e de aprendizado contínuo. Eu diria que principalmente progressão de carreira, principalmente para quem trampa de alguma forma com Cloud e DevOps, seja como Dev, Ops, Engenheiro, Arquiteto, etc.
+Falando sobre minha realidade nesse contexto, eu já fui o cara que odiava certificações e achava que elas não eram importantes. Eu queria mesmo era estudar coisas novas e foda-se. Mas, com o tempo, percebi que elas são uma forma de progressão na carreira e de aprendizado contínuo. Eu diria que principalmente progressão de carreira, principalmente para quem trampa de alguma forma com Cloud e DevOps, seja como Dev, Ops, Engenheiro, Arquiteto, etc.
 
 Existe todo um modelo de negócio por trás das certificações, mas isso não é o foco aqui, 🤭.
 
