@@ -56,7 +56,7 @@ Galera, meu objetivo nesse projeto open-source é criar uma base de conhecimento
 
 > Momento filosófico, com uma pitada de drama da realidade... 🎭
 
-Com a crescente demanda por certificações, este repositório foi criado para oferecer materiais organizados e de fácil acesso para estudantes e profissionais que desejam validar suas habilidades e conquistar novas oportunidades de carreira.
+Com a crescente demanda por certificações, criei esse repo para oferecer materiais organizados e de fácil acesso para estudantes e profissionais que desejam conquistar novas certificações.
 
 Meu maior motivador foi pessoal, pois sempre tive dificuldades em encontrar materiais completos e organizados para estudar para certificações. Com isso, decidi criar esse repositório para ajudar outras pessoas que estão passando pela mesma situação.
 
