@@ -76,6 +76,7 @@ Neste repositório você encontrará:
 - Resumos dos principais tópicos de cada certificação.
 - Prompts de IA para serem utilizados durante os estudos com o objetivo de gerar perguntas de simulados.
 - Materiais complementares como links oficiais e cursos recomendados.
+- Post-Review do que eu achei da prova depois que fiz (mesmo se eu bombar).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
