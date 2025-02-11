@@ -303,3 +303,10 @@ A AWS adota princípios fundamentais para o desenvolvimento responsável da IA:
 - Privacidade & Segurança (Privacy & Security) – Protege dados e garante conformidade regulatória.
 - Robustez & Confiabilidade (Robustness & Reliability) – Garante modelos resilientes e de alto desempenho.
 - Governança (Governance) – Estabelece controles para monitoramento contínuo e conformidade.
+
+## SageMaker Inference options
+
+- Real-Time Inference: Immediate responses for high-traffic, low-latency applications.
+- Asynchronous Inference: Near real-time for large payloads and longer processing.
+- Batch Transform: Large-scale, offline processing without real-time needs.
+- Serverless Inference: Low-latency inference for intermittent or unpredictable traffic without managing infrastructure.
