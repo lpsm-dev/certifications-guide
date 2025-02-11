@@ -318,3 +318,7 @@ No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que
 ## Amazon SageMaker Ground Truth Plus
 
 Amazon SageMaker Ground Truth Plus é um serviço gerenciado da AWS que facilita a rotulagem de dados para treinamento de modelos de machine learning, sem necessidade de gerenciar a infraestrutura ou equipes de anotação.
+
+## O que é IDP?
+
+Intelligent Document Processing (IDP) é uma tecnologia que automatiza a captura, classificação e extração de dados de documentos estruturados, semiestruturados e não estruturados. Ele combina OCR (Reconhecimento Óptico de Caracteres), Processamento de Linguagem Natural (NLP), Machine Learning (ML) e IA para transformar documentos em informações processáveis digitalmente
