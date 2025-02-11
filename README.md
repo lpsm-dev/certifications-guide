@@ -60,11 +60,7 @@ Sabemos que o mercado de tecnologia é altamente competitivo e que as certifica�
 
 Sim, eu já fui o cara que odiava certificações e achava que elas não eram importantes. Mas, com o tempo, percebi que elas são uma forma de validar o conhecimento e se manter atualizado em um mercado tão dinâmico.
 
-Agora, estou aqui, criando um repo para te ajudar, pois sempre tive dificuldades em encontrar materiais completos e organizados para estudar para essas provas.
-
-Então, decidi criar esse repositório para ajudar outras pessoas que estão passando pela mesma situação.
-
-Vamos juntos nessa jornada de conhecimento! 🚀
+Agora, estou aqui, criando um repo para te ajudar, pois sempre tive dificuldades em encontrar materiais completos e organizados para estudar para essas provas. Mesmo com a quantidade de informações disponíveis, muitas vezes é difícil saber por onde começar e o que estudar.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
