@@ -342,3 +342,7 @@ Eles possuem inputs e outputs em diferentes formatos e modalidades, permitindo a
 ## Diffusion Model
 
 Diffusion Models são modelos de linguagem que geram previsões baseadas em uma combinação de amostras de texto e amostras de ruído. Eles são usados para gerar previsões mais diversificadas e criativas, evitando previsões repetitivas e conservadoras.
+
+## Amazon comprehend
+
+Serviço capaz de fazer processamento de linguagem natural (PLN) para análise de sentimentos, extração de entidades, classificação de documentos, entre outras tarefas.
