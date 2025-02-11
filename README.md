@@ -75,7 +75,7 @@ Neste repositório você encontrará:
 - Guias bem definidos para o entendimento das provas.
 - Resumos dos principais tópicos de cada certificação.
 - Prompts de IA para serem utilizados durante os estudos com o objetivo de gerar perguntas de simulados.
-- Recursos complementares como links oficiais e materiais recomendados.
+- Materiais complementares como links oficiais e cursos recomendados.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
