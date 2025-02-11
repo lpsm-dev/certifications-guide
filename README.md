@@ -58,7 +58,9 @@ Galera, meu objetivo nesse projeto open-source é criar uma base de conhecimento
 
 Sabemos que o mercado de tecnologia é altamente competitivo e que as certificações são um diferencial importante para se destacar. Isso se torna ainda mais relevante em um cenário de transformação digital e IA, onde as empresas buscam profissionais qualificados para atender às demandas do mercado: entregar rápido, com qualidade e segurança.
 
-Meu maior motivador foi pessoal, pois sempre tive dificuldades em encontrar materiais completos e organizados para estudar para essas provas.
+Sim, eu já fui o cara que odiava certificações e achava que elas não eram importantes. Mas, com o tempo, percebi que elas são uma forma de validar o conhecimento e se manter atualizado em um mercado tão dinâmico.
+
+Meu maior motivador para criar esse repo foi pessoal, pois sempre tive dificuldades em encontrar materiais completos e organizados para estudar para essas provas.
 
 Então, decidi criar esse repositório para ajudar outras pessoas que estão passando pela mesma situação.
 
