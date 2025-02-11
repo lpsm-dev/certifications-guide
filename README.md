@@ -17,7 +17,7 @@ Hello Human 👽! Bem-vindo ao meu repositório 👋
 
 > [!NOTE]
 >
-> **AVISO**: Esse repositório está em constante evolução. Se você encontrar algum erro ou tiver sugestões, por favor, abra uma [issue](https://github.com/lpsm-dev/certifications-guide/issues/new/choose) ou envie um [pull request](httpsÇ//github.com/lpsm-dev/certifications-guide/pulls).
+> **AVISO**: Esse repositório está em constante evolução. Se você encontrar algum erro ou tiver sugestões, por favor, abra uma [issue](https://github.com/lpsm-dev/certifications-guide/issues/new/choose) ou envie um [pull request](https://github.com/lpsm-dev/certifications-guide/pulls).
 
 # Sumário
 
