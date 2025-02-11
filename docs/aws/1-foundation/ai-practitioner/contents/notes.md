@@ -326,3 +326,9 @@ Intelligent Document Processing (IDP) é uma tecnologia que automatiza a captura
 ## O que são Redes Neurais (Neural Networks)?
 
 As redes neurais são modelos computacionais inspirados no funcionamento do cérebro humano, usadas principalmente em aprendizado de máquina (ML) e inteligência artificial (IA). Elas são compostas por neurônios artificiais organizados em camadas, que processam e aprendem padrões a partir de dados.
+
+## Aprendizado por reforço
+
+O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
+
+Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa o resultado e ajusta sua política de ação para maximizar a recompensa ao longo do tempo.
