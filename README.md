@@ -50,7 +50,7 @@ Hello Human 👽! Bem-vindo ao meu repositório 👋
 
 ## Objetivo
 
-Esse repositório contém guias completos para quem deseja obter certificações de tecnologia. Você encontrará materiais sobre AWS, Kubernetes e Cloud Native, com resumos, recursos e dicas para otimizar seus estudos.
+Galera, aqui meu objetivo é criar uma base centralizada de guias de estudo para certificações que eu estou estudando ou já estudei. A ideia é compartilhar conhecimento e ajudar outras pessoas que estão buscando certificações de tecnologia.
 
 ## Contexto e Motivação
 
