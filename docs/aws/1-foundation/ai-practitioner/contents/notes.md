@@ -338,3 +338,7 @@ Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa
 Modelos multimodais são modelos de IA que processam e combinam informações de diferentes modalidades, como texto, imagem, áudio e vídeo. Eles são usados em tarefas de NLP, visão computacional, reconhecimento de fala e multimídia.
 
 Eles possuem inputs e outputs em diferentes formatos e modalidades, permitindo a análise e geração de conteúdo multimodal.
+
+## Diffusion Model
+
+Diffusion Models são modelos de linguagem que geram previsões baseadas em uma combinação de amostras de texto e amostras de ruído. Eles são usados para gerar previsões mais diversificadas e criativas, evitando previsões repetitivas e conservadoras.
