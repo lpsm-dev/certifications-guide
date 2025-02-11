@@ -58,6 +58,8 @@ Galera, meu objetivo nesse projeto open-source é criar uma base de conhecimento
 
 Com a crescente demanda por certificações, criei esse repo para oferecer materiais organizados e de fácil acesso para estudantes e profissionais que desejam conquistar novas certificações.
 
+Sabemos que o mercado de tecnologia é altamente competitivo e que as certificações são um diferencial importante para se destacar. Isso se torna ainda mais relevante em um cenário de transformação digital e IA, onde as empresas buscam profissionais qualificados para atender às demandas do mercado: entregar rápido, com qualidade e segurança.
+
 Meu maior motivador foi pessoal, pois sempre tive dificuldades em encontrar materiais completos e organizados para estudar para essas provas.
 
 Então, decidi criar esse repositório para ajudar outras pessoas que estão passando pela mesma situação.
