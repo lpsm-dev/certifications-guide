@@ -11,7 +11,7 @@ Hello Human 👽! Bem-vindo ao meu repositório 👋
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://www.conventionalcommits.org/en/v1.0.0/) [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://semantic-release.gitbook.io/semantic-release/usage/configuration) [![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
 
-📌 **Dá uma estrelinha nesse repositório** caso queira acompanhar atualizações e novidades.
+📌 **Curta esse repositório** para acompanhar atualizações e novidades.
 
 </div>
 
