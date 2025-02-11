@@ -54,7 +54,7 @@ Galera, meu objetivo nesse projeto open-source é criar uma base de conhecimento
 
 ## Contexto e Motivação
 
-> Momento filosófico kkkk
+> Momento filosófico, com uma pitada de drama da realidade... 🎭
 
 Com a crescente demanda por certificações, este repositório foi criado para oferecer materiais organizados e de fácil acesso para estudantes e profissionais que desejam validar suas habilidades e conquistar novas oportunidades de carreira.
 
