@@ -332,3 +332,9 @@ As redes neurais são modelos computacionais inspirados no funcionamento do cér
 O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
 
 Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa o resultado e ajusta sua política de ação para maximizar a recompensa ao longo do tempo.
+
+## Modelo multimodal
+
+Modelos multimodais são modelos de IA que processam e combinam informações de diferentes modalidades, como texto, imagem, áudio e vídeo. Eles são usados em tarefas de NLP, visão computacional, reconhecimento de fala e multimídia.
+
+Eles possuem inputs e outputs em diferentes formatos e modalidades, permitindo a análise e geração de conteúdo multimodal.
