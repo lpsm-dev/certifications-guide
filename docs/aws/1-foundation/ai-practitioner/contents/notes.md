@@ -346,3 +346,7 @@ Diffusion Models são modelos de linguagem que geram previsões baseadas em uma 
 ## Amazon comprehend
 
 Serviço capaz de fazer processamento de linguagem natural (PLN) para análise de sentimentos, extração de entidades, classificação de documentos, entre outras tarefas.
+
+## O que é Accuracy (Acurácia) em Machine Learning?
+
+Accuracy (Acurácia) é uma métrica de avaliação usada em modelos de classificação para medir a proporção de previsões corretas em relação ao total de amostras analisadas.
