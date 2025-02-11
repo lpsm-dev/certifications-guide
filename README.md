@@ -82,7 +82,7 @@ Neste repositório você encontrará:
 
 # Como Usar
 
-Para começar nesse repo, siga os passos abaixo:
+Para começar navegar nesse repo, siga os passos abaixo:
 
 1. **Escolha um guia de certificação** na seção [Guides](#guides).
 2. **Acesse o guia e os materiais** organizados para o exame desejado.
