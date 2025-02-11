@@ -58,7 +58,7 @@ Galera, meu objetivo nesse projeto open-source é criar uma base de conhecimento
 
 Sabemos que o mercado de tecnologia é altamente competitivo e que as certificações são um diferencial importante para se destacar. Isso se torna ainda mais relevante em um cenário de transformação digital e IA, onde as empresas buscam profissionais qualificados para atender às demandas do mercado: entregar rápido, com qualidade e segurança. O grande rollback está por vir, como diz o mano deyvin, então é melhor se preparar!
 
-Sim, eu já fui o cara que odiava certificações e achava que elas não eram importantes. Mas, com o tempo, percebi que elas são uma forma de validar o conhecimento e se manter atualizado em um mercado tão dinâmico.
+Falando sobre mim, eu já fui o cara que odiava certificações e achava que elas não eram importantes. Eu queria mesmo era estudar coisas novas e quebrar pipelines kkkk. Mas, com o tempo, percebi que elas são uma forma de progressão na carreira e de aprendizado contínuo. Eu diria que principalmente progressão de carreira, principalmente para quem trampa com Cloud e DevOps, mas não exclusivamente.
 
 Agora, estou aqui, criando um repo para te ajudar, pois sempre tive dificuldades em encontrar materiais completos e organizados para estudar para essas provas. Mesmo com a quantidade de informações disponíveis, muitas vezes é difícil saber por onde começar e o que estudar.
 
