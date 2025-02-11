@@ -58,7 +58,7 @@ Galera, meu objetivo nesse projeto é criar uma base de conhecimento centralizad
 
 Sabemos que o mercado de tecnologia é altamente competitivo e que as certificações são um diferencial importante para se destacar. Isso se torna ainda mais relevante em um cenário de transformação digital e IA, onde as empresas buscam profissionais qualificados para atender às demandas do mercado: entregar rápido, com qualidade e segurança.
 
-> "O grande rollback está por vir", como diz o [Mano Deyvin](https://www.youtube.com/@manodeyvin), então é melhor se preparar!
+> "O grande rollback está por vir", como diz o [Mano Deyvin](https://www.youtube.com/@manodeyvin) kkkkk
 
 Falando sobre mim, eu já fui o cara que odiava certificações e achava que elas não eram importantes. Eu queria mesmo era estudar coisas novas e quebrar pipelines kkkk. Mas, com o tempo, percebi que elas são uma forma de progressão na carreira e de aprendizado contínuo. Eu diria que principalmente progressão de carreira, principalmente para quem trampa de alguma forma com Cloud e DevOps, seja como Dev, Ops, Engenheiro, Arquiteto, etc.
 
