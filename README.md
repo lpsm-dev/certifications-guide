@@ -50,7 +50,7 @@ Hello Human 👽! Bem-vindo ao meu repositório 👋
 
 ## Objetivo
 
-Galera, aqui meu objetivo é criar uma base centralizada de guias de estudo para certificações que eu estou estudando ou já estudei. A ideia é compartilhar conhecimento e ajudar outras pessoas que estão buscando certificações de tecnologia.
+Galera, meu objetivo nesse projeto open-source é criar uma base de conhecimento centralizada para guias de estudo de certificações que eu estou estudando ou já estudei. A ideia é compartilhar conhecimento e quem sabe ajudar outras pessoas que estão buscando estudar para essas mesmas certificações.
 
 ## Contexto e Motivação
 
