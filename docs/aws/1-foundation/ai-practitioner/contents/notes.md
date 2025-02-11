@@ -98,6 +98,18 @@ Chunking é uma técnica usada para dividir um grande conjunto de dados em parte
 
 Hiperparâmetros são configurações ajustáveis que controlam o comportamento e desempenho de um modelo de Machine Learning. Eles são definidos antes do treinamento e não são aprendidos pelo modelo.
 
+As técnicas comuns para ajustar hiperparâmetros incluem:
+
+- **Grid Search**:
+  - Testa todas as combinações possíveis de hiperparâmetros em uma grade.
+  - Pode ser lento e exigir muitos recursos computacionais.
+- **Random Search**:
+  - Testa aleatoriamente um subconjunto de combinações de hiperparâmetros.
+  - Mais eficiente que Grid Search e pode encontrar boas combinações rapidamente.
+- **Bayesian Optimization**:
+  - Usa métodos probabilísticos para encontrar a melhor combinação de hiperparâmetros.
+  - Mais eficiente que Grid Search e Random Search para otimização de hiperparâmetros.
+
 ## Temperatura, Top-P, Top-K e Max-Length
 
 - **Temperatura**:
@@ -247,3 +259,37 @@ Seus principais serviços são:
 ## Amazon Titan
 
 É o FM da AWS, que é um modelo de linguagem de grande escala treinado em 1 trilhão de parâmetros. Ele é usado para tarefas de NLP, como tradução, resumo, geração de texto, classificação de texto, entre outros.
+
+## PEFT (Parameter-Efficient Fine-Tuning) vs Full Fine-Tuning
+
+A principal diferença entre PEFT (Parameter-Efficient Fine-Tuning) e Full Fine-Tuning está na quantidade de parâmetros ajustados durante o treinamento de um modelo de machine learning, especialmente em Large Language Models (LLMs) e Foundation Models (FMs).
+
+**Full Fine-Tuning**
+
+No Full Fine-Tuning, todos os pesos e parâmetros do modelo pré-treinado são ajustados para uma nova tarefa.
+
+Vantagens:
+
+- Permite maior adaptação do modelo para tarefas específicas.
+- Maior capacidade de ajuste fino e personalização.
+
+Desvantagens:
+
+- Altíssimo custo computacional (precisa de mais memória e GPUs).
+- Demanda grandes quantidades de dados rotulados.
+- Pode causar catastrophic forgetting, onde o modelo perde conhecimento original.
+
+**PEFT (Parameter-Efficient Fine-Tuning)**
+
+O PEFT ajusta apenas um pequeno subconjunto dos parâmetros do modelo, mantendo a maior parte dos pesos congelados. Métodos populares incluem LoRA (Low-Rank Adaptation), Adapters, e Prompt Tuning.
+
+Vantagens:
+
+- Muito mais eficiente – reduz custo computacional e consumo de memória.
+- Menos risco de overfitting – menos parâmetros treináveis ajudam a evitar sobreajuste.
+- Facilidade de adaptação – pode ser aplicado a múltiplas tarefas sem precisar treinar o modelo inteiro.
+
+Desvantagens:
+
+- Pode ter menor capacidade de adaptação para mudanças drásticas nos dados.
+- Nem sempre atinge o mesmo desempenho do Full Fine-Tuning para tarefas muito complexas.
