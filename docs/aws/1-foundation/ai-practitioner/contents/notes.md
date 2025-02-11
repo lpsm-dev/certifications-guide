@@ -25,7 +25,7 @@
   - Calcula a similaridade entre uma tradução gerada automaticamente com uma referência humana, com base em n-gramas.
   - Usa um penalizador de comprimento para evitar frases curtas que maximizem a precisão.
 - **BERTScore**:
-  - Calcula a similaridade entre uma tradução gerada automaticamente com uma referência humana, com base em embeddings de palavras.
+  - is a tool that compares how similar generated text is to a reference by understanding the context of words leveraging BERT (Bidirectional Encoder Representations from Transformers) embeddings. This makes it better at judging the quality of text, especially for tasks like evaluating chatbots.
   - Captura significados em diferentes palavras, enquanto BLEU/ROUGE dependem de correspondências exatas de palavras.
 
 > Se precisar de uma métrica robusta para semântica, BERTScore é melhor. Se precisar de uma métrica leve para resumo/tradução, BLEU ou ROUGE são boas opções.
