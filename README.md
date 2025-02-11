@@ -62,7 +62,7 @@ Sabemos que o mercado de tecnologia é altamente competitivo e que as certifica�
 
 Falando sobre minha realidade nesse contexto, eu já fui o cara que odiava certificações e achava que elas não eram importantes. Eu queria mesmo era estudar coisas novas e foda-se. Mas, com o tempo, percebi que elas são uma forma de progressão na carreira e de aprendizado contínuo. Eu diria que principalmente progressão de carreira, principalmente para quem trampa de alguma forma com Cloud e DevOps, seja como Dev, Ops, Engenheiro, Arquiteto, etc.
 
-Existe todo um modelo de negócio por trás das certificações, mas isso não é o foco aqui, 🤭.
+> Existe todo um modelo de negócio por trás das certificações, mas isso não é o foco aqui 🤭
 
 Agora, estou aqui, criando um repo para te ajudar, pois sempre tive dificuldades em encontrar materiais completos e organizados para estudar para essas provas. Mesmo com a quantidade de informações disponíveis, muitas vezes é difícil saber por onde começar e o que estudar.
 
