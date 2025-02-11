@@ -293,3 +293,13 @@ Desvantagens:
 
 - Pode ter menor capacidade de adaptação para mudanças drásticas nos dados.
 - Nem sempre atinge o mesmo desempenho do Full Fine-Tuning para tarefas muito complexas.
+
+## Princípios de Responsible AI na AWS
+
+A AWS adota princípios fundamentais para o desenvolvimento responsável da IA:
+
+- Justiça (Fairness) – Evita vieses indesejados nos modelos de IA.
+- Explicabilidade (Explainability) – Fornece transparência nos resultados dos modelos.
+- Privacidade & Segurança (Privacy & Security) – Protege dados e garante conformidade regulatória.
+- Robustez & Confiabilidade (Robustness & Reliability) – Garante modelos resilientes e de alto desempenho.
+- Governança (Governance) – Estabelece controles para monitoramento contínuo e conformidade.
