@@ -54,6 +54,8 @@ Galera, meu objetivo nesse projeto open-source é criar uma base de conhecimento
 
 ## Contexto e Motivação
 
+> Momento filosófico kkkk
+
 Com a crescente demanda por certificações, este repositório foi criado para oferecer materiais organizados e de fácil acesso para estudantes e profissionais que desejam validar suas habilidades e conquistar novas oportunidades de carreira.
 
 Meu maior motivador foi pessoal, pois sempre tive dificuldades em encontrar materiais completos e organizados para estudar para certificações. Com isso, decidi criar esse repositório para ajudar outras pessoas que estão passando pela mesma situação.
