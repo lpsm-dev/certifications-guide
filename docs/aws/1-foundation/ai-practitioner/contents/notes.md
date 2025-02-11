@@ -322,3 +322,7 @@ Amazon SageMaker Ground Truth Plus é um serviço gerenciado da AWS que facilita
 ## O que é IDP?
 
 Intelligent Document Processing (IDP) é uma tecnologia que automatiza a captura, classificação e extração de dados de documentos estruturados, semiestruturados e não estruturados. Ele combina OCR (Reconhecimento Óptico de Caracteres), Processamento de Linguagem Natural (NLP), Machine Learning (ML) e IA para transformar documentos em informações processáveis digitalmente
+
+## O que são Redes Neurais (Neural Networks)?
+
+As redes neurais são modelos computacionais inspirados no funcionamento do cérebro humano, usadas principalmente em aprendizado de máquina (ML) e inteligência artificial (IA). Elas são compostas por neurônios artificiais organizados em camadas, que processam e aprendem padrões a partir de dados.
