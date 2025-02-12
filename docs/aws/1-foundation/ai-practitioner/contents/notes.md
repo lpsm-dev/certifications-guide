@@ -350,3 +350,7 @@ Serviço capaz de fazer processamento de linguagem natural (PLN) para análise d
 ## O que é Accuracy (Acurácia) em Machine Learning?
 
 Accuracy (Acurácia) é uma métrica de avaliação usada em modelos de classificação para medir a proporção de previsões corretas em relação ao total de amostras analisadas.
+
+## Hallucination
+
+Hallucination é um fenômeno em modelos de linguagem em que o modelo gera previsões incorretas ou fictícias, sem base nos dados de entrada. Pode ocorrer devido a overfitting, falta de dados de treinamento ou problemas na arquitetura do modelo.
