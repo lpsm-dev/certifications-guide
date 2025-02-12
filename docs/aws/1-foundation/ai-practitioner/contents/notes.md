@@ -417,6 +417,24 @@ Seu objetivo é capturar a estrutura e a semântica dos dados, considerando a or
 
 AutoML (Automated Machine Learning) é um conjunto de técnicas e ferramentas que automatizam o processo de construção, treinamento e ajuste de modelos de Machine Learning. Ele ajuda a acelerar o desenvolvimento de modelos e reduzir a necessidade de conhecimento especializado.
 
+## Epochs
+
+No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que um modelo de machine learning percorre todo o conjunto de dados de treinamento.
+
+## Aprendizado por reforço
+
+O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
+
+Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa o resultado e ajusta sua política de ação para maximizar a recompensa ao longo do tempo.
+
+## O que é Accuracy (Acurácia) em Machine Learning?
+
+Accuracy (Acurácia) é uma métrica de avaliação usada em modelos de classificação para medir a proporção de previsões corretas em relação ao total de amostras analisadas.
+
+## Hallucination
+
+Hallucination é um fenômeno em modelos de linguagem em que o modelo gera previsões incorretas ou fictícias, sem base nos dados de entrada. Pode ocorrer devido a overfitting, falta de dados de treinamento ou problemas na arquitetura do modelo.
+
 # AWS Services
 
 ## Amazon Connect
@@ -474,6 +492,8 @@ Seus principais serviços são:
 - **Amazon SageMaker Experiments**: Serviço de rastreamento e gerenciamento de experimentos de Machine Learning.
 - **Amazon SageMaker Copilot**: Assistente de desenvolvimento de Machine Learning para acelerar o desenvolvimento de modelos.
 
+> Amazon SageMaker Ground Truth Plus é um serviço gerenciado da AWS que facilita a rotulagem de dados para treinamento de modelos de machine learning, sem necessidade de gerenciar a infraestrutura ou equipes de anotação.
+
 SageMaker Inference options
 
 - Real-Time Inference: Immediate responses for high-traffic, low-latency applications.
@@ -498,28 +518,6 @@ A AWS adota princípios fundamentais para o desenvolvimento responsável da IA:
 - Privacidade & Segurança (Privacy & Security) – Protege dados e garante conformidade regulatória.
 - Robustez & Confiabilidade (Robustness & Reliability) – Garante modelos resilientes e de alto desempenho.
 - Governança (Governance) – Estabelece controles para monitoramento contínuo e conformidade.
-
-# Epochs
-
-No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que um modelo de machine learning percorre todo o conjunto de dados de treinamento.
-
-# Amazon SageMaker Ground Truth Plus
-
-Amazon SageMaker Ground Truth Plus é um serviço gerenciado da AWS que facilita a rotulagem de dados para treinamento de modelos de machine learning, sem necessidade de gerenciar a infraestrutura ou equipes de anotação.
-
-# Aprendizado por reforço
-
-O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
-
-Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa o resultado e ajusta sua política de ação para maximizar a recompensa ao longo do tempo.
-
-# O que é Accuracy (Acurácia) em Machine Learning?
-
-Accuracy (Acurácia) é uma métrica de avaliação usada em modelos de classificação para medir a proporção de previsões corretas em relação ao total de amostras analisadas.
-
-# Hallucination
-
-Hallucination é um fenômeno em modelos de linguagem em que o modelo gera previsões incorretas ou fictícias, sem base nos dados de entrada. Pode ocorrer devido a overfitting, falta de dados de treinamento ou problemas na arquitetura do modelo.
 
 # Terms
 
