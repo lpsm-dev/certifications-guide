@@ -45,8 +45,10 @@
   - [Amazon SageMaker](#amazon-sagemaker)
   - [Amazon Comprehend](#amazon-comprehend)
   - [Amazon Titan](#amazon-titan)
+  - [AWS Inferentia](#aws-inferentia)
+  - [AWS Trainium](#aws-trainium)
 - [7. Princípios de Responsible AI na AWS](#7-princ%C3%ADpios-de-responsible-ai-na-aws)
-- [8. Termos](#8-termos)
+- [9. Termos](#9-termos)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -276,6 +278,16 @@ Fine-Tuning é o ajuste de modelos pré-treinados para tarefas específicas, tre
 - **Descrição:** Modelo de linguagem de grande escala (Foundation Model) da AWS, treinado com 1 trilhão de parâmetros.
 - **Aplicações:** Tarefas de NLP como tradução, resumo, geração e classificação de texto.
 
+## AWS Inferentia
+
+- Chip desenvolvido especialmente para acelerar a inferência de modelos de machine learning.
+- Permite reduzir custos enquanto mantém alta performance para aplicações de inferência em larga escala.
+
+## AWS Trainium
+
+- Chip otimizado para treinamento de modelos de machine learning.
+- Focado em oferecer alta velocidade e eficiência no treinamento, competindo com outras soluções de GPUs para deep learning.
+
 # 7. Princípios de Responsible AI na AWS
 
 - **Justiça (Fairness):**
@@ -289,13 +301,16 @@ Fine-Tuning é o ajuste de modelos pré-treinados para tarefas específicas, tre
 - **Governança (Governance):**
   - Estabelece controles contínuos para monitoramento e conformidade dos modelos.
 
-# 8. Termos
+# 9. Termos
 
 - **GPT:** Transformer - Modelo gerador de texto e código com base em prompts.
 - **BERT:** Transformer - Modelo que entende o contexto e a semântica das palavras.
 - **SVM:** Support Vector Machine - Usado para tarefas de classificação e regressão.
 - **GAN:** Generative Adversarial Network - Modelo que gera dados realísticos.
-- **WAVE NET:** Rede Neural -
+- **WAVE NET:** Rede Neural - Modelo que gera áudio realístico.
+- **RESNET:** Rede Neural - Utilizado para reconhecimento de imagem.
+- **IDP:** Intelligent Document Processing - Tecnologia para automação na captura, classificação e extração de informações de documentos.
+- **PEFT:** Parameter-Efficient Fine-Tuning - Técnica de fine-tuning que ajusta apenas um subconjunto dos parâmetros de um modelo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- END_DOCS -->
