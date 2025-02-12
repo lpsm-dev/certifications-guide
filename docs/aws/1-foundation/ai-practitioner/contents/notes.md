@@ -26,6 +26,11 @@
   - [O que é Difussion Models?](#o-que-%C3%A9-difussion-models)
   - [O que é RAG (Retrieval-Augmented Generation)?](#o-que-%C3%A9-rag-retrieval-augmented-generation)
   - [O que é Fine-Tuning?](#o-que-%C3%A9-fine-tuning)
+  - [Tipos de Aprendizado](#tipos-de-aprendizado)
+    - [Aprendizado Supervisionado](#aprendizado-supervisionado)
+    - [Aprendizado Não Supervisionado](#aprendizado-n%C3%A3o-supervisionado)
+    - [Aprendizado Semi-Supervisionado](#aprendizado-semi-supervisionado)
+    - [Aprendizado por Reforço](#aprendizado-por-refor%C3%A7o)
   - [O que é Clusterização?](#o-que-%C3%A9-clusteriza%C3%A7%C3%A3o)
   - [O que é IDP?](#o-que-%C3%A9-idp)
   - [O que é Modelo multimodal?](#o-que-%C3%A9-modelo-multimodal)
@@ -40,7 +45,6 @@
   - [O que é N-Gram?](#o-que-%C3%A9-n-gram)
   - [O que é AutoML?](#o-que-%C3%A9-automl)
   - [O que é Epochs?](#o-que-%C3%A9-epochs)
-  - [O que é Aprendizado por reforço?](#o-que-%C3%A9-aprendizado-por-refor%C3%A7o)
   - [O que é Accuracy (Acurácia) em Machine Learning?](#o-que-%C3%A9-accuracy-acur%C3%A1cia-em-machine-learning)
   - [O que é Hallucination?](#o-que-%C3%A9-hallucination)
 - [Técnicas de Otimização em Machine Learning](#t%C3%A9cnicas-de-otimiza%C3%A7%C3%A3o-em-machine-learning)
@@ -50,7 +54,6 @@
 - [Inferência, Viés e Imparcialidade](#infer%C3%AAncia-vi%C3%A9s-e-imparcialidade)
 - [Tipos de Inferência](#tipos-de-infer%C3%AAncia)
 - [Dados Estruturados vs. Não Estruturados](#dados-estruturados-vs-n%C3%A3o-estruturados)
-- [Aprendizado Supervisionado vs. Não Supervisionado](#aprendizado-supervisionado-vs-n%C3%A3o-supervisionado)
 - [Underfitting vs. Overfitting](#underfitting-vs-overfitting)
 - [Hiperparâmetros](#hiperpar%C3%A2metros)
 - [Temperatura, Top-P, Top-K e Max-Length](#temperatura-top-p-top-k-e-max-length)
@@ -103,6 +106,56 @@ Escolher o número ideal de epochs é crucial para evitar underfitting (treinar 
 - **Early Stopping**
   - Técnica usada para interromper o treinamento quando a perda de validação começa a aumentar.
   - Evita overfitting e encontra o ponto ótimo de treinamento.
+
+## Tipos de Aprendizado
+
+### Aprendizado Supervisionado
+
+- Objetivo: O objetivo do aprendizado supervisionado é treinar um modelo utilizando dados rotulados para que ele possa prever a saída correta para novas entradas não vistas.
+- Exemplos:
+  - Classificação de E-mails: Identificar se um e-mail é spam ou não spam.
+  - Previsão de Preços de Casas: Estimar o preço de uma casa com base em características como localização, tamanho e número de quartos.
+- Algoritmos:
+  - Regressão Linear: Usado para prever valores contínuos.
+  - Árvores de Decisão: Utilizadas para classificação e regressão.
+  - Support Vector Machines (SVM): Usadas para classificação, especialmente em problemas com margens claras de separação.
+  - Redes Neurais: Aplicadas em tarefas complexas como reconhecimento de imagem e processamento de linguagem natural.
+- Características:
+  - Necessidade de Dados Rotulados: Requer um conjunto de dados de treinamento com entradas e saídas conhecidas.
+  - Aplicações: Reconhecimento de fala, diagnóstico médico, sistemas de recomendação.
+
+### Aprendizado Não Supervisionado
+
+- Objetivo: O aprendizado não supervisionado busca encontrar padrões ou estruturas inerentes nos dados sem a necessidade de rótulos explícitos.
+- Exemplos:
+  - Segmentação de Clientes: Agrupar clientes com base em comportamentos de compra semelhantes.
+  - Detecção de Anomalias: Identificar transações fraudulentas em dados financeiros.
+- Algoritmos Comuns:
+  - K-Means Clustering: Utilizado para agrupar dados em K grupos distintos.
+  - Análise de Componentes Principais (PCA): Usado para redução de dimensionalidade e visualização de dados.
+  - Redes Neurais Autoencoders: Aplicadas para compressão de dados e detecção de anomalias.
+- Características:
+  - Exploratório: Não há necessidade de dados rotulados, o que permite a descoberta de estruturas ocultas.
+  - Aplicações: Análise de mercado, compressão de dados, bioinformática.
+
+### Aprendizado Semi-Supervisionado
+
+- Objetivo: Combina elementos de aprendizado supervisionado e não supervisionado para melhorar o desempenho do modelo utilizando um pequeno conjunto de dados rotulados e um grande conjunto de dados não rotulados.
+- Exemplos:
+  - Classificação de Textos: Usar um pequeno conjunto de textos rotulados para treinar um modelo que classifica uma grande quantidade de dados não rotulados.
+  - Reconhecimento Facial: Aprimorar a precisão de modelos de reconhecimento facial com base em um pequeno conjunto de imagens rotuladas.
+- Algoritmos Comuns:
+  - Modelos de Propagação de Rótulos: Usados para propagar rótulos de dados rotulados para não rotulados.
+  - Redes Neurais Semi-Supervisionadas: Aproveitam o aprendizado não supervisionado para melhorar a generalização.
+- Características:
+  - Eficiência de Dados: Maximiza o uso de dados disponíveis, reduzindo a necessidade de grandes quantidades de dados rotulados.
+  - Aplicações: Análise de dados médicos, reconhecimento de imagem em larga escala.
+
+### Aprendizado por Reforço
+
+O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
+
+Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa o resultado e ajusta sua política de ação para maximizar a recompensa ao longo do tempo.
 
 ## O que é Clusterização?
 
@@ -163,12 +216,6 @@ AutoML (Automated Machine Learning) é um conjunto de técnicas e ferramentas qu
 ## O que é Epochs?
 
 No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que um modelo de machine learning percorre todo o conjunto de dados de treinamento.
-
-## O que é Aprendizado por reforço?
-
-O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
-
-Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa o resultado e ajusta sua política de ação para maximizar a recompensa ao longo do tempo.
 
 ## O que é Accuracy (Acurácia) em Machine Learning?
 
@@ -342,50 +389,6 @@ Na avaliação de modelos de Machine Learning, é crucial utilizar métricas ade
 - Estruturados: Organizados em esquemas conhecidos, como tabelas.
 - Não Estruturados: Sem um formato fixo, por exemplo, texto e imagens.
 - Exemplo de Uso: Análise de dados de redes sociais (texto livre) para tendências de marketing.
-
-# Aprendizado Supervisionado vs. Não Supervisionado
-
-**Aprendizado Supervisionado**
-
-- Objetivo: O objetivo do aprendizado supervisionado é treinar um modelo utilizando dados rotulados para que ele possa prever a saída correta para novas entradas não vistas.
-- Exemplos:
-  - Classificação de E-mails: Identificar se um e-mail é spam ou não spam.
-  - Previsão de Preços de Casas: Estimar o preço de uma casa com base em características como localização, tamanho e número de quartos.
-- Algoritmos:
-  - Regressão Linear: Usado para prever valores contínuos.
-  - Árvores de Decisão: Utilizadas para classificação e regressão.
-  - Support Vector Machines (SVM): Usadas para classificação, especialmente em problemas com margens claras de separação.
-  - Redes Neurais: Aplicadas em tarefas complexas como reconhecimento de imagem e processamento de linguagem natural.
-- Características:
-  - Necessidade de Dados Rotulados: Requer um conjunto de dados de treinamento com entradas e saídas conhecidas.
-  - Aplicações: Reconhecimento de fala, diagnóstico médico, sistemas de recomendação.
-
-**Aprendizado Não Supervisionado**
-
-- Objetivo: O aprendizado não supervisionado busca encontrar padrões ou estruturas inerentes nos dados sem a necessidade de rótulos explícitos.
-- Exemplos:
-  - Segmentação de Clientes: Agrupar clientes com base em comportamentos de compra semelhantes.
-  - Detecção de Anomalias: Identificar transações fraudulentas em dados financeiros.
-- Algoritmos Comuns:
-  - K-Means Clustering: Utilizado para agrupar dados em K grupos distintos.
-  - Análise de Componentes Principais (PCA): Usado para redução de dimensionalidade e visualização de dados.
-  - Redes Neurais Autoencoders: Aplicadas para compressão de dados e detecção de anomalias.
-- Características:
-  - Exploratório: Não há necessidade de dados rotulados, o que permite a descoberta de estruturas ocultas.
-  - Aplicações: Análise de mercado, compressão de dados, bioinformática.
-
-**Aprendizado Semi-Supervisionado**
-
-- Objetivo: Combina elementos de aprendizado supervisionado e não supervisionado para melhorar o desempenho do modelo utilizando um pequeno conjunto de dados rotulados e um grande conjunto de dados não rotulados.
-- Exemplos:
-  - Classificação de Textos: Usar um pequeno conjunto de textos rotulados para treinar um modelo que classifica uma grande quantidade de dados não rotulados.
-  - Reconhecimento Facial: Aprimorar a precisão de modelos de reconhecimento facial com base em um pequeno conjunto de imagens rotuladas.
-- Algoritmos Comuns:
-  - Modelos de Propagação de Rótulos: Usados para propagar rótulos de dados rotulados para não rotulados.
-  - Redes Neurais Semi-Supervisionadas: Aproveitam o aprendizado não supervisionado para melhorar a generalização.
-- Características:
-  - Eficiência de Dados: Maximiza o uso de dados disponíveis, reduzindo a necessidade de grandes quantidades de dados rotulados.
-  - Aplicações: Análise de dados médicos, reconhecimento de imagem em larga escala.
 
 # Underfitting vs. Overfitting
 
