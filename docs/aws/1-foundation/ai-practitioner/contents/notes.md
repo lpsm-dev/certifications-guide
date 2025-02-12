@@ -1,95 +1,203 @@
 # Anotações
 
-## Como técnicas de optimização de machine learning, temos:
+## Técnicas de Otimização em Machine Learning
 
-- **Prunning**:
-  - Seu objetivo é remover partes desnecessárias do modelo para reduzir o tamanho e melhorar a eficiência.
-  - Redes neurais possuiem muitos parâmetros, e muitos deles podem ser desnecessários. O prunning indentifica e remove os parâmetros que não são necessários.
-- **Quantization**:
-  - Seu objetivo é reduzir a precisão numérica dos pesos/ativações para acelerar a inferência e diminuir tamanho do modelo.
-  - Modelos treinam usando valores em ponto flutuante (FP32). A quantização reduz a precisão para FP16, INT8 ou até INT4, reduzindo o tamanho do modelo e acelerando cálculos.
-- **Knowledge Distillation**:
-  - Seu objetivo é criar um modelo menor (student model) que aprende a partir de um modelo grande (teacher model), preservando o desempenho.
-  - Modelos maiores são mais precisos, mas também mais lentos e consomem mais recursos. O conhecimento de um modelo maior pode ser transferido para um modelo menor, mais rápido e eficiente.
-- **Fine-Tuning**:
-  - Seu objetivo é ajustar um modelo pré-treinado (FM) para um novo conjunto de dados (nova tarefa específica), em vez de treinar um modelo do zero.
-  - FMs são treinados em grandes conjuntos de dados e podem ser ajustados para tarefas específicas com menos dados e tempo.
+**Prunning**:
 
-## Métricas para avaliar o desempenho de um FM:
+- Objetivo: Remover partes desnecessárias de um modelo, como neurônios ou camadas.
+- Vantagens:
+  - Reduz o tamanho do modelo.
+  - Melhora a eficiência computacional.
+- Como funciona: Identifica e remove parâmetros que pouco contribuem para o desempenho do modelo.
+- Exemplo de Uso: Em redes neurais profundas para dispositivos móveis, onde a eficiência e o uso de memória são cruciais.
 
-- **ROUGE**:
-  - Usado principalmente para avaliação de resumos automáticos e geração de texto.
-  - Calcula a similaridade entre um resumo gerado automaticamente com uma referência humana.
-- **BLEU**:
-  - Usado principalmente para avaliação de tradução automática.
-  - Calcula a similaridade entre uma tradução gerada automaticamente com uma referência humana, com base em n-gramas.
-  - Usa um penalizador de comprimento para evitar frases curtas que maximizem a precisão.
-- **BERTScore**:
-  - is a tool that compares how similar generated text is to a reference by understanding the context of words leveraging BERT (Bidirectional Encoder Representations from Transformers) embeddings. This makes it better at judging the quality of text, especially for tasks like evaluating chatbots.
-  - Captura significados em diferentes palavras, enquanto BLEU/ROUGE dependem de correspondências exatas de palavras.
+**Quantization**:
 
-> Se precisar de uma métrica robusta para semântica, BERTScore é melhor. Se precisar de uma métrica leve para resumo/tradução, BLEU ou ROUGE são boas opções.
+- Objetivo: Reduzir a precisão numérica dos modelos.
+- Vantagens:
+  - Acelera a inferência.
+  - Reduz o tamanho do modelo.
+- Como funciona: Transforma valores de ponto flutuante (FP32) em formas mais compactas como INT8.
+- Exemplo de Uso: Implementação em dispositivos IoT para modelos de visão computacional
 
-## O que são Vector Embeddings?
+**Knowledge Distillation**:
 
-Vector embeddings são representações numéricas de dados, transformadas em vetores de alta dimensão. Eles são amplamente usados em Machine Learning, NLP, busca semântica e recomendações para capturar significados e relações entre palavras, imagens, ou qualquer outro tipo de dado.
+- Objetivo: Criar um modelo menor (student) que aprende com um maior (teacher).
+- Vantagens: Mantém a precisão enquanto reduz a quantidade de recursos exigidos.
+- Como funciona:
+  - Usado quando é necessário implantar modelos em dispositivos com recursos limitados.
+- Exemplo de Uso: Em assistentes pessoais virtuais, onde o tempo de resposta é crítico.
 
-O objetivo dos embeddings é converter dados não estruturados (como palavras ou imagens) em vetores numéricos, preservando seus significados e relações no espaço vetorial. Isso facilita operações como similaridade, classificação e clustering.
+**Fine-Tuning**:
 
-## O que é Chunking?
+- Objetivo: Ajustar modelos pré-treinados para novas aplicações.
+- Vantagens:
+  - Necessita de menos dados para treinar.
+  - Aproveita conhecimento anterior.
+- Exemplo de Uso: Ajuste de modelos de linguagem como BERT para tarefas específicas de análise de sentimento.
+- Tipos:
+  - **Full Fine-Tuning**:
+    - Ajusta todos os parâmetros do modelo e requer muitos recursos computacional.
+    - Indicado quando a tarefa-alvo é significativamente diferente da tarefa original do modelo pré-treinado.
+  - **Parameter-Efficient Fine-Tuning (PEFT)**:
+    - Ajusta apenas um subconjunto de parâmetros.
+    - Indicado quando a tarefa-alvo é semelhante à tarefa original do modelo pré-treinado.
 
-Chunking é uma técnica usada para dividir um grande conjunto de dados em partes menores (chamadas de "chunks") para facilitar o processamento, armazenamento ou análise.
+## O que é Fine-Tuning?
+
+Fine-Tuning é uma técnica de ajuste de modelos de Machine Learning pré-treinados para tarefas específicas. Ele envolve treinar um modelo pré-treinado em um novo conjunto de dados para melhorar o desempenho em uma tarefa específica.
+
+Escolher o número ideal de epochs é crucial para evitar underfitting (treinar pouco) e overfitting (treinar demais). Algumas métricas ajudam a identificar esse ponto ótimo.
+
+- **Training & Validation Loss**:
+  - O objetivo é minimizar a perda (loss) sem que ela volte a subir.
+  - O ponto ótimo ocorre quando a perda de validação para de diminuir e começa a estabilizar ou aumentar.
+- **Training & Validation Accuracy**:
+  - O objetivo é maximizar a acurácia sem que ela comece a cair.
+  - O ponto ótimo ocorre quando a acurácia de validação para de aumentar e começa a estabilizar ou diminuir.
+- **Early Stopping**
+  - Técnica usada para interromper o treinamento quando a perda de validação começa a aumentar.
+  - Evita overfitting e encontra o ponto ótimo de treinamento.
+
+## Métricas para Avaliar Desempenho de Modelos de Machine Learning
+
+Na avaliação de modelos de Machine Learning, é crucial utilizar métricas adequadas para determinar a qualidade e a eficácia das saídas geradas pelos modelos em tarefas específicas. Aqui estão algumas das métricas mais comuns:
+
+**ROUGE**:
+
+- Utilização: Avaliação de resumos automáticos.
+- Objetivo: Mede a qualidade de resumos gerados automaticamente, comparando-os com resumos de referência criados por humanos.
+- Exemplo de Uso: Utilizado em sistemas de geração de resumos de artigos científicos ou notícias para garantir que a essência do conteúdo original seja capturada adequadamente.
+
+**BLEU**:
+
+- Utilização: Tradução automática.
+- Objetivo: Avalia a precisão de traduções automáticas comparando-as com traduções humanas de referência, utilizando correspondência de n-gramas.
+- Exemplo de Uso: Avaliação de serviços de tradução automática, como aqueles implementados em plataformas de e-commerce para traduzir descrições de produtos.
+
+**BERTScore**:
+
+- Utilização: Avaliação de captura semântica.
+- Objetivo: Usa embeddings de BERT para avaliar a similaridade semântica entre textos gerados e textos de referência, compreendendo o contexto e a semântica.
+- Exemplo de Uso: Avaliação de chatbots ou assistentes virtuais, garantindo que as respostas geradas sejam contextualmente apropriadas e semanticamente corretas.
+
+## Conceitos e Técnicas Complementares
+
+**Vector Embeddings**
+
+- Conceito: Encapsulam dados em representações numéricas de alta dimensão.
+- Aplicações: NLP, motores de busca semânticos e recomendações.
+- Exemplo de Uso: Embeddings de palavras em sistemas de recomendação de filmes.
+
+**Chunking**
+
+- Finalidade: Dividir dados em segmentos menores.
+- Utilização: Digestão mais fácil para armazenamento e análise em modelos maiores de IA.
+- Exemplo de Uso: Processamento de grandes conjuntos de dados de texto em sistemas de análise de sentimento.
+
+**Tokenization**
+
+- Definição: É o processo de dividir um texto em unidades menores chamadas tokens, que podem ser palavras, subpalavras, caracteres ou até mesmo pedaços de palavras.
+- Utilização: Pré-processamento de texto para análise de linguagem natural (NLP).
 
 ## Inferência, Viés e Imparcialidade
 
-- **Inferência**:
-  - Inferência refere-se à capacidade de um modelo de fazer previsões utilizando novos dados com base no que aprendeu durante o treinamento.
-  - Modelos de Machine Learning são treinados em dados históricos para fazer previsões sobre novos dados.
-- **Viés** (Bias):
-  - Viés refere-se a preconceitos ou distorções nos dados ou algoritmos que podem levar a decisões injustas ou imprecisas.
-  - Viés pode surgir de dados desbalanceados, amostras não representativas, ou algoritmos discriminatórios.
-  - Pode ser dos dados, algoritmo ou humano.
-- **Imparcialidade** (Fairness):
-  - Imparcialidade refere-se à ausência de viés ou discriminação em modelos de Machine Learning (decisões justas e equitativas).
-  - Modelos imparciais devem fazer previsões justas e precisas para todos os grupos, sem discriminação ou preconceito.
+**Inferência**:
+
+- Definição: Inferência refere-se à capacidade de um modelo de Machine Learning de fazer previsões ou gerar saídas com base em novos dados, usando o conhecimento adquirido durante o treinamento.
+- Exemplo de Uso: Em sistemas financeiros, um modelo pode usar inferência para prever fluxos de caixa futuros com base em dados históricos e transações recentes.
+
+**Viés** (Bias):
+
+- Definição: Viés em Machine Learning refere-se a preconceitos ou distorções nos dados ou nos algoritmos que podem levar a decisões injustas ou imprecisas.
+- Origem: Pode surgir de dados desbalanceados, amostras não representativas, ou algoritmos que não consideram todas as variáveis relevantes.
+- Exemplo de Uso: Avaliação de viés em sistemas de recrutamento automatizados, onde o viés pode afetar a seleção de candidatos com base em dados históricos enviesados.
+
+**Imparcialidade** (Fairness):
+
+- Definição: Imparcialidade significa garantir que os modelos de Machine Learning façam previsões justas e equitativas para todos os grupos, sem discriminação ou preconceito.
+- Como alcançar: Desenvolver modelos que sejam neutros em relação a atributos sensíveis, como gênero, raça ou idade, e utilizar técnicas de mitigação de viés durante o treinamento.
+- Exemplo de Uso: Implementação de modelos de crédito que avaliem a elegibilidade de candidatos sem discriminação, assegurando que todos tenham acesso justo a oportunidades financeiras.
 
 ## Tipos de Inferência
 
-- **Inferência em lote**:
-  - Processa um grande conjunto de dados de uma só vez.
-  - Usado para treinamento, validação e teste de modelos.
-  - Ex: Recomendações de produtos geradas uma vez ao dia.
-- **Inferência em tempo real**:
-  - Processa dados em tempo real, à medida que chegam.
-  - Usado para previsões em tempo real, detecção de fraudes, recomendações em tempo real.
-  - Ex: Detecção de fraudes bancárias instantaneamente
-- **Inferência Edge**:
-  - Processa dados localmente em dispositivos de borda (IoT, sensores, dispositivos móveis).
-  - Usado para aplicações de IoT, visão computacional, reconhecimento de fala.
-  - Ex: Reconhecimento facial em um smartphone.
-- **Inferência Assíncrona**:
-  - Processa dados em segundo plano, sem interrupção do usuário.
-  - Ideal para cargas de trabalho variáveis.
-  - Ex: Sistemas de análise de documentos enviados por usuários.
+**Inferência em Lote (Batch Inference)**
+
+- Descrição: Este tipo de inferência processa grandes conjuntos de dados de uma só vez. É adequado para situações onde não é necessário um resultado imediato.
+- Exemplo de Uso: Análise de dados históricos para gerar relatórios de vendas mensais em uma empresa de varejo. Os dados são processados durante a noite para fornecer insights no início do próximo dia útil.
+
+**Inferência em Tempo Real (Real-Time Inference)**
+
+- Descrição: Processa dados instantaneamente à medida que chegam, permitindo previsões imediatas.
+- Exemplo de Uso: Sistemas de recomendação em plataformas de streaming, que sugerem novos conteúdos aos usuários com base em suas atividades recentes e preferências.
+
+**Inferência Edge**
+
+- Descrição: Realiza o processamento localmente em dispositivos finais, como smartphones ou dispositivos IoT, minimizando a necessidade de comunicação com um servidor central.
+- Exemplo de Uso: Reconhecimento facial em smartphones para desbloqueio seguro, onde o processamento é feito no próprio dispositivo para aumentar a segurança e a velocidade.
+
+**Inferência Assíncrona (Asynchronous Inference)**
+
+- Descrição: Os dados são processados em segundo plano, em vez de imediatamente, permitindo que o sistema suporte cargas de trabalho variáveis sem impactar a experiência do usuário.
+- Exemplo de Uso: Processamento de pedidos em sistemas de e-commerce, onde a validação e a confirmação do pedido podem ser realizadas sem interromper a navegação do usuário na plataforma.
 
 ## Dados Estruturados vs. Não Estruturados
 
-- **Dados Estruturados**:
-  - Dados organizados em tabelas ou formatos tabulares, com colunas e linhas bem definidas.
-  - Exemplos: bancos de dados, planilhas, CSV.
-  - Fácil de processar, analisar e visualizar.
-- **Dados Não Estruturados**:
-  - Dados sem formato definido, como texto, imagens, áudio, vídeo.
-  - Exemplos: texto livre, imagens, vídeos, áudio.
-  - Difícil de processar, analisar e extrair informações.
+- Estruturados: Organizados em esquemas conhecidos, como tabelas.
+- Não Estruturados: Sem um formato fixo, por exemplo, texto e imagens.
+- Exemplo de Uso: Análise de dados de redes sociais (texto livre) para tendências de marketing.
+
+## Aprendizado Supervisionado vs. Não Supervisionado
+
+**Aprendizado Supervisionado**
+
+- Objetivo: O objetivo do aprendizado supervisionado é treinar um modelo utilizando dados rotulados para que ele possa prever a saída correta para novas entradas não vistas.
+- Exemplos:
+  - Classificação de E-mails: Identificar se um e-mail é spam ou não spam.
+  - Previsão de Preços de Casas: Estimar o preço de uma casa com base em características como localização, tamanho e número de quartos.
+- Algoritmos:
+  - Regressão Linear: Usado para prever valores contínuos.
+  - Árvores de Decisão: Utilizadas para classificação e regressão.
+  - Support Vector Machines (SVM): Usadas para classificação, especialmente em problemas com margens claras de separação.
+  - Redes Neurais: Aplicadas em tarefas complexas como reconhecimento de imagem e processamento de linguagem natural.
+- Características:
+  - Necessidade de Dados Rotulados: Requer um conjunto de dados de treinamento com entradas e saídas conhecidas.
+  - Aplicações: Reconhecimento de fala, diagnóstico médico, sistemas de recomendação.
+
+**Aprendizado Não Supervisionado**
+
+- Objetivo: O aprendizado não supervisionado busca encontrar padrões ou estruturas inerentes nos dados sem a necessidade de rótulos explícitos.
+- Exemplos:
+  - Segmentação de Clientes: Agrupar clientes com base em comportamentos de compra semelhantes.
+  - Detecção de Anomalias: Identificar transações fraudulentas em dados financeiros.
+- Algoritmos Comuns:
+  - K-Means Clustering: Utilizado para agrupar dados em K grupos distintos.
+  - Análise de Componentes Principais (PCA): Usado para redução de dimensionalidade e visualização de dados.
+  - Redes Neurais Autoencoders: Aplicadas para compressão de dados e detecção de anomalias.
+- Características:
+  - Exploratório: Não há necessidade de dados rotulados, o que permite a descoberta de estruturas ocultas.
+  - Aplicações: Análise de mercado, compressão de dados, bioinformática.
+
+**Aprendizado Semi-Supervisionado**
+
+- Objetivo: Combina elementos de aprendizado supervisionado e não supervisionado para melhorar o desempenho do modelo utilizando um pequeno conjunto de dados rotulados e um grande conjunto de dados não rotulados.
+- Exemplos:
+  - Classificação de Textos: Usar um pequeno conjunto de textos rotulados para treinar um modelo que classifica uma grande quantidade de dados não rotulados.
+  - Reconhecimento Facial: Aprimorar a precisão de modelos de reconhecimento facial com base em um pequeno conjunto de imagens rotuladas.
+- Algoritmos Comuns:
+  - Modelos de Propagação de Rótulos: Usados para propagar rótulos de dados rotulados para não rotulados.
+  - Redes Neurais Semi-Supervisionadas: Aproveitam o aprendizado não supervisionado para melhorar a generalização.
+- Características:
+  - Eficiência de Dados: Maximiza o uso de dados disponíveis, reduzindo a necessidade de grandes quantidades de dados rotulados.
+  - Aplicações: Análise de dados médicos, reconhecimento de imagem em larga escala.
 
 ## Underfitting vs. Overfitting
 
-- **Underfitting**:
+- **Underfitting**
   - Ocorre quando um modelo é muito simples para capturar a complexidade dos dados.
   - O modelo não consegue aprender padrões nos dados de treinamento e tem baixo desempenho.
   - Solução: aumentar a complexidade do modelo, adicionar mais dados, ajustar hiperparâmetros.
-- **Overfitting**:
+- **Overfitting**
   - Ocorre quando um modelo é muito complexo e se ajusta demais aos dados de treinamento.
   - O modelo aprende padrões específicos dos dados de treinamento que não se generalizam para novos dados.
   - Solução: simplificar o modelo, adicionar regularização, aumentar dados de treinamento.
@@ -126,37 +234,6 @@ As técnicas comuns para ajustar hiperparâmetros incluem:
   - Limita o número de tokens gerados em uma previsão.
   - Evita previsões muito longas e controla a extensão das previsões.
 
-## Aprendizado Supervisionado vs. Não Supervisionado
-
-- **Aprendizado Supervisionado**:
-  - Algoritmos de Machine Learning treinados em pares de entrada/saída rotulados.
-  - Objetivo: prever a saída correta para novas entradas com base no treinamento.
-  - Exemplos: classificação, regressão.
-- **Aprendizado Não Supervisionado**:
-  - Algoritmos de Machine Learning treinados em entradas não rotuladas.
-  - Objetivo: descobrir padrões, estruturas ou relações nos dados.
-  - Exemplos: clustering, redução de dimensionalidade.
-- **Aprendizado Semi-Supervisionado**:
-  - Combina elementos de aprendizado supervisionado e não supervisionado.
-  - Usa um pequeno conjunto de dados rotulados e um grande conjunto de dados não rotulados.
-  - Objetivo: melhorar o desempenho do modelo com dados não rotulados.
-
-## O que é Fine-Tuning?
-
-Fine-Tuning é uma técnica de ajuste de modelos de Machine Learning pré-treinados para tarefas específicas. Ele envolve treinar um modelo pré-treinado em um novo conjunto de dados para melhorar o desempenho em uma tarefa específica.
-
-Escolher o número ideal de epochs é crucial para evitar underfitting (treinar pouco) e overfitting (treinar demais). Algumas métricas ajudam a identificar esse ponto ótimo.
-
-- **Training & Validation Loss**:
-  - O objetivo é minimizar a perda (loss) sem que ela volte a subir.
-  - O ponto ótimo ocorre quando a perda de validação para de diminuir e começa a estabilizar ou aumentar.
-- **Training & Validation Accuracy**:
-  - O objetivo é maximizar a acurácia sem que ela comece a cair.
-  - O ponto ótimo ocorre quando a acurácia de validação para de aumentar e começa a estabilizar ou diminuir.
-- **Early Stopping**
-  - Técnica usada para interromper o treinamento quando a perda de validação começa a aumentar.
-  - Evita overfitting e encontra o ponto ótimo de treinamento.
-
 ## O que é Knowledge Cut-Off?
 
 Knowledge Cut-Off é uma técnica usada para limitar o conhecimento de um modelo de linguagem a um determinado contexto ou janela de tokens. Ele ajuda a controlar a extensão do conhecimento do modelo e a evitar previsões baseadas em informações irrelevantes ou distantes.
@@ -185,17 +262,35 @@ RAG (Retrieval-Augmented Generation) é um modelo de linguagem que combina gera�
 
 Prompt Engineering é uma técnica usada para projetar prompts ou instruções específicas para modelos de linguagem gerarem previsões desejadas. Ele ajuda a controlar o comportamento e a qualidade das previsões geradas por modelos de linguagem.
 
-## Bedrock - Provisioned Throughput vs On-Demand
+## Bedrock
 
-- **Provisioned Throughput**:
-  - Capacidade de leitura/gravação predefinida para tabelas e índices.
-  - Ideal para cargas de trabalho previsíveis e consistentes.
-  - Custos previsíveis, mas pode ser subutilizado em cargas de trabalho variáveis.
-  - Alguns modelos permitem fine-tuning e customização.
-- **On-Demand**:
-  - Capacidade de leitura/gravação ajustada automaticamente com base no uso.
-  - Ideal para cargas de trabalho variáveis e imprevisíveis.
-  - Custos variáveis, mas otimizados para cargas de trabalho dinâmicas.
+- Watermark Detection: Cria imagens com amazon Titan
+- Pricing:
+  - **On-Demand**:
+    - Pay as you go. Sem compromissos.
+    - Text e Embedding Models: cobrados por cada input/output token processado.
+    - Image Models: cobrados por cada imagem gerada.
+    - Funciona só com modelos base.
+    - Bom para cargas de trabalho não previsíveis e sem comprometimento de tempo.
+  - **Batch**:
+    - Várias predições no mesmo tempo (joga o output em um único S3)
+    - Pode promober 50% de descontos.
+  - **Provisioned Throughput**:
+    - Compre unidades de um modelo por um determinado tempo
+    - Throughput é a quantidade de tokens que você pode processar por minutos.
+    - Não necessariamente é o melhor em custos.
+    - Funciona com Base, Fine-Tuned e Custom Models.
+    - Bom para reservar a capacidade.
+
+## Model Improvement Tech Cust Order
+
+1. Prompt Engineering: Não precisa de model training. Apenas ajusta o prompt.
+2. RAG: Usa bases de conhecimento externas e não muda o FM.
+3. Instruction Base Fine-Tuning: Ajusta o FM com instruções específicas. Precisa de recurso computacional.
+4. Domain Base Fine-Tuning: Ajusta o FM para um domínio específico. Precisa de mt recurso computacional.
+
+> - Temp, Top K e Top P não impactam no preço do modelo. Oq impacta é a quantidade de token (maior causa de aumento de custo)
+> - Modelos pequenos são mais baratos.
 
 ## O que é Regressão Linear?
 
@@ -354,3 +449,12 @@ Accuracy (Acurácia) é uma métrica de avaliação usada em modelos de classifi
 ## Hallucination
 
 Hallucination é um fenômeno em modelos de linguagem em que o modelo gera previsões incorretas ou fictícias, sem base nos dados de entrada. Pode ocorrer devido a overfitting, falta de dados de treinamento ou problemas na arquitetura do modelo.
+
+## Terms
+
+- GPT: Transformer - Gera texto e código humano com base em inputs
+- BERT: Transformer - Entende contexto e semântica de palavras
+- SVM: Support Vector Machine - Classificação e regressão
+- GAN: Generative Adversarial Network - Gera dados realísticos.
+- WAVE NET: Rede Neural - Gera áudio realístico.
+- RESNET: Rede Neural - Reconhecimento de imagem.
