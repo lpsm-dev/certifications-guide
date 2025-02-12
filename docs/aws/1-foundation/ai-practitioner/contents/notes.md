@@ -24,10 +24,11 @@
   - [O que é Foundation Model?](#o-que-%C3%A9-foundation-model)
   - [O que é LLM (Large Language Model)?](#o-que-%C3%A9-llm-large-language-model)
   - [O que é Difussion Models?](#o-que-%C3%A9-difussion-models)
+  - [O que é RAG (Retrieval-Augmented Generation)?](#o-que-%C3%A9-rag-retrieval-augmented-generation)
+  - [O que é Fine-Tuning?](#o-que-%C3%A9-fine-tuning)
   - [O que é Clusterização?](#o-que-%C3%A9-clusteriza%C3%A7%C3%A3o)
   - [O que é IDP?](#o-que-%C3%A9-idp)
   - [O que é Modelo multimodal?](#o-que-%C3%A9-modelo-multimodal)
-  - [O que é RAG (Retrieval-Augmented Generation)?](#o-que-%C3%A9-rag-retrieval-augmented-generation)
   - [O que é Prompt Engineering?](#o-que-%C3%A9-prompt-engineering)
   - [O que são Redes Neurais (Neural Networks)?](#o-que-s%C3%A3o-redes-neurais-neural-networks)
   - [O que é Regressão Linear?](#o-que-%C3%A9-regress%C3%A3o-linear)
@@ -43,7 +44,6 @@
   - [O que é Accuracy (Acurácia) em Machine Learning?](#o-que-%C3%A9-accuracy-acur%C3%A1cia-em-machine-learning)
   - [O que é Hallucination?](#o-que-%C3%A9-hallucination)
 - [Técnicas de Otimização em Machine Learning](#t%C3%A9cnicas-de-otimiza%C3%A7%C3%A3o-em-machine-learning)
-- [O que é Fine-Tuning?](#o-que-%C3%A9-fine-tuning)
 - [PEFT (Parameter-Efficient Fine-Tuning) vs Full Fine-Tuning](#peft-parameter-efficient-fine-tuning-vs-full-fine-tuning)
 - [Métricas para Avaliar Desempenho de Modelos](#m%C3%A9tricas-para-avaliar-desempenho-de-modelos)
 - [Conceitos e Técnicas Complementares](#conceitos-e-t%C3%A9cnicas-complementares)
@@ -84,6 +84,26 @@ Large Language Models (LLMs) são modelos de linguagem de grande escala treinado
 
 Difussion Models são modelos de linguagem que geram previsões baseadas em uma combinação de amostras de texto e amostras de ruído. Eles são usados para gerar previsões mais diversificadas e criativas, evitando previsões repetitivas e conservadoras.
 
+## O que é RAG (Retrieval-Augmented Generation)?
+
+RAG (Retrieval-Augmented Generation) é um modelo de linguagem que combina geração de texto com recuperação de informações. Ele gera previsões baseadas em um modelo de geração de texto e uma base de conhecimento externa, como documentos, páginas da web, ou bancos de dados.
+
+## O que é Fine-Tuning?
+
+Fine-Tuning é uma técnica de ajuste de modelos de Machine Learning pré-treinados para tarefas específicas. Ele envolve treinar um modelo pré-treinado em um novo conjunto de dados para melhorar o desempenho em uma tarefa específica.
+
+Escolher o número ideal de epochs é crucial para evitar underfitting (treinar pouco) e overfitting (treinar demais). Algumas métricas ajudam a identificar esse ponto ótimo.
+
+- **Training & Validation Loss**:
+  - O objetivo é minimizar a perda (loss) sem que ela volte a subir.
+  - O ponto ótimo ocorre quando a perda de validação para de diminuir e começa a estabilizar ou aumentar.
+- **Training & Validation Accuracy**:
+  - O objetivo é maximizar a acurácia sem que ela comece a cair.
+  - O ponto ótimo ocorre quando a acurácia de validação para de aumentar e começa a estabilizar ou diminuir.
+- **Early Stopping**
+  - Técnica usada para interromper o treinamento quando a perda de validação começa a aumentar.
+  - Evita overfitting e encontra o ponto ótimo de treinamento.
+
 ## O que é Clusterização?
 
 Clusterização é uma técnica de aprendizado não supervisionado usada para agrupar dados semelhantes em clusters ou grupos. O objetivo é encontrar padrões ou estruturas nos dados que não são rotulados.
@@ -97,10 +117,6 @@ Intelligent Document Processing (IDP) é uma tecnologia que automatiza a captura
 Modelos multimodais são modelos de IA que processam e combinam informações de diferentes modalidades, como texto, imagem, áudio e vídeo. Eles são usados em tarefas de NLP, visão computacional, reconhecimento de fala e multimídia.
 
 Eles possuem inputs e outputs em diferentes formatos e modalidades, permitindo a análise e geração de conteúdo multimodal.
-
-## O que é RAG (Retrieval-Augmented Generation)?
-
-RAG (Retrieval-Augmented Generation) é um modelo de linguagem que combina geração de texto com recuperação de informações. Ele gera previsões baseadas em um modelo de geração de texto e uma base de conhecimento externa, como documentos, páginas da web, ou bancos de dados.
 
 ## O que é Prompt Engineering?
 
@@ -204,22 +220,6 @@ Hallucination é um fenômeno em modelos de linguagem em que o modelo gera previ
   - **Parameter-Efficient Fine-Tuning (PEFT)**:
     - Ajusta apenas um subconjunto de parâmetros.
     - Indicado quando a tarefa-alvo é semelhante à tarefa original do modelo pré-treinado.
-
-# O que é Fine-Tuning?
-
-Fine-Tuning é uma técnica de ajuste de modelos de Machine Learning pré-treinados para tarefas específicas. Ele envolve treinar um modelo pré-treinado em um novo conjunto de dados para melhorar o desempenho em uma tarefa específica.
-
-Escolher o número ideal de epochs é crucial para evitar underfitting (treinar pouco) e overfitting (treinar demais). Algumas métricas ajudam a identificar esse ponto ótimo.
-
-- **Training & Validation Loss**:
-  - O objetivo é minimizar a perda (loss) sem que ela volte a subir.
-  - O ponto ótimo ocorre quando a perda de validação para de diminuir e começa a estabilizar ou aumentar.
-- **Training & Validation Accuracy**:
-  - O objetivo é maximizar a acurácia sem que ela comece a cair.
-  - O ponto ótimo ocorre quando a acurácia de validação para de aumentar e começa a estabilizar ou diminuir.
-- **Early Stopping**
-  - Técnica usada para interromper o treinamento quando a perda de validação começa a aumentar.
-  - Evita overfitting e encontra o ponto ótimo de treinamento.
 
 # PEFT (Parameter-Efficient Fine-Tuning) vs Full Fine-Tuning
 
