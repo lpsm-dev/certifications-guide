@@ -51,6 +51,10 @@
   - [O que é PCA?](#o-que-%C3%A9-pca)
   - [O que é N-Gram?](#o-que-%C3%A9-n-gram)
   - [O que é AutoML?](#o-que-%C3%A9-automl)
+  - [Epochs](#epochs)
+  - [Aprendizado por reforço](#aprendizado-por-refor%C3%A7o)
+  - [O que é Accuracy (Acurácia) em Machine Learning?](#o-que-%C3%A9-accuracy-acur%C3%A1cia-em-machine-learning)
+  - [Hallucination](#hallucination)
 - [AWS Services](#aws-services)
   - [Amazon Connect](#amazon-connect)
   - [Amazon Bedrock](#amazon-bedrock)
@@ -58,11 +62,6 @@
   - [Amazon comprehend](#amazon-comprehend)
   - [Amazon Titan](#amazon-titan)
 - [Princípios de Responsible AI na AWS](#princ%C3%ADpios-de-responsible-ai-na-aws)
-- [Epochs](#epochs)
-- [Amazon SageMaker Ground Truth Plus](#amazon-sagemaker-ground-truth-plus)
-- [Aprendizado por reforço](#aprendizado-por-refor%C3%A7o)
-- [O que é Accuracy (Acurácia) em Machine Learning?](#o-que-%C3%A9-accuracy-acur%C3%A1cia-em-machine-learning)
-- [Hallucination](#hallucination)
 - [Terms](#terms)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
