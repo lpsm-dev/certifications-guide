@@ -178,6 +178,8 @@ Fine-Tuning é o ajuste de modelos pré-treinados para tarefas específicas, tre
 
 ## Ajuste de Hiperparâmetros
 
+Hiperparâmetros (ou hyperparameters) são configurações externas de um modelo de inteligência artificial (IA) ou machine learning (ML) que influenciam diretamente seu desempenho e capacidade de generalização. Diferente dos parâmetros do modelo, que são aprendidos durante o treinamento (como pesos e vieses em redes neurais), os hiperparâmetros precisam ser definidos antes do treinamento e ajustados manualmente ou através de técnicas automatizadas (hyperparameter tuning).
+
 - **Grid Search:** Testa exaustivamente todas as combinações possíveis de hiperparâmetros.
 - **Random Search:** Avalia combinações de hiperparâmetros de forma aleatória, sendo mais eficiente em tempo.
 - **Bayesian Optimization:** Utiliza métodos probabilísticos para identificar a melhor combinação de parâmetros.
