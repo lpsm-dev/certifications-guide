@@ -131,7 +131,7 @@ Escolher o número ideal de epochs é crucial para evitar underfitting (treinar 
   - Técnica usada para interromper o treinamento quando a perda de validação começa a aumentar.
   - Evita overfitting e encontra o ponto ótimo de treinamento.
 
-# Métricas para Avaliar Desempenho de Modelos de Machine Learning
+# Métricas para Avaliar Desempenho de Modelos
 
 Na avaliação de modelos de Machine Learning, é crucial utilizar métricas adequadas para determinar a qualidade e a eficácia das saídas geradas pelos modelos em tarefas específicas. Aqui estão algumas das métricas mais comuns:
 
