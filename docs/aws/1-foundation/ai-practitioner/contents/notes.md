@@ -416,11 +416,11 @@ Seu objetivo é capturar a estrutura e a semântica dos dados, considerando a or
 
 AutoML (Automated Machine Learning) é um conjunto de técnicas e ferramentas que automatizam o processo de construção, treinamento e ajuste de modelos de Machine Learning. Ele ajuda a acelerar o desenvolvimento de modelos e reduzir a necessidade de conhecimento especializado.
 
-## Epochs
+## O que é Epochs?
 
 No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que um modelo de machine learning percorre todo o conjunto de dados de treinamento.
 
-## Aprendizado por reforço
+## O que é Aprendizado por reforço?
 
 O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
 
@@ -430,7 +430,7 @@ Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa
 
 Accuracy (Acurácia) é uma métrica de avaliação usada em modelos de classificação para medir a proporção de previsões corretas em relação ao total de amostras analisadas.
 
-## Hallucination
+## O que é Hallucination?
 
 Hallucination é um fenômeno em modelos de linguagem em que o modelo gera previsões incorretas ou fictícias, sem base nos dados de entrada. Pode ocorrer devido a overfitting, falta de dados de treinamento ou problemas na arquitetura do modelo.
 
