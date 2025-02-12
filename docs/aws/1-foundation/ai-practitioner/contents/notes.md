@@ -22,7 +22,8 @@
 
 - [Técnicas de Otimização em Machine Learning](#t%C3%A9cnicas-de-otimiza%C3%A7%C3%A3o-em-machine-learning)
 - [O que é Fine-Tuning?](#o-que-%C3%A9-fine-tuning)
-- [Métricas para Avaliar Desempenho de Modelos de Machine Learning](#m%C3%A9tricas-para-avaliar-desempenho-de-modelos-de-machine-learning)
+- [PEFT (Parameter-Efficient Fine-Tuning) vs Full Fine-Tuning](#peft-parameter-efficient-fine-tuning-vs-full-fine-tuning)
+- [Métricas para Avaliar Desempenho de Modelos](#m%C3%A9tricas-para-avaliar-desempenho-de-modelos)
 - [Conceitos e Técnicas Complementares](#conceitos-e-t%C3%A9cnicas-complementares)
 - [Inferência, Viés e Imparcialidade](#infer%C3%AAncia-vi%C3%A9s-e-imparcialidade)
 - [Tipos de Inferência](#tipos-de-infer%C3%AAncia)
@@ -32,36 +33,34 @@
 - [Hiperparâmetros](#hiperpar%C3%A2metros)
 - [Temperatura, Top-P, Top-K e Max-Length](#temperatura-top-p-top-k-e-max-length)
 - [O que é Knowledge Cut-Off?](#o-que-%C3%A9-knowledge-cut-off)
-- [O que é Foundation Model?](#o-que-%C3%A9-foundation-model)
-- [O que é LLM (Large Language Model)?](#o-que-%C3%A9-llm-large-language-model)
-- [O que é Difussion Models?](#o-que-%C3%A9-difussion-models)
-- [O que é Clusterização?](#o-que-%C3%A9-clusteriza%C3%A7%C3%A3o)
-- [O que é RAG (Retrieval-Augmented Generation)?](#o-que-%C3%A9-rag-retrieval-augmented-generation)
-- [O que é Prompt Engineering?](#o-que-%C3%A9-prompt-engineering)
-- [Bedrock](#bedrock)
-- [Model Improvement Tech Cust Order](#model-improvement-tech-cust-order)
-- [O que é Regressão Linear?](#o-que-%C3%A9-regress%C3%A3o-linear)
-- [O que é K-Means Clustering?](#o-que-%C3%A9-k-means-clustering)
-- [O que é Árvore de Decisão (Decision Tree)](#o-que-%C3%A9-%C3%A1rvore-de-decis%C3%A3o-decision-tree)
-- [O que é Random Forest?](#o-que-%C3%A9-random-forest)
-- [O que é Support Vector Machine (SVM)?](#o-que-%C3%A9-support-vector-machine-svm)
-- [O que é PCA?](#o-que-%C3%A9-pca)
-- [O que é N-Gram?](#o-que-%C3%A9-n-gram)
-- [Amazon Connect](#amazon-connect)
-- [O que é AutoML?](#o-que-%C3%A9-automl)
-- [Amazon SageMaker](#amazon-sagemaker)
-- [Amazon Titan](#amazon-titan)
-- [PEFT (Parameter-Efficient Fine-Tuning) vs Full Fine-Tuning](#peft-parameter-efficient-fine-tuning-vs-full-fine-tuning)
+- [Definições avançadas](#defini%C3%A7%C3%B5es-avan%C3%A7adas)
+  - [O que é Foundation Model?](#o-que-%C3%A9-foundation-model)
+  - [O que é LLM (Large Language Model)?](#o-que-%C3%A9-llm-large-language-model)
+  - [O que é Difussion Models?](#o-que-%C3%A9-difussion-models)
+  - [O que é Clusterização?](#o-que-%C3%A9-clusteriza%C3%A7%C3%A3o)
+  - [O que é IDP?](#o-que-%C3%A9-idp)
+  - [O que é Modelo multimodal?](#o-que-%C3%A9-modelo-multimodal)
+  - [O que é RAG (Retrieval-Augmented Generation)?](#o-que-%C3%A9-rag-retrieval-augmented-generation)
+  - [O que é Prompt Engineering?](#o-que-%C3%A9-prompt-engineering)
+  - [O que são Redes Neurais (Neural Networks)?](#o-que-s%C3%A3o-redes-neurais-neural-networks)
+  - [O que é Regressão Linear?](#o-que-%C3%A9-regress%C3%A3o-linear)
+  - [O que é K-Means Clustering?](#o-que-%C3%A9-k-means-clustering)
+  - [O que é Árvore de Decisão (Decision Tree)](#o-que-%C3%A9-%C3%A1rvore-de-decis%C3%A3o-decision-tree)
+  - [O que é Random Forest?](#o-que-%C3%A9-random-forest)
+  - [O que é Support Vector Machine (SVM)?](#o-que-%C3%A9-support-vector-machine-svm)
+  - [O que é PCA?](#o-que-%C3%A9-pca)
+  - [O que é N-Gram?](#o-que-%C3%A9-n-gram)
+  - [O que é AutoML?](#o-que-%C3%A9-automl)
+- [AWS Services](#aws-services)
+  - [Amazon Connect](#amazon-connect)
+  - [Amazon Bedrock](#amazon-bedrock)
+  - [Amazon SageMaker](#amazon-sagemaker)
+  - [Amazon comprehend](#amazon-comprehend)
+  - [Amazon Titan](#amazon-titan)
 - [Princípios de Responsible AI na AWS](#princ%C3%ADpios-de-responsible-ai-na-aws)
-- [SageMaker Inference options](#sagemaker-inference-options)
 - [Epochs](#epochs)
 - [Amazon SageMaker Ground Truth Plus](#amazon-sagemaker-ground-truth-plus)
-- [O que é IDP?](#o-que-%C3%A9-idp)
-- [O que são Redes Neurais (Neural Networks)?](#o-que-s%C3%A3o-redes-neurais-neural-networks)
 - [Aprendizado por reforço](#aprendizado-por-refor%C3%A7o)
-- [Modelo multimodal](#modelo-multimodal)
-- [Diffusion Model](#diffusion-model)
-- [Amazon comprehend](#amazon-comprehend)
 - [O que é Accuracy (Acurácia) em Machine Learning?](#o-que-%C3%A9-accuracy-acur%C3%A1cia-em-machine-learning)
 - [Hallucination](#hallucination)
 - [Terms](#terms)
@@ -130,6 +129,40 @@ Escolher o número ideal de epochs é crucial para evitar underfitting (treinar 
 - **Early Stopping**
   - Técnica usada para interromper o treinamento quando a perda de validação começa a aumentar.
   - Evita overfitting e encontra o ponto ótimo de treinamento.
+
+# PEFT (Parameter-Efficient Fine-Tuning) vs Full Fine-Tuning
+
+A principal diferença entre PEFT (Parameter-Efficient Fine-Tuning) e Full Fine-Tuning está na quantidade de parâmetros ajustados durante o treinamento de um modelo de machine learning, especialmente em Large Language Models (LLMs) e Foundation Models (FMs).
+
+**Full Fine-Tuning**
+
+No Full Fine-Tuning, todos os pesos e parâmetros do modelo pré-treinado são ajustados para uma nova tarefa.
+
+Vantagens:
+
+- Permite maior adaptação do modelo para tarefas específicas.
+- Maior capacidade de ajuste fino e personalização.
+
+Desvantagens:
+
+- Altíssimo custo computacional (precisa de mais memória e GPUs).
+- Demanda grandes quantidades de dados rotulados.
+- Pode causar catastrophic forgetting, onde o modelo perde conhecimento original.
+
+**PEFT (Parameter-Efficient Fine-Tuning)**
+
+O PEFT ajusta apenas um pequeno subconjunto dos parâmetros do modelo, mantendo a maior parte dos pesos congelados. Métodos populares incluem LoRA (Low-Rank Adaptation), Adapters, e Prompt Tuning.
+
+Vantagens:
+
+- Muito mais eficiente – reduz custo computacional e consumo de memória.
+- Menos risco de overfitting – menos parâmetros treináveis ajudam a evitar sobreajuste.
+- Facilidade de adaptação – pode ser aplicado a múltiplas tarefas sem precisar treinar o modelo inteiro.
+
+Desvantagens:
+
+- Pode ter menor capacidade de adaptação para mudanças drásticas nos dados.
+- Nem sempre atinge o mesmo desempenho do Full Fine-Tuning para tarefas muito complexas.
 
 # Métricas para Avaliar Desempenho de Modelos
 
@@ -310,31 +343,87 @@ As técnicas comuns para ajustar hiperparâmetros incluem:
 
 Knowledge Cut-Off é uma técnica usada para limitar o conhecimento de um modelo de linguagem a um determinado contexto ou janela de tokens. Ele ajuda a controlar a extensão do conhecimento do modelo e a evitar previsões baseadas em informações irrelevantes ou distantes.
 
-# O que é Foundation Model?
+# Definições avançadas
+
+## O que é Foundation Model?
 
 Foundation Models (FMs) são modelos de linguagem de grande escala pré-treinados em grandes conjuntos de dados para capturar conhecimento geral da linguagem. Eles são usados como base para tarefas específicas de NLP, como tradução, resumo, geração de texto, classificação de texto, entre outros.
 
-# O que é LLM (Large Language Model)?
+## O que é LLM (Large Language Model)?
 
 Large Language Models (LLMs) são modelos de linguagem de grande escala treinados em grandes conjuntos de dados para capturar conhecimento geral da linguagem. Eles são usados para tarefas de NLP, como tradução, resumo, geração de texto, classificação de texto, entre outros.
 
-# O que é Difussion Models?
+## O que é Difussion Models?
 
 Difussion Models são modelos de linguagem que geram previsões baseadas em uma combinação de amostras de texto e amostras de ruído. Eles são usados para gerar previsões mais diversificadas e criativas, evitando previsões repetitivas e conservadoras.
 
-# O que é Clusterização?
+## O que é Clusterização?
 
 Clusterização é uma técnica de aprendizado não supervisionado usada para agrupar dados semelhantes em clusters ou grupos. O objetivo é encontrar padrões ou estruturas nos dados que não são rotulados.
 
-# O que é RAG (Retrieval-Augmented Generation)?
+## O que é IDP?
+
+Intelligent Document Processing (IDP) é uma tecnologia que automatiza a captura, classificação e extração de dados de documentos estruturados, semiestruturados e não estruturados. Ele combina OCR (Reconhecimento Óptico de Caracteres), Processamento de Linguagem Natural (NLP), Machine Learning (ML) e IA para transformar documentos em informações processáveis digitalmente
+
+## O que é Modelo multimodal?
+
+Modelos multimodais são modelos de IA que processam e combinam informações de diferentes modalidades, como texto, imagem, áudio e vídeo. Eles são usados em tarefas de NLP, visão computacional, reconhecimento de fala e multimídia.
+
+Eles possuem inputs e outputs em diferentes formatos e modalidades, permitindo a análise e geração de conteúdo multimodal.
+
+## O que é RAG (Retrieval-Augmented Generation)?
 
 RAG (Retrieval-Augmented Generation) é um modelo de linguagem que combina geração de texto com recuperação de informações. Ele gera previsões baseadas em um modelo de geração de texto e uma base de conhecimento externa, como documentos, páginas da web, ou bancos de dados.
 
-# O que é Prompt Engineering?
+## O que é Prompt Engineering?
 
 Prompt Engineering é uma técnica usada para projetar prompts ou instruções específicas para modelos de linguagem gerarem previsões desejadas. Ele ajuda a controlar o comportamento e a qualidade das previsões geradas por modelos de linguagem.
 
-# Bedrock
+## O que são Redes Neurais (Neural Networks)?
+
+As redes neurais são modelos computacionais inspirados no funcionamento do cérebro humano, usadas principalmente em aprendizado de máquina (ML) e inteligência artificial (IA). Elas são compostas por neurônios artificiais organizados em camadas, que processam e aprendem padrões a partir de dados.
+
+## O que é Regressão Linear?
+
+A Regressão Linear é um modelo de aprendizado supervisionado usado para prever valores numéricos com base em variáveis independentes. O objetivo é encontrar a melhor linha reta que se ajusta aos dados, minimizando a diferença entre os valores previstos e reais.
+
+## O que é K-Means Clustering?
+
+O K-Means é um algoritmo de aprendizado não supervisionado usado para agrupar dados em K grupos (clusters). Ele tenta minimizar a distância dentro dos clusters e maximizar a separação entre os clusters.
+
+## O que é Árvore de Decisão (Decision Tree)
+
+Uma Árvore de Decisão é um modelo de aprendizado supervisionado usado para classificação e regressão. Ele divide os dados em ramificações baseadas em perguntas que minimizam a impureza.
+
+## O que é Random Forest?
+
+Random Forest é um modelo de aprendizado supervisionado que combina várias árvores de decisão para melhorar a precisão e reduzir o overfitting. Ele treina várias árvores em subconjuntos aleatórios dos dados e faz previsões com base na média ou votação das árvores.
+
+## O que é Support Vector Machine (SVM)?
+
+Support Vector Machine (SVM) é um modelo de aprendizado supervisionado usado para classificação e regressão. Ele encontra o hiperplano que melhor separa os dados em classes, maximizando a margem entre as classes.
+
+## O que é PCA?
+
+PCA (Principal Component Analysis) é uma técnica de redução de dimensionalidade usada para projetar dados em um espaço de menor dimensão. Ele encontra os componentes principais que capturam a maior variância nos dados.
+
+## O que é N-Gram?
+
+N-Gram é uma sequência contígua de N itens (palavras, caracteres, tokens) em um texto. É usado em NLP para capturar a estrutura e a semântica dos dados.
+
+Seu objetivo é capturar a estrutura e a semântica dos dados, considerando a ordem e a proximidade das palavras.
+
+## O que é AutoML?
+
+AutoML (Automated Machine Learning) é um conjunto de técnicas e ferramentas que automatizam o processo de construção, treinamento e ajuste de modelos de Machine Learning. Ele ajuda a acelerar o desenvolvimento de modelos e reduzir a necessidade de conhecimento especializado.
+
+# AWS Services
+
+## Amazon Connect
+
+Amazon Connect é um serviço de central de atendimento na nuvem que permite criar e gerenciar centrais de atendimento virtuais de forma escalável e flexível. Ele oferece recursos de voz, chat e integração com IA para melhorar a experiência do cliente.
+
+## Amazon Bedrock
 
 - Watermark Detection: Cria imagens com amazon Titan
 - Pricing:
@@ -354,7 +443,7 @@ Prompt Engineering é uma técnica usada para projetar prompts ou instruções e
     - Funciona com Base, Fine-Tuned e Custom Models.
     - Bom para reservar a capacidade.
 
-# Model Improvement Tech Cust Order
+Model Improvement Tech Cust Order
 
 1. Prompt Engineering: Não precisa de model training. Apenas ajusta o prompt.
 2. RAG: Usa bases de conhecimento externas e não muda o FM.
@@ -364,45 +453,7 @@ Prompt Engineering é uma técnica usada para projetar prompts ou instruções e
 > - Temp, Top K e Top P não impactam no preço do modelo. Oq impacta é a quantidade de token (maior causa de aumento de custo)
 > - Modelos pequenos são mais baratos.
 
-# O que é Regressão Linear?
-
-A Regressão Linear é um modelo de aprendizado supervisionado usado para prever valores numéricos com base em variáveis independentes. O objetivo é encontrar a melhor linha reta que se ajusta aos dados, minimizando a diferença entre os valores previstos e reais.
-
-# O que é K-Means Clustering?
-
-O K-Means é um algoritmo de aprendizado não supervisionado usado para agrupar dados em K grupos (clusters). Ele tenta minimizar a distância dentro dos clusters e maximizar a separação entre os clusters.
-
-# O que é Árvore de Decisão (Decision Tree)
-
-Uma Árvore de Decisão é um modelo de aprendizado supervisionado usado para classificação e regressão. Ele divide os dados em ramificações baseadas em perguntas que minimizam a impureza.
-
-# O que é Random Forest?
-
-Random Forest é um modelo de aprendizado supervisionado que combina várias árvores de decisão para melhorar a precisão e reduzir o overfitting. Ele treina várias árvores em subconjuntos aleatórios dos dados e faz previsões com base na média ou votação das árvores.
-
-# O que é Support Vector Machine (SVM)?
-
-Support Vector Machine (SVM) é um modelo de aprendizado supervisionado usado para classificação e regressão. Ele encontra o hiperplano que melhor separa os dados em classes, maximizando a margem entre as classes.
-
-# O que é PCA?
-
-PCA (Principal Component Analysis) é uma técnica de redução de dimensionalidade usada para projetar dados em um espaço de menor dimensão. Ele encontra os componentes principais que capturam a maior variância nos dados.
-
-# O que é N-Gram?
-
-N-Gram é uma sequência contígua de N itens (palavras, caracteres, tokens) em um texto. É usado em NLP para capturar a estrutura e a semântica dos dados.
-
-Seu objetivo é capturar a estrutura e a semântica dos dados, considerando a ordem e a proximidade das palavras.
-
-# Amazon Connect
-
-Amazon Connect é um serviço de central de atendimento na nuvem que permite criar e gerenciar centrais de atendimento virtuais de forma escalável e flexível. Ele oferece recursos de voz, chat e integração com IA para melhorar a experiência do cliente.
-
-# O que é AutoML?
-
-AutoML (Automated Machine Learning) é um conjunto de técnicas e ferramentas que automatizam o processo de construção, treinamento e ajuste de modelos de Machine Learning. Ele ajuda a acelerar o desenvolvimento de modelos e reduzir a necessidade de conhecimento especializado.
-
-# Amazon SageMaker
+## Amazon SageMaker
 
 Amazon SageMaker é um serviço de Machine Learning totalmente gerenciado que permite criar, treinar e implantar modelos de Machine Learning de forma rápida e escalável. Ele oferece uma plataforma integrada para todo o ciclo de vida do Machine Learning, desde a preparação dos dados até a implantação dos modelos.
 
@@ -423,43 +474,20 @@ Seus principais serviços são:
 - **Amazon SageMaker Experiments**: Serviço de rastreamento e gerenciamento de experimentos de Machine Learning.
 - **Amazon SageMaker Copilot**: Assistente de desenvolvimento de Machine Learning para acelerar o desenvolvimento de modelos.
 
-# Amazon Titan
+SageMaker Inference options
+
+- Real-Time Inference: Immediate responses for high-traffic, low-latency applications.
+- Asynchronous Inference: Near real-time for large payloads and longer processing.
+- Batch Transform: Large-scale, offline processing without real-time needs.
+- Serverless Inference: Low-latency inference for intermittent or unpredictable traffic without managing infrastructure.
+
+## Amazon comprehend
+
+Serviço capaz de fazer processamento de linguagem natural (PLN) para análise de sentimentos, extração de entidades, classificação de documentos, entre outras tarefas.
+
+## Amazon Titan
 
 É o FM da AWS, que é um modelo de linguagem de grande escala treinado em 1 trilhão de parâmetros. Ele é usado para tarefas de NLP, como tradução, resumo, geração de texto, classificação de texto, entre outros.
-
-# PEFT (Parameter-Efficient Fine-Tuning) vs Full Fine-Tuning
-
-A principal diferença entre PEFT (Parameter-Efficient Fine-Tuning) e Full Fine-Tuning está na quantidade de parâmetros ajustados durante o treinamento de um modelo de machine learning, especialmente em Large Language Models (LLMs) e Foundation Models (FMs).
-
-**Full Fine-Tuning**
-
-No Full Fine-Tuning, todos os pesos e parâmetros do modelo pré-treinado são ajustados para uma nova tarefa.
-
-Vantagens:
-
-- Permite maior adaptação do modelo para tarefas específicas.
-- Maior capacidade de ajuste fino e personalização.
-
-Desvantagens:
-
-- Altíssimo custo computacional (precisa de mais memória e GPUs).
-- Demanda grandes quantidades de dados rotulados.
-- Pode causar catastrophic forgetting, onde o modelo perde conhecimento original.
-
-**PEFT (Parameter-Efficient Fine-Tuning)**
-
-O PEFT ajusta apenas um pequeno subconjunto dos parâmetros do modelo, mantendo a maior parte dos pesos congelados. Métodos populares incluem LoRA (Low-Rank Adaptation), Adapters, e Prompt Tuning.
-
-Vantagens:
-
-- Muito mais eficiente – reduz custo computacional e consumo de memória.
-- Menos risco de overfitting – menos parâmetros treináveis ajudam a evitar sobreajuste.
-- Facilidade de adaptação – pode ser aplicado a múltiplas tarefas sem precisar treinar o modelo inteiro.
-
-Desvantagens:
-
-- Pode ter menor capacidade de adaptação para mudanças drásticas nos dados.
-- Nem sempre atinge o mesmo desempenho do Full Fine-Tuning para tarefas muito complexas.
 
 # Princípios de Responsible AI na AWS
 
@@ -471,13 +499,6 @@ A AWS adota princípios fundamentais para o desenvolvimento responsável da IA:
 - Robustez & Confiabilidade (Robustness & Reliability) – Garante modelos resilientes e de alto desempenho.
 - Governança (Governance) – Estabelece controles para monitoramento contínuo e conformidade.
 
-# SageMaker Inference options
-
-- Real-Time Inference: Immediate responses for high-traffic, low-latency applications.
-- Asynchronous Inference: Near real-time for large payloads and longer processing.
-- Batch Transform: Large-scale, offline processing without real-time needs.
-- Serverless Inference: Low-latency inference for intermittent or unpredictable traffic without managing infrastructure.
-
 # Epochs
 
 No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que um modelo de machine learning percorre todo o conjunto de dados de treinamento.
@@ -486,33 +507,11 @@ No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que
 
 Amazon SageMaker Ground Truth Plus é um serviço gerenciado da AWS que facilita a rotulagem de dados para treinamento de modelos de machine learning, sem necessidade de gerenciar a infraestrutura ou equipes de anotação.
 
-# O que é IDP?
-
-Intelligent Document Processing (IDP) é uma tecnologia que automatiza a captura, classificação e extração de dados de documentos estruturados, semiestruturados e não estruturados. Ele combina OCR (Reconhecimento Óptico de Caracteres), Processamento de Linguagem Natural (NLP), Machine Learning (ML) e IA para transformar documentos em informações processáveis digitalmente
-
-# O que são Redes Neurais (Neural Networks)?
-
-As redes neurais são modelos computacionais inspirados no funcionamento do cérebro humano, usadas principalmente em aprendizado de máquina (ML) e inteligência artificial (IA). Elas são compostas por neurônios artificiais organizados em camadas, que processam e aprendem padrões a partir de dados.
-
 # Aprendizado por reforço
 
 O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
 
 Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa o resultado e ajusta sua política de ação para maximizar a recompensa ao longo do tempo.
-
-# Modelo multimodal
-
-Modelos multimodais são modelos de IA que processam e combinam informações de diferentes modalidades, como texto, imagem, áudio e vídeo. Eles são usados em tarefas de NLP, visão computacional, reconhecimento de fala e multimídia.
-
-Eles possuem inputs e outputs em diferentes formatos e modalidades, permitindo a análise e geração de conteúdo multimodal.
-
-# Diffusion Model
-
-Diffusion Models são modelos de linguagem que geram previsões baseadas em uma combinação de amostras de texto e amostras de ruído. Eles são usados para gerar previsões mais diversificadas e criativas, evitando previsões repetitivas e conservadoras.
-
-# Amazon comprehend
-
-Serviço capaz de fazer processamento de linguagem natural (PLN) para análise de sentimentos, extração de entidades, classificação de documentos, entre outras tarefas.
 
 # O que é Accuracy (Acurácia) em Machine Learning?
 
