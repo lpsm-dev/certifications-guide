@@ -20,19 +20,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Técnicas de Otimização em Machine Learning](#t%C3%A9cnicas-de-otimiza%C3%A7%C3%A3o-em-machine-learning)
-- [O que é Fine-Tuning?](#o-que-%C3%A9-fine-tuning)
-- [PEFT (Parameter-Efficient Fine-Tuning) vs Full Fine-Tuning](#peft-parameter-efficient-fine-tuning-vs-full-fine-tuning)
-- [Métricas para Avaliar Desempenho de Modelos](#m%C3%A9tricas-para-avaliar-desempenho-de-modelos)
-- [Conceitos e Técnicas Complementares](#conceitos-e-t%C3%A9cnicas-complementares)
-- [Inferência, Viés e Imparcialidade](#infer%C3%AAncia-vi%C3%A9s-e-imparcialidade)
-- [Tipos de Inferência](#tipos-de-infer%C3%AAncia)
-- [Dados Estruturados vs. Não Estruturados](#dados-estruturados-vs-n%C3%A3o-estruturados)
-- [Aprendizado Supervisionado vs. Não Supervisionado](#aprendizado-supervisionado-vs-n%C3%A3o-supervisionado)
-- [Underfitting vs. Overfitting](#underfitting-vs-overfitting)
-- [Hiperparâmetros](#hiperpar%C3%A2metros)
-- [Temperatura, Top-P, Top-K e Max-Length](#temperatura-top-p-top-k-e-max-length)
-- [O que é Knowledge Cut-Off?](#o-que-%C3%A9-knowledge-cut-off)
 - [Definições avançadas](#defini%C3%A7%C3%B5es-avan%C3%A7adas)
   - [O que é Foundation Model?](#o-que-%C3%A9-foundation-model)
   - [O que é LLM (Large Language Model)?](#o-que-%C3%A9-llm-large-language-model)
@@ -55,11 +42,24 @@
   - [O que é Aprendizado por reforço?](#o-que-%C3%A9-aprendizado-por-refor%C3%A7o)
   - [O que é Accuracy (Acurácia) em Machine Learning?](#o-que-%C3%A9-accuracy-acur%C3%A1cia-em-machine-learning)
   - [O que é Hallucination?](#o-que-%C3%A9-hallucination)
+- [Técnicas de Otimização em Machine Learning](#t%C3%A9cnicas-de-otimiza%C3%A7%C3%A3o-em-machine-learning)
+- [O que é Fine-Tuning?](#o-que-%C3%A9-fine-tuning)
+- [PEFT (Parameter-Efficient Fine-Tuning) vs Full Fine-Tuning](#peft-parameter-efficient-fine-tuning-vs-full-fine-tuning)
+- [Métricas para Avaliar Desempenho de Modelos](#m%C3%A9tricas-para-avaliar-desempenho-de-modelos)
+- [Conceitos e Técnicas Complementares](#conceitos-e-t%C3%A9cnicas-complementares)
+- [Inferência, Viés e Imparcialidade](#infer%C3%AAncia-vi%C3%A9s-e-imparcialidade)
+- [Tipos de Inferência](#tipos-de-infer%C3%AAncia)
+- [Dados Estruturados vs. Não Estruturados](#dados-estruturados-vs-n%C3%A3o-estruturados)
+- [Aprendizado Supervisionado vs. Não Supervisionado](#aprendizado-supervisionado-vs-n%C3%A3o-supervisionado)
+- [Underfitting vs. Overfitting](#underfitting-vs-overfitting)
+- [Hiperparâmetros](#hiperpar%C3%A2metros)
+- [Temperatura, Top-P, Top-K e Max-Length](#temperatura-top-p-top-k-e-max-length)
+- [O que é Knowledge Cut-Off?](#o-que-%C3%A9-knowledge-cut-off)
 - [AWS Services](#aws-services)
   - [Amazon Connect](#amazon-connect)
   - [Amazon Bedrock](#amazon-bedrock)
   - [Amazon SageMaker](#amazon-sagemaker)
-  - [Amazon comprehend](#amazon-comprehend)
+  - [Amazon Comprehend](#amazon-comprehend)
   - [Amazon Titan](#amazon-titan)
 - [Princípios de Responsible AI na AWS](#princ%C3%ADpios-de-responsible-ai-na-aws)
 - [Terms](#terms)
@@ -69,6 +69,98 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 </details>
+
+# Definições avançadas
+
+## O que é Foundation Model?
+
+Foundation Models (FMs) são modelos de linguagem de grande escala pré-treinados em grandes conjuntos de dados para capturar conhecimento geral da linguagem. Eles são usados como base para tarefas específicas de NLP, como tradução, resumo, geração de texto, classificação de texto, entre outros.
+
+## O que é LLM (Large Language Model)?
+
+Large Language Models (LLMs) são modelos de linguagem de grande escala treinados em grandes conjuntos de dados para capturar conhecimento geral da linguagem. Eles são usados para tarefas de NLP, como tradução, resumo, geração de texto, classificação de texto, entre outros.
+
+## O que é Difussion Models?
+
+Difussion Models são modelos de linguagem que geram previsões baseadas em uma combinação de amostras de texto e amostras de ruído. Eles são usados para gerar previsões mais diversificadas e criativas, evitando previsões repetitivas e conservadoras.
+
+## O que é Clusterização?
+
+Clusterização é uma técnica de aprendizado não supervisionado usada para agrupar dados semelhantes em clusters ou grupos. O objetivo é encontrar padrões ou estruturas nos dados que não são rotulados.
+
+## O que é IDP?
+
+Intelligent Document Processing (IDP) é uma tecnologia que automatiza a captura, classificação e extração de dados de documentos estruturados, semiestruturados e não estruturados. Ele combina OCR (Reconhecimento Óptico de Caracteres), Processamento de Linguagem Natural (NLP), Machine Learning (ML) e IA para transformar documentos em informações processáveis digitalmente
+
+## O que é Modelo multimodal?
+
+Modelos multimodais são modelos de IA que processam e combinam informações de diferentes modalidades, como texto, imagem, áudio e vídeo. Eles são usados em tarefas de NLP, visão computacional, reconhecimento de fala e multimídia.
+
+Eles possuem inputs e outputs em diferentes formatos e modalidades, permitindo a análise e geração de conteúdo multimodal.
+
+## O que é RAG (Retrieval-Augmented Generation)?
+
+RAG (Retrieval-Augmented Generation) é um modelo de linguagem que combina geração de texto com recuperação de informações. Ele gera previsões baseadas em um modelo de geração de texto e uma base de conhecimento externa, como documentos, páginas da web, ou bancos de dados.
+
+## O que é Prompt Engineering?
+
+Prompt Engineering é uma técnica usada para projetar prompts ou instruções específicas para modelos de linguagem gerarem previsões desejadas. Ele ajuda a controlar o comportamento e a qualidade das previsões geradas por modelos de linguagem.
+
+## O que são Redes Neurais (Neural Networks)?
+
+As redes neurais são modelos computacionais inspirados no funcionamento do cérebro humano, usadas principalmente em aprendizado de máquina (ML) e inteligência artificial (IA). Elas são compostas por neurônios artificiais organizados em camadas, que processam e aprendem padrões a partir de dados.
+
+## O que é Regressão Linear?
+
+A Regressão Linear é um modelo de aprendizado supervisionado usado para prever valores numéricos com base em variáveis independentes. O objetivo é encontrar a melhor linha reta que se ajusta aos dados, minimizando a diferença entre os valores previstos e reais.
+
+## O que é K-Means Clustering?
+
+O K-Means é um algoritmo de aprendizado não supervisionado usado para agrupar dados em K grupos (clusters). Ele tenta minimizar a distância dentro dos clusters e maximizar a separação entre os clusters.
+
+## O que é Árvore de Decisão (Decision Tree)
+
+Uma Árvore de Decisão é um modelo de aprendizado supervisionado usado para classificação e regressão. Ele divide os dados em ramificações baseadas em perguntas que minimizam a impureza.
+
+## O que é Random Forest?
+
+Random Forest é um modelo de aprendizado supervisionado que combina várias árvores de decisão para melhorar a precisão e reduzir o overfitting. Ele treina várias árvores em subconjuntos aleatórios dos dados e faz previsões com base na média ou votação das árvores.
+
+## O que é Support Vector Machine (SVM)?
+
+Support Vector Machine (SVM) é um modelo de aprendizado supervisionado usado para classificação e regressão. Ele encontra o hiperplano que melhor separa os dados em classes, maximizando a margem entre as classes.
+
+## O que é PCA?
+
+PCA (Principal Component Analysis) é uma técnica de redução de dimensionalidade usada para projetar dados em um espaço de menor dimensão. Ele encontra os componentes principais que capturam a maior variância nos dados.
+
+## O que é N-Gram?
+
+N-Gram é uma sequência contígua de N itens (palavras, caracteres, tokens) em um texto. É usado em NLP para capturar a estrutura e a semântica dos dados.
+
+Seu objetivo é capturar a estrutura e a semântica dos dados, considerando a ordem e a proximidade das palavras.
+
+## O que é AutoML?
+
+AutoML (Automated Machine Learning) é um conjunto de técnicas e ferramentas que automatizam o processo de construção, treinamento e ajuste de modelos de Machine Learning. Ele ajuda a acelerar o desenvolvimento de modelos e reduzir a necessidade de conhecimento especializado.
+
+## O que é Epochs?
+
+No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que um modelo de machine learning percorre todo o conjunto de dados de treinamento.
+
+## O que é Aprendizado por reforço?
+
+O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
+
+Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa o resultado e ajusta sua política de ação para maximizar a recompensa ao longo do tempo.
+
+## O que é Accuracy (Acurácia) em Machine Learning?
+
+Accuracy (Acurácia) é uma métrica de avaliação usada em modelos de classificação para medir a proporção de previsões corretas em relação ao total de amostras analisadas.
+
+## O que é Hallucination?
+
+Hallucination é um fenômeno em modelos de linguagem em que o modelo gera previsões incorretas ou fictícias, sem base nos dados de entrada. Pode ocorrer devido a overfitting, falta de dados de treinamento ou problemas na arquitetura do modelo.
 
 # Técnicas de Otimização em Machine Learning
 
@@ -342,98 +434,6 @@ As técnicas comuns para ajustar hiperparâmetros incluem:
 
 Knowledge Cut-Off é uma técnica usada para limitar o conhecimento de um modelo de linguagem a um determinado contexto ou janela de tokens. Ele ajuda a controlar a extensão do conhecimento do modelo e a evitar previsões baseadas em informações irrelevantes ou distantes.
 
-# Definições avançadas
-
-## O que é Foundation Model?
-
-Foundation Models (FMs) são modelos de linguagem de grande escala pré-treinados em grandes conjuntos de dados para capturar conhecimento geral da linguagem. Eles são usados como base para tarefas específicas de NLP, como tradução, resumo, geração de texto, classificação de texto, entre outros.
-
-## O que é LLM (Large Language Model)?
-
-Large Language Models (LLMs) são modelos de linguagem de grande escala treinados em grandes conjuntos de dados para capturar conhecimento geral da linguagem. Eles são usados para tarefas de NLP, como tradução, resumo, geração de texto, classificação de texto, entre outros.
-
-## O que é Difussion Models?
-
-Difussion Models são modelos de linguagem que geram previsões baseadas em uma combinação de amostras de texto e amostras de ruído. Eles são usados para gerar previsões mais diversificadas e criativas, evitando previsões repetitivas e conservadoras.
-
-## O que é Clusterização?
-
-Clusterização é uma técnica de aprendizado não supervisionado usada para agrupar dados semelhantes em clusters ou grupos. O objetivo é encontrar padrões ou estruturas nos dados que não são rotulados.
-
-## O que é IDP?
-
-Intelligent Document Processing (IDP) é uma tecnologia que automatiza a captura, classificação e extração de dados de documentos estruturados, semiestruturados e não estruturados. Ele combina OCR (Reconhecimento Óptico de Caracteres), Processamento de Linguagem Natural (NLP), Machine Learning (ML) e IA para transformar documentos em informações processáveis digitalmente
-
-## O que é Modelo multimodal?
-
-Modelos multimodais são modelos de IA que processam e combinam informações de diferentes modalidades, como texto, imagem, áudio e vídeo. Eles são usados em tarefas de NLP, visão computacional, reconhecimento de fala e multimídia.
-
-Eles possuem inputs e outputs em diferentes formatos e modalidades, permitindo a análise e geração de conteúdo multimodal.
-
-## O que é RAG (Retrieval-Augmented Generation)?
-
-RAG (Retrieval-Augmented Generation) é um modelo de linguagem que combina geração de texto com recuperação de informações. Ele gera previsões baseadas em um modelo de geração de texto e uma base de conhecimento externa, como documentos, páginas da web, ou bancos de dados.
-
-## O que é Prompt Engineering?
-
-Prompt Engineering é uma técnica usada para projetar prompts ou instruções específicas para modelos de linguagem gerarem previsões desejadas. Ele ajuda a controlar o comportamento e a qualidade das previsões geradas por modelos de linguagem.
-
-## O que são Redes Neurais (Neural Networks)?
-
-As redes neurais são modelos computacionais inspirados no funcionamento do cérebro humano, usadas principalmente em aprendizado de máquina (ML) e inteligência artificial (IA). Elas são compostas por neurônios artificiais organizados em camadas, que processam e aprendem padrões a partir de dados.
-
-## O que é Regressão Linear?
-
-A Regressão Linear é um modelo de aprendizado supervisionado usado para prever valores numéricos com base em variáveis independentes. O objetivo é encontrar a melhor linha reta que se ajusta aos dados, minimizando a diferença entre os valores previstos e reais.
-
-## O que é K-Means Clustering?
-
-O K-Means é um algoritmo de aprendizado não supervisionado usado para agrupar dados em K grupos (clusters). Ele tenta minimizar a distância dentro dos clusters e maximizar a separação entre os clusters.
-
-## O que é Árvore de Decisão (Decision Tree)
-
-Uma Árvore de Decisão é um modelo de aprendizado supervisionado usado para classificação e regressão. Ele divide os dados em ramificações baseadas em perguntas que minimizam a impureza.
-
-## O que é Random Forest?
-
-Random Forest é um modelo de aprendizado supervisionado que combina várias árvores de decisão para melhorar a precisão e reduzir o overfitting. Ele treina várias árvores em subconjuntos aleatórios dos dados e faz previsões com base na média ou votação das árvores.
-
-## O que é Support Vector Machine (SVM)?
-
-Support Vector Machine (SVM) é um modelo de aprendizado supervisionado usado para classificação e regressão. Ele encontra o hiperplano que melhor separa os dados em classes, maximizando a margem entre as classes.
-
-## O que é PCA?
-
-PCA (Principal Component Analysis) é uma técnica de redução de dimensionalidade usada para projetar dados em um espaço de menor dimensão. Ele encontra os componentes principais que capturam a maior variância nos dados.
-
-## O que é N-Gram?
-
-N-Gram é uma sequência contígua de N itens (palavras, caracteres, tokens) em um texto. É usado em NLP para capturar a estrutura e a semântica dos dados.
-
-Seu objetivo é capturar a estrutura e a semântica dos dados, considerando a ordem e a proximidade das palavras.
-
-## O que é AutoML?
-
-AutoML (Automated Machine Learning) é um conjunto de técnicas e ferramentas que automatizam o processo de construção, treinamento e ajuste de modelos de Machine Learning. Ele ajuda a acelerar o desenvolvimento de modelos e reduzir a necessidade de conhecimento especializado.
-
-## O que é Epochs?
-
-No contexto de AWS AI/ML, epochs (ou épocas) representam o número de vezes que um modelo de machine learning percorre todo o conjunto de dados de treinamento.
-
-## O que é Aprendizado por reforço?
-
-O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente interage com um ambiente dinâmico para aprender a tomar ações que maximizam uma recompensa. Ele é usado em jogos, robótica, otimização e controle de processos.
-
-Utiliza uma estratégia de tentativa e erro, onde o agente toma ações, observa o resultado e ajusta sua política de ação para maximizar a recompensa ao longo do tempo.
-
-## O que é Accuracy (Acurácia) em Machine Learning?
-
-Accuracy (Acurácia) é uma métrica de avaliação usada em modelos de classificação para medir a proporção de previsões corretas em relação ao total de amostras analisadas.
-
-## O que é Hallucination?
-
-Hallucination é um fenômeno em modelos de linguagem em que o modelo gera previsões incorretas ou fictícias, sem base nos dados de entrada. Pode ocorrer devido a overfitting, falta de dados de treinamento ou problemas na arquitetura do modelo.
-
 # AWS Services
 
 ## Amazon Connect
@@ -500,7 +500,7 @@ SageMaker Inference options
 - Batch Transform: Large-scale, offline processing without real-time needs.
 - Serverless Inference: Low-latency inference for intermittent or unpredictable traffic without managing infrastructure.
 
-## Amazon comprehend
+## Amazon Comprehend
 
 Serviço capaz de fazer processamento de linguagem natural (PLN) para análise de sentimentos, extração de entidades, classificação de documentos, entre outras tarefas.
 
