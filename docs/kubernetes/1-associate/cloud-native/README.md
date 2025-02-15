@@ -6,7 +6,7 @@
 
 <a name="readme-top"></a>
 
-<img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" width="200"/>
+<img src="https://github.com/lpsm-dev/lpsm-dev/blob/86bb739f86b7cbd57740ba65adfdad6ec2b8641d/.github/assets/kcna.png" width="200"/>
 
 ## Guia de Estudos
 
@@ -38,8 +38,6 @@
 - [Conclusão](#conclusão)
 
 </details>
-
----
 
 # Visão Geral
 
