@@ -192,15 +192,11 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 - **Simulados**: Faça exames práticos no [Killer.sh](https://killer.sh/).
 - **Documentação Oficial**: Consulte sempre a [Kubernetes Docs](https://kubernetes.io/docs/).
 
----
-
 # Referências
 
 - [Documentação Oficial do Kubernetes](https://kubernetes.io/docs/)
 - [Curso KCNA da Linux Foundation](https://training.linuxfoundation.org/)
 - [Livro: "Kubernetes Up & Running"](https://www.oreilly.com/library/view/kubernetes-up-and/9781098110192/)
-
----
 
 # Conclusão
 
