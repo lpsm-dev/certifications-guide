@@ -61,8 +61,6 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
----
-
 # Exame
 
 ## Sobre
@@ -86,8 +84,6 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
----
-
 # Domínios de Conhecimento
 
 ## 1 - Fundamentos do Kubernetes (25%)
@@ -106,8 +102,6 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 > [!NOTE]
 > Foco em entender como o Kubernetes gerencia recursos e estados.
 
----
-
 ## 2 - Orquestração de Containers (20%)
 
 **Tópicos**:
@@ -122,8 +116,6 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 - Helm para gerenciamento de pacotes.
 - Kustomize para personalização de manifests.
 
----
-
 ## 3 - Arquitetura Cloud-Native (15%)
 
 **Princípios**:
@@ -136,8 +128,6 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 
 - Sidecar, Adapter, Ambassador.
 - Autoscaling (Horizontal Pod Autoscaler).
-
----
 
 ## 4 - Rede no Kubernetes (15%)
 
@@ -152,8 +142,6 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 - CoreDNS para resolução interna.
 - CNI plugins (Calico, Flannel).
 
----
-
 ## 5 - Observabilidade e Monitoramento (10%)
 
 **Tópicos**:
@@ -166,8 +154,6 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 
 - Configuração de Liveness e Readiness Probes.
 
----
-
 ## 6 - Segurança e Conformidade (10%)
 
 **Foco**:
@@ -176,8 +162,6 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 - SecurityContext em Pods.
 - Gerenciamento de Secrets (criptografia, Vault integration).
 - Políticas de segurança com OPA Gatekeeper.
-
----
 
 ## 7 - Troubleshooting (5%)
 
@@ -193,8 +177,6 @@ Este guia é focado na certificação **Kubernetes Associate Cloud Native (KCNA)
 - Debugging com `kubectl debug`.
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
-
----
 
 # Tips & Tricks
 
