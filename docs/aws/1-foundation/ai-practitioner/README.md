@@ -70,6 +70,10 @@ Vamos começar essa jornada de aprendizado? 🚀
 > [!WARNING]
 > Essa documentação não substitui um curso ou simulado. Olhe para ele como um complemento + guia inicial.
 
+> [!WARNING]
+>
+> Esse repositório está em constante evolução. Se você encontrar algum erro ou tiver sugestões, por favor, abra uma [issue](https://github.com/lpsm-dev/certifications-guide/issues/new/choose) ou envie um [pull request](https://github.com/lpsm-dev/certifications-guide/pulls).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Exame
