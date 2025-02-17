@@ -64,8 +64,6 @@ Falando sobre minha realidade nesse contexto, eu já fui o cara que odiava certi
 
 > Existe todo um modelo de negócio por trás das certificações, mas isso não é o foco aqui 🤭
 
-Agora, estou aqui, criando um repo para me ajudar e consequentemente te ajudar.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Features
