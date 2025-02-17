@@ -68,7 +68,7 @@ Vamos começar essa jornada de aprendizado? 🚀
 ## Disclaimer
 
 > [!WARNING]
-> Essa documentação não substitui um curso ou simulado. Olhe para ela como um complemento + guia inicial.
+> Essa documentação não substitui um curso ou simulado. Olhe para ele como um complemento + guia inicial.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
