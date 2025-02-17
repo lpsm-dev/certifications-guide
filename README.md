@@ -50,9 +50,7 @@ Hello Human 👽! Bem-vindo ao meu repositório 👋
 
 ## Objetivo
 
-Meu objetivo com esse projeto é criar uma base de conhecimento centralizada para guias de estudo de certificações que eu estou estudando ou já estudei.
-
-No final do dia, tudo que eu quero é compartilhar conhecimento, e quem sabe ajudar outras pessoas que estão estudando para essas mesmas certificações.
+Meu objetivo com esse projeto é criar uma base de conhecimento centralizada para guias de estudo de certificações que eu estou estudando ou já estudei. No final do dia, tudo que eu quero é compartilhar conhecimento, e quem sabe ajudar outras pessoas que estão estudando para essas mesmas certificações.
 
 ## Contexto e Motivação
 
